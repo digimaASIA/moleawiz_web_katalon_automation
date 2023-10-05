@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCML02 - User Login with valid account with check the Remember Me</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8109b8c1-70fd-4670-b501-6fde0af4267f</testCaseGuid>
+</TestCaseEntity>
