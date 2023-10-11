@@ -16,7 +16,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'moleawiz.com'</initValue>
+      <initValue>'https://moleawiz-web-dev.digimasia.com'</initValue>
       <name>base_url</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

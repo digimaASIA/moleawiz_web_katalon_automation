@@ -7,17 +7,17 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//*[@name = 'btn-login']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
       <value>btn-login</value>
-      <webElementGuid>41c2549e-bd8a-40f0-b4a8-dd769252da55</webElementGuid>
+      <webElementGuid>91bcd63a-6e7b-4d15-9770-c530f4fff43b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>verify_Unsuccessfully_Login - Invalid login credentials Please try again</name>
+   <name>verify_Successfully_Change_Password - Your temporary password will be sent to you shortly</name>
    <tag></tag>
-   <elementGuidId>6b695ce5-050e-490b-bdcc-dc87cd9d684a</elementGuidId>
+   <elementGuidId>0ea2b281-6a6e-4c41-9a29-dcd62b85d076</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Invalid login credentials. Please try again.' or . = 'Invalid login credentials. Please try again.')]</value>
+         <value>//*[(text() = 'Your temporary password will be sent to you shortly' or . = 'Your temporary password will be sent to you shortly')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Invalid login credentials. Please try again.</value>
-      <webElementGuid>6edb3eee-8a7d-4e5c-9b5c-8380f8beedea</webElementGuid>
+      <value>Your temporary password will be sent to you shortly</value>
+      <webElementGuid>b1b248f0-45ac-4af9-a6b9-6b918084f536</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

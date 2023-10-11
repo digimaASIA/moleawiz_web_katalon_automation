@@ -17,3 +17,22 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser(GlobalVariable.base_url)
+
+WebUI.click(findTestObject('Object Forgot Password/btn_text_Forgot_Your_Password'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Forgot Password/btn_Icon_Back_Forgot_Password'))
+
+WebUI.click(findTestObject('Object Forgot Password/btn_text_Forgot_Your_Password'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Forgot Password/btn_Request_Password_Forgot_Password'))
+
+WebUI.setText(findTestObject('Object Forgot Password/input_Username_Forgot_Password'), GlobalVariable.invalidUsername)
+
+WebUI.verifyElementVisible(findTestObject('Object Forgot Password/verify_Unsuccessfully_Change_Password - User Not Found'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
+WebUI.closeBrowser()
+

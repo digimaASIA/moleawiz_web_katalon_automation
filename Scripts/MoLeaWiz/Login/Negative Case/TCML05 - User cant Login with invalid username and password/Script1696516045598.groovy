@@ -23,12 +23,14 @@ WebUI.setText(findTestObject('Object Login/input_Username_Login'), GlobalVariabl
 
 WebUI.setText(findTestObject('Object Login/input_Password_Login'), GlobalVariable.invalidPassword)
 
+WebUI.delay(5)
+
 WebUI.comment('function captcha your answer')
 
 WebUI.click(findTestObject('Object Login/btn_login'))
 
-WebUI.verifyElementPresent(findTestObject('Object Login/verify_Unsuccessfully_Login - Invalid login credentials Please try again'), 
-    0)
+WebUI.verifyElementVisible(findTestObject('Object Login/verify_Unsuccessfully_Login - Invalid login credentials Please try again'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 

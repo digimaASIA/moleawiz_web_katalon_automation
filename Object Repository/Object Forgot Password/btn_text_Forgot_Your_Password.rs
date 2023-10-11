@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Username_Login</name>
+   <name>btn_text_Forgot_Your_Password</name>
    <tag></tag>
-   <elementGuidId>4f58b1c7-1dcc-4558-ae25-d51d085373a2</elementGuidId>
+   <elementGuidId>0b65ff94-80ff-4d68-ad99-9f65d53fd029</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'id-username-login']</value>
+         <value>//*[@name = 'btn-forgot-your-password-login']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,9 +15,9 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>name</name>
       <type>Main</type>
-      <value>id-username-login</value>
-      <webElementGuid>e942072f-a2b0-454e-8c1f-f540c0faeec3</webElementGuid>
+      <value>btn-forgot-your-password-login</value>
+      <webElementGuid>44ad5be2-6b31-4e03-902c-f3dca9289bad</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

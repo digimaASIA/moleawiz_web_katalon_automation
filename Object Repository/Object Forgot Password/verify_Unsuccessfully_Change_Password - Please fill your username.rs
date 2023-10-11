@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Username_Login</name>
+   <name>verify_Unsuccessfully_Change_Password - Please fill your username</name>
    <tag></tag>
-   <elementGuidId>4f58b1c7-1dcc-4558-ae25-d51d085373a2</elementGuidId>
+   <elementGuidId>97f1bc5e-c63a-41b9-802e-070e5d3597e8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'id-username-login']</value>
+         <value>//*[(text() = 'Please fill your username' or . = 'Please fill your username')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,9 +15,9 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>text</name>
       <type>Main</type>
-      <value>id-username-login</value>
-      <webElementGuid>e942072f-a2b0-454e-8c1f-f540c0faeec3</webElementGuid>
+      <value>Please fill your username</value>
+      <webElementGuid>da8f062b-b795-4a22-b5a4-61d0d7fd1775</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
