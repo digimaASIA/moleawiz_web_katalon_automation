@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_text_Forgot_Your_Password_Login</name>
+   <tag></tag>
+   <elementGuidId>0b65ff94-80ff-4d68-ad99-9f65d53fd029</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>btn-forgot-your-password-login</value>
+      <webElementGuid>3bbfa07b-34f9-41b6-a54b-23a95638c8cd</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

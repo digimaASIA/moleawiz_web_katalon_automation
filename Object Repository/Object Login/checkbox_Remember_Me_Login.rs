@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>checkbox_Remember_Me_Login</name>
+   <tag></tag>
+   <elementGuidId>1fcac8f0-af86-4628-a5f4-68af8107a38a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>id-remember-me-login</value>
+      <webElementGuid>fa976dd8-f786-451c-90ec-0667b22fa53d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

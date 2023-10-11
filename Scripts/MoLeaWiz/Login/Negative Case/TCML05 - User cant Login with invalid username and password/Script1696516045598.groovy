@@ -17,3 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser(GlobalVariable.base_url)
+
+WebUI.setText(findTestObject('Object Login/input_Username_Login'), GlobalVariable.invalidUsername)
+
+WebUI.setText(findTestObject('Object Login/input_Password_Login'), GlobalVariable.invalidPassword)
+
+WebUI.comment('function captcha your answer')
+
+WebUI.click(findTestObject('Object Login/btn_login'))
+
+WebUI.verifyElementPresent(findTestObject('Object Login/verify_Unsuccessfully_Login - Invalid login credentials Please try again'), 
+    0)
+
+WebUI.delay(3)
+
+WebUI.closeBrowser()
+

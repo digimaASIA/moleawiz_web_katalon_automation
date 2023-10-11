@@ -23,13 +23,9 @@ WebUI.setText(findTestObject('Object Login/input_Username_Login'), GlobalVariabl
 
 WebUI.setText(findTestObject('Object Login/input_Password_Login'), GlobalVariable.passwordMoLeaWizOutlook)
 
-WebUI.comment('function captcha your answer')
-
-WebUI.click(findTestObject('Object Login/checkbox_Remember_Me_Login'))
-
 WebUI.click(findTestObject('Object Login/btn_login'))
 
-WebUI.verifyElementPresent(findTestObject('Object Login/verify_Successfully_Login'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Login/verify_Unsuccessfully_Login - Please fill your answer'), 0)
 
 WebUI.delay(3)
 
