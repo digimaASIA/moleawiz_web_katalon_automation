@@ -7,17 +7,17 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//*[@id = 'id-captcha-num1-login']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>id-captcha-num1-login</value>
-      <webElementGuid>b4ac4d22-50ea-40cd-9d6d-a9eb83e1d8c5</webElementGuid>
+      <webElementGuid>e010fe9d-76d0-494e-9188-18e0b974c295</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
