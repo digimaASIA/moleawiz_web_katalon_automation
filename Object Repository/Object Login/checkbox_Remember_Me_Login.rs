@@ -7,17 +7,17 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//*[@id = 'id-remember-me-login']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>id-remember-me-login</value>
-      <webElementGuid>fa976dd8-f786-451c-90ec-0667b22fa53d</webElementGuid>
+      <webElementGuid>6c13afa0-0d03-4388-8aa3-68d203a1e03e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

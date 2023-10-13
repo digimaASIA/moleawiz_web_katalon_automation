@@ -21,10 +21,10 @@ WebUI.openBrowser(GlobalVariable.base_url)
 
 WebUI.click(findTestObject('Object Login/btn_login'))
 
-WebUI.verifyElementPresent(findTestObject('Object Login/verify_Unsuccessfully_Login - Please fill your username, password, and answer'), 
-    0)
+WebUI.verifyElementVisible(findTestObject('Object Login/verify_Unsuccessfully_Login - Please fill your username, password, and answer'), 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
+WebUI.delay(2)
 
 WebUI.closeBrowser()
 

@@ -7,17 +7,17 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//*[(text() = 'Please fill your answer' or . = 'Please fill your answer')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Please fill your answer</value>
-      <webElementGuid>38736f66-5892-45d7-8b42-fb974dae218c</webElementGuid>
+      <webElementGuid>8beb9d8f-792b-430a-91d2-972d698a4c2d</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

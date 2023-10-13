@@ -26,7 +26,7 @@ WebUI.click(findTestObject('Object Login/btn_login'))
 WebUI.verifyElementPresent(findTestObject('Object Login/verify_Unsuccessfully_Login - Please fill your username and answer'), 
     0)
 
-WebUI.delay(3)
+WebUI.delay(2)
 
 WebUI.closeBrowser()
 

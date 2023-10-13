@@ -7,17 +7,17 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//*[(text() = 'Please fill your username dan password' or . = 'Please fill your username dan password')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Please fill your password and answer</value>
-      <webElementGuid>c8a52f11-7fc8-4ab6-833e-72fa537743e4</webElementGuid>
+      <value>Please fill your username dan password</value>
+      <webElementGuid>dcc2dadd-cc68-482a-b7de-4a7030c87dec</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

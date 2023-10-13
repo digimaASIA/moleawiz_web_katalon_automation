@@ -23,9 +23,9 @@ WebUI.setText(findTestObject('Object Login/input_Username_Login'), GlobalVariabl
 
 WebUI.setText(findTestObject('Object Login/input_Password_Login'), GlobalVariable.invalidPassword)
 
-WebUI.delay(5)
-
 WebUI.comment('function captcha your answer')
+
+CustomKeywords.'keywordFunctionLogin.FunctionCaptchaLogin.automationCaptcha'()
 
 WebUI.click(findTestObject('Object Login/btn_login'))
 

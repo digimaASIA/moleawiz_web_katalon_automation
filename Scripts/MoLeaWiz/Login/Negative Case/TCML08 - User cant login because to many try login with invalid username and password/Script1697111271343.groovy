@@ -3,7 +3,6 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-import java.sql.Driver as Driver
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -20,30 +19,32 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.base_url)
 
-WebUI.setText(findTestObject('Object Login/input_Username_Login'), GlobalVariable.usernameMoLeaWizOutlook)
+WebUI.setText(findTestObject('Object Login/input_Username_Login'), GlobalVariable.invalidUsername)
 
-WebUI.setText(findTestObject('Object Login/input_Password_Login'), GlobalVariable.passwordMoLeaWizOutlook)
+WebUI.setText(findTestObject('Object Login/input_Password_Login'), GlobalVariable.invalidPassword)
 
 WebUI.comment('function captcha your answer')
 
-WebUI.delay(3)
-
-def captcha1 = WebUI.getText(findTestObject('Object Login/captcha_Num1_Login'))
-def intCaptcha1 = captcha1.toInteger()
-
-WebUI.delay(2)
-
-def captcha2 = WebUI.getText(findTestObject('Object Login/captcha_Num2_Login'))
-def intCaptcha2 = captcha2.toInteger()
-def yourAnswer = intCaptcha1 + intCaptcha2
-
-WebUI.sendKeys(findTestObject('Object Login/input_Captcha_Your_Answer_Login'), yourAnswer.toString())
-
-WebUI.delay(3)
+CustomKeywords.'keywordFunctionLogin.FunctionCaptchaLogin.automationCaptcha'()
 
 WebUI.click(findTestObject('Object Login/btn_login'))
 
-WebUI.verifyElementPresent(findTestObject('Object Login/verify_Successfully_Login'), 0)
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Login/btn_login'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Login/btn_login'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Login/btn_login'))
+
+WebUI.delay(2)
+
+WebUI.verifyElementVisible(findTestObject('Object Login/verify_Unsuccessfully_Login - Too many failed login attempts Please try again in 1 minutes'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 

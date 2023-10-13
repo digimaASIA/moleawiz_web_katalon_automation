@@ -7,21 +7,20 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//*[(text() = 'Please fill your username, password, dan answer' or . = 'Please fill your username, password, dan answer')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Please fill your username, password, and answer</value>
-      <webElementGuid>2cda0f7c-82e8-439e-a9dc-c0cd2219a80c</webElementGuid>
+      <value>Please fill your username, password, dan answer</value>
+      <webElementGuid>813a2dbb-42d3-49a8-9990-157b8767963c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
