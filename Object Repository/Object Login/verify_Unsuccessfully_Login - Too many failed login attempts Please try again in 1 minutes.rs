@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Too many failed login attempts. Please try again in 1 minutes' or . = 'Too many failed login attempts. Please try again in 1 minutes')]</value>
+         <value>//*[(text() = 'Too many failed login attempts. Please try again in 1 minutes.' or . = 'Too many failed login attempts. Please try again in 1 minutes.')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Too many failed login attempts. Please try again in 1 minutes</value>
-      <webElementGuid>b8f7bff9-af5a-4884-ba3d-5b09c81ae517</webElementGuid>
+      <value>Too many failed login attempts. Please try again in 1 minutes.</value>
+      <webElementGuid>3e9c472c-46a2-4544-82ad-c8a3e710e260</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
