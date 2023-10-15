@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TCML01 - User Login with valid account</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>059afe8f-ee98-41e3-bc70-bf110e915de9</testCaseGuid>
-</TestCaseEntity>
