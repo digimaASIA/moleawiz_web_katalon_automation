@@ -1,0 +1,97 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Scenario Positive Case - Home,Chrome 118.0.0.0,,,2023-10-17 21:13:26,2023-10-17 21:14:06,39.541s,PASSED
+,,,,,,,
+Test Cases/MoLeaWiz/Home/Positive Case/TCMH01 - User Open My Learning Journey,Chrome 118.0.0.0,,,2023-10-17 21:13:26,2023-10-17 21:13:28,2.179s,PASSED
+"click(findTestObject(""Object Menu/btn_My_Learning_Journey_Menu""))",Chrome 118.0.0.0,,,2023-10-17 21:13:27,2023-10-17 21:13:28,1.248s,PASSED
+"verifyElementPresent(findTestObject(""Object Menu/verify_Successfully_Open_My_Learning_Journey""), 0)",Chrome 118.0.0.0,,,2023-10-17 21:13:28,2023-10-17 21:13:28,0.659s,PASSED
+,,,,,,,
+Test Cases/MoLeaWiz/Home/Positive Case/TCMH02 - User Open Achievements,Chrome 118.0.0.0,,,2023-10-17 21:13:28,2023-10-17 21:13:30,1.272s,PASSED
+"click(findTestObject(""Object Menu/btn_Achievements_Menu""))",Chrome 118.0.0.0,,,2023-10-17 21:13:29,2023-10-17 21:13:29,0.340s,PASSED
+"verifyElementPresent(findTestObject(""Object Menu/verify_Successfully_Open_Achievements_Menu""), 0)",Chrome 118.0.0.0,,,2023-10-17 21:13:29,2023-10-17 21:13:30,0.745s,PASSED
+,,,,,,,
+Test Cases/MoLeaWiz/Home/Positive Case/TCMH03 - User Open Rewards,Chrome 118.0.0.0,,,2023-10-17 21:13:30,2023-10-17 21:13:31,1.251s,PASSED
+"click(findTestObject(""Object Menu/btn_Rewards_Menu""))",Chrome 118.0.0.0,,,2023-10-17 21:13:30,2023-10-17 21:13:30,0.334s,PASSED
+"verifyElementPresent(findTestObject(""Object Menu/verify_Successfully_Open_Rewards_Menu""), 0)",Chrome 118.0.0.0,,,2023-10-17 21:13:30,2023-10-17 21:13:31,0.745s,PASSED
+,,,,,,,
+Test Cases/MoLeaWiz/Home/Positive Case/TCMH04 - User Open Leaderboards,Chrome 118.0.0.0,,,2023-10-17 21:13:31,2023-10-17 21:13:32,1.257s,PASSED
+"click(findTestObject(""Object Menu/btn_Leaderboards_Menu""))",Chrome 118.0.0.0,,,2023-10-17 21:13:31,2023-10-17 21:13:31,0.332s,PASSED
+"verifyElementPresent(findTestObject(""Object Menu/verify_Successfully_Open_Leaderboards_Menu""), 0)",Chrome 118.0.0.0,,,2023-10-17 21:13:31,2023-10-17 21:13:32,0.747s,PASSED
+,,,,,,,
+Test Cases/MoLeaWiz/Home/Positive Case/TCMH05 - User Open Team Monitoring,Chrome 118.0.0.0,,,2023-10-17 21:13:32,2023-10-17 21:13:33,1.251s,PASSED
+"click(findTestObject(""Object Menu/btn_Team_Monitoring_Menu""))",Chrome 118.0.0.0,,,2023-10-17 21:13:32,2023-10-17 21:13:33,0.338s,PASSED
+"verifyElementPresent(findTestObject(""Object Menu/verify_Successfully_Open_Team_Monitoring_Menu""), 0)",Chrome 118.0.0.0,,,2023-10-17 21:13:33,2023-10-17 21:13:33,0.742s,PASSED
+,,,,,,,
+Test Cases/MoLeaWiz/Home/Positive Case/TCMH06 - User Open Reviews,Chrome 118.0.0.0,,,2023-10-17 21:13:33,2023-10-17 21:13:35,1.319s,PASSED
+"click(findTestObject(""Object Menu/btn_Reviews_Menu""))",Chrome 118.0.0.0,,,2023-10-17 21:13:34,2023-10-17 21:13:34,0.340s,PASSED
+"verifyElementPresent(findTestObject(""Object Menu/verify_Successfully_Open_Review_Menu""), 0)",Chrome 118.0.0.0,,,2023-10-17 21:13:34,2023-10-17 21:13:35,0.764s,PASSED
+,,,,,,,
+Test Cases/MoLeaWiz/Home/Positive Case/TCMH07 - User Open Help,Chrome 118.0.0.0,,,2023-10-17 21:13:35,2023-10-17 21:13:36,1.282s,PASSED
+"click(findTestObject(""Object Menu/btn_Help_Menu""))",Chrome 118.0.0.0,,,2023-10-17 21:13:35,2023-10-17 21:13:35,0.339s,PASSED
+"verifyElementPresent(findTestObject(""Object Menu/verify_Successfully_Open_Review_Menu""), 0)",Chrome 118.0.0.0,,,2023-10-17 21:13:35,2023-10-17 21:13:36,0.744s,PASSED
+,,,,,,,
+Test Cases/MoLeaWiz/Home/Positive Case/TCMH08 - User Open Home,Chrome 118.0.0.0,,,2023-10-17 21:13:36,2023-10-17 21:13:38,1.889s,PASSED
+"click(findTestObject(""Object Menu/btn_Home_Menu""))",Chrome 118.0.0.0,,,2023-10-17 21:13:36,2023-10-17 21:13:37,0.387s,PASSED
+"verifyElementPresent(findTestObject(""Object Login/verify_Successfully_Login""), 0)",Chrome 118.0.0.0,,,2023-10-17 21:13:37,2023-10-17 21:13:38,1.301s,PASSED
+,,,,,,,
+Test Cases/MoLeaWiz/Home/Positive Case/TCMH09 - User can Swipe Next and Previous Banner in Home Page,Chrome 118.0.0.0,,,2023-10-17 21:13:38,2023-10-17 21:13:45,6.732s,PASSED
+openBrowser(base_url),Chrome 118.0.0.0,,,2023-10-17 21:13:38,2023-10-17 21:13:39,0.458s,PASSED
+"click(findTestObject(""Object Home/btn_swiper_Next_Banner_Home""))",Chrome 118.0.0.0,,,2023-10-17 21:13:39,2023-10-17 21:13:40,1.708s,PASSED
+delay(2),Chrome 118.0.0.0,,,2023-10-17 21:13:40,2023-10-17 21:13:42,2.024s,PASSED
+"click(findTestObject(""Object Home/btn_swiper_Prev_Banner_Home""))",Chrome 118.0.0.0,,,2023-10-17 21:13:42,2023-10-17 21:13:43,0.330s,PASSED
+delay(2),Chrome 118.0.0.0,,,2023-10-17 21:13:43,2023-10-17 21:13:45,2.010s,PASSED
+,,,,,,,
+Test Cases/MoLeaWiz/Home/Positive Case/TCMH10 - User can Swipe Next and Previous New Program in Home Page,Chrome 118.0.0.0,,,2023-10-17 21:13:45,2023-10-17 21:13:48,3.273s,PASSED
+openBrowser(base_url),Chrome 118.0.0.0,,,2023-10-17 21:13:45,2023-10-17 21:13:45,0.281s,PASSED
+"scrollToElement(findTestObject(""Object Home/btn_swiper_Next_Ongoing_Course_Home""), 0)",Chrome 118.0.0.0,,,2023-10-17 21:13:45,2023-10-17 21:13:47,1.414s,PASSED
+"click(findTestObject(""Object Home/btn_swiper_Next_Ongoing_Course_Home""))",Chrome 118.0.0.0,,,2023-10-17 21:13:47,2023-10-17 21:13:47,0.351s,PASSED
+"click(findTestObject(""Object Home/btn_swiper_Next_Ongoing_Course_Home""))",Chrome 118.0.0.0,,,2023-10-17 21:13:47,2023-10-17 21:13:47,0.357s,PASSED
+"click(findTestObject(""Object Home/btn_swiper_Prev_Ongoing_Course_Home""))",Chrome 118.0.0.0,,,2023-10-17 21:13:47,2023-10-17 21:13:48,0.329s,PASSED
+"click(findTestObject(""Object Home/btn_swiper_Prev_Ongoing_Course_Home""))",Chrome 118.0.0.0,,,2023-10-17 21:13:48,2023-10-17 21:13:48,0.344s,PASSED
+,,,,,,,
+Test Cases/MoLeaWiz/Home/Positive Case/TCMH11 - User can Swipe Next and Previous Ongoing Course in Home Page,Chrome 118.0.0.0,,,2023-10-17 21:13:48,2023-10-17 21:13:52,3.534s,PASSED
+openBrowser(base_url),Chrome 118.0.0.0,,,2023-10-17 21:13:48,2023-10-17 21:13:49,0.280s,PASSED
+"scrollToElement(findTestObject(""Object Home/btn_swiper_Next_New_Program_Home""), 0)",Chrome 118.0.0.0,,,2023-10-17 21:13:49,2023-10-17 21:13:50,1.621s,PASSED
+"click(findTestObject(""Object Home/btn_swiper_Next_New_Program_Home""))",Chrome 118.0.0.0,,,2023-10-17 21:13:50,2023-10-17 21:13:50,0.344s,PASSED
+"click(findTestObject(""Object Home/btn_swiper_Next_New_Program_Home""))",Chrome 118.0.0.0,,,2023-10-17 21:13:50,2023-10-17 21:13:51,0.349s,PASSED
+"click(findTestObject(""Object Home/btn_swiper_Prev_New_Program_Home""))",Chrome 118.0.0.0,,,2023-10-17 21:13:51,2023-10-17 21:13:51,0.351s,PASSED
+"click(findTestObject(""Object Home/btn_swiper_Prev_New_Program_Home""))",Chrome 118.0.0.0,,,2023-10-17 21:13:51,2023-10-17 21:13:52,0.355s,PASSED
+,,,,,,,
+Test Cases/MoLeaWiz/Home/Positive Case/TCMH12 - User can Open My Learning Journey while Collapse Expand,Chrome 118.0.0.0,,,2023-10-17 21:13:52,2023-10-17 21:13:53,1.580s,PASSED
+"click(findTestObject(""Object Menu/btn_Collapse_Menu""))",Chrome 118.0.0.0,,,2023-10-17 21:13:52,2023-10-17 21:13:52,0.358s,PASSED
+"click(findTestObject(""Object Menu/btn_My_Learning_Journey_Menu""))",Chrome 118.0.0.0,,,2023-10-17 21:13:52,2023-10-17 21:13:53,0.587s,PASSED
+"verifyElementPresent(findTestObject(""Object Menu/verify_Successfully_Open_My_Learning_Journey""), 0)",Chrome 118.0.0.0,,,2023-10-17 21:13:53,2023-10-17 21:13:53,0.418s,PASSED
+,,,,,,,
+Test Cases/MoLeaWiz/Home/Positive Case/TCMH13 - User can Open Achievements while Collapse Expand,Chrome 118.0.0.0,,,2023-10-17 21:13:53,2023-10-17 21:13:55,1.762s,PASSED
+"click(findTestObject(""Object Menu/btn_Collapse_Menu""))",Chrome 118.0.0.0,,,2023-10-17 21:13:53,2023-10-17 21:13:54,0.340s,PASSED
+"click(findTestObject(""Object Menu/btn_Achievements_Menu""))",Chrome 118.0.0.0,,,2023-10-17 21:13:54,2023-10-17 21:13:54,0.462s,PASSED
+"verifyElementPresent(findTestObject(""Object Menu/verify_Successfully_Open_Achievements_Menu""), 0)",Chrome 118.0.0.0,,,2023-10-17 21:13:54,2023-10-17 21:13:55,0.757s,PASSED
+,,,,,,,
+Test Cases/MoLeaWiz/Home/Positive Case/TCMH14 - User can Open Rewards while Collapse Expand,Chrome 118.0.0.0,,,2023-10-17 21:13:55,2023-10-17 21:13:56,1.519s,PASSED
+"click(findTestObject(""Object Menu/btn_Collapse_Menu""))",Chrome 118.0.0.0,,,2023-10-17 21:13:55,2023-10-17 21:13:55,0.345s,PASSED
+"click(findTestObject(""Object Menu/btn_Rewards_Menu""))",Chrome 118.0.0.0,,,2023-10-17 21:13:55,2023-10-17 21:13:56,0.456s,PASSED
+"verifyElementPresent(findTestObject(""Object Menu/verify_Successfully_Open_Rewards_Menu""), 0)",Chrome 118.0.0.0,,,2023-10-17 21:13:56,2023-10-17 21:13:56,0.529s,PASSED
+,,,,,,,
+Test Cases/MoLeaWiz/Home/Positive Case/TCMH15 - User can Open Leaderboards while Collapse Expand,Chrome 118.0.0.0,,,2023-10-17 21:13:56,2023-10-17 21:13:58,1.745s,PASSED
+"click(findTestObject(""Object Menu/btn_Collapse_Menu""))",Chrome 118.0.0.0,,,2023-10-17 21:13:57,2023-10-17 21:13:57,0.344s,PASSED
+"click(findTestObject(""Object Menu/btn_Leaderboards_Menu""))",Chrome 118.0.0.0,,,2023-10-17 21:13:57,2023-10-17 21:13:57,0.455s,PASSED
+"verifyElementPresent(findTestObject(""Object Menu/verify_Successfully_Open_Leaderboards_Menu""), 0)",Chrome 118.0.0.0,,,2023-10-17 21:13:57,2023-10-17 21:13:58,0.749s,PASSED
+,,,,,,,
+Test Cases/MoLeaWiz/Home/Positive Case/TCMH16 - User can Open Team Monitoring while Collapse Expand,Chrome 118.0.0.0,,,2023-10-17 21:13:58,2023-10-17 21:14:00,1.506s,PASSED
+"click(findTestObject(""Object Menu/btn_Collapse_Menu""))",Chrome 118.0.0.0,,,2023-10-17 21:13:58,2023-10-17 21:13:59,0.339s,PASSED
+"click(findTestObject(""Object Menu/btn_Team_Monitoring_Menu""))",Chrome 118.0.0.0,,,2023-10-17 21:13:59,2023-10-17 21:13:59,0.458s,PASSED
+"verifyElementPresent(findTestObject(""Object Menu/verify_Successfully_Open_Team_Monitoring_Menu""), 0)",Chrome 118.0.0.0,,,2023-10-17 21:13:59,2023-10-17 21:14:00,0.526s,PASSED
+,,,,,,,
+Test Cases/MoLeaWiz/Home/Positive Case/TCMH17 - User can Open Reviews while Collapse Expand,Chrome 118.0.0.0,,,2023-10-17 21:14:00,2023-10-17 21:14:01,1.726s,PASSED
+"click(findTestObject(""Object Menu/btn_Collapse_Menu""))",Chrome 118.0.0.0,,,2023-10-17 21:14:00,2023-10-17 21:14:00,0.339s,PASSED
+"click(findTestObject(""Object Menu/btn_Reviews_Menu""))",Chrome 118.0.0.0,,,2023-10-17 21:14:00,2023-10-17 21:14:01,0.455s,PASSED
+"verifyElementPresent(findTestObject(""Object Menu/verify_Successfully_Open_Review_Menu""), 0)",Chrome 118.0.0.0,,,2023-10-17 21:14:01,2023-10-17 21:14:01,0.744s,PASSED
+,,,,,,,
+Test Cases/MoLeaWiz/Home/Positive Case/TCMH18 - User can Open Help while Collapse Expand,Chrome 118.0.0.0,,,2023-10-17 21:14:01,2023-10-17 21:14:03,1.639s,PASSED
+"click(findTestObject(""Object Menu/btn_Collapse_Menu""))",Chrome 118.0.0.0,,,2023-10-17 21:14:02,2023-10-17 21:14:02,0.337s,PASSED
+"click(findTestObject(""Object Menu/btn_Help_Menu""))",Chrome 118.0.0.0,,,2023-10-17 21:14:02,2023-10-17 21:14:03,0.559s,PASSED
+"verifyElementPresent(findTestObject(""Object Menu/verify_Successfully_Open_Help_Menu""), 0)",Chrome 118.0.0.0,,,2023-10-17 21:14:03,2023-10-17 21:14:03,0.530s,PASSED
+,,,,,,,
+Test Cases/MoLeaWiz/Home/Positive Case/TCMH19 - User can Open Home while Collapse Expand,Chrome 118.0.0.0,,,2023-10-17 21:14:03,2023-10-17 21:14:06,2.581s,PASSED
+"click(findTestObject(""Object Menu/btn_Collapse_Menu""))",Chrome 118.0.0.0,,,2023-10-17 21:14:03,2023-10-17 21:14:04,0.347s,PASSED
+"click(findTestObject(""Object Menu/btn_Home_Menu""))",Chrome 118.0.0.0,,,2023-10-17 21:14:04,2023-10-17 21:14:04,0.492s,PASSED
+"verifyElementPresent(findTestObject(""Object Login/verify_Successfully_Login""), 0)",Chrome 118.0.0.0,,,2023-10-17 21:14:04,2023-10-17 21:14:06,1.547s,PASSED

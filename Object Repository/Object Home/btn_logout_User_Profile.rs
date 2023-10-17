@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>verify_Successfully_Login</name>
+   <name>btn_Logout_User_Profile</name>
    <tag></tag>
-   <elementGuidId>1ed286d2-a6b2-4adf-80b5-cbadb1c42853</elementGuidId>
+   <elementGuidId>15d0f24b-869f-4a76-8921-f222d76f4742</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value>//*[@name = 'dropdown-user-profile']</value>
+         <value>//*[@name = 'btn-logout-user-profile']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>dropdown-user-profile</value>
-      <webElementGuid>fe804037-0a35-475f-ace0-a9cee7ba7d0f</webElementGuid>
+      <value>btn-logout-user-profile</value>
+      <webElementGuid>bd44c6a0-e6b1-4410-b109-d45324b8f103</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

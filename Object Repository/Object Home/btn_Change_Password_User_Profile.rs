@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>verify_Successfully_Login</name>
+   <name>btn_Change_Password_User_Profile</name>
    <tag></tag>
-   <elementGuidId>1ed286d2-a6b2-4adf-80b5-cbadb1c42853</elementGuidId>
+   <elementGuidId>6d78dab8-5670-46a4-a76d-9c4e999e003d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value>//*[@name = 'dropdown-user-profile']</value>
+         <value>//*[@name = 'btn-change-password-user-profile']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>dropdown-user-profile</value>
-      <webElementGuid>fe804037-0a35-475f-ace0-a9cee7ba7d0f</webElementGuid>
+      <value>btn-change-password-user-profile</value>
+      <webElementGuid>3a67c62f-2fa0-40b4-9db6-553baaef30e7</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

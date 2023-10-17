@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>verify_Successfully_Login</name>
+   <name>btn_Collapse_Menu</name>
    <tag></tag>
-   <elementGuidId>1ed286d2-a6b2-4adf-80b5-cbadb1c42853</elementGuidId>
+   <elementGuidId>529197ac-1eb2-40e1-a0b1-f64eb89b6c58</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value>//*[@name = 'dropdown-user-profile']</value>
+         <value>//*[@name = 'btn-collapse-menu']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>dropdown-user-profile</value>
-      <webElementGuid>fe804037-0a35-475f-ace0-a9cee7ba7d0f</webElementGuid>
+      <value>btn-collapse-menu</value>
+      <webElementGuid>e7a02582-74b0-4dbf-888b-dcfacc797ae4</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

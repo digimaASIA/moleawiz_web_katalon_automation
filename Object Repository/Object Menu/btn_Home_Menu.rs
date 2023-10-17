@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>verify_Successfully_Login</name>
+   <name>btn_Home_Menu</name>
    <tag></tag>
-   <elementGuidId>1ed286d2-a6b2-4adf-80b5-cbadb1c42853</elementGuidId>
+   <elementGuidId>14312def-8f69-4266-8576-aa5249f3239c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value></value>
+         <key>CSS</key>
+         <value>li.ant-menu-item:nth-child(1)</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@name = 'dropdown-user-profile']</value>
+         <value>//*[@name = 'btn-home-menu']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>dropdown-user-profile</value>
-      <webElementGuid>fe804037-0a35-475f-ace0-a9cee7ba7d0f</webElementGuid>
+      <value>btn-home-menu</value>
+      <webElementGuid>cff4b7d2-8584-4393-8bb4-f472879fc4cc</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

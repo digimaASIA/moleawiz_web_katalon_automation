@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>verify_Successfully_Login</name>
+   <name>dropdown_User_Profile</name>
    <tag></tag>
-   <elementGuidId>1ed286d2-a6b2-4adf-80b5-cbadb1c42853</elementGuidId>
+   <elementGuidId>77e678fd-02bf-4316-b133-a1b033967d9f</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
-      </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@name = 'dropdown-user-profile']</value>
@@ -22,6 +18,6 @@
       <name>name</name>
       <type>Main</type>
       <value>dropdown-user-profile</value>
-      <webElementGuid>fe804037-0a35-475f-ace0-a9cee7ba7d0f</webElementGuid>
+      <webElementGuid>e8adc3a7-59f7-4931-b1f0-27cfac03410a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
