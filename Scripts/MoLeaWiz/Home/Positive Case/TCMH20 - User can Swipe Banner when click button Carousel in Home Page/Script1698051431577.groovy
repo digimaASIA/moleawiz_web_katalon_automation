@@ -17,33 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.base_url)
+CustomKeywords.'keywordFunctionLogin.FunctionLogin.automationLogin'()
+WebUI.click(findTestObject('Object Menu/btn_Collapse_Menu'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Login/input_Username_Login'), GlobalVariable.usernameMoLeaWizOutlook)
+WebUI.click(findTestObject('Object Menu/btn_Home_Menu'))
 
-WebUI.setText(findTestObject('Object Login/input_Password_Login'), GlobalVariable.passwordMoLeaWizOutlook)
-
-WebUI.comment('function captcha your answer')
-
-CustomKeywords.'keywordFunctionLogin.FunctionLogin.automationCaptcha'()
-
-WebUI.click(findTestObject('Object Login/checkbox_Remember_Me_Login'))
-
-WebUI.click(findTestObject('Object Login/btn_login'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Object Login/dropdown_User_Profile'))
-
-WebUI.click(findTestObject('Object Home/btn_logout_User_Profile'))
-
-WebUI.verifyElementPresent(findTestObject('Object Login/input_Username_Login'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Object Login/input_Password_Login'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Object Login/btn_login'), 0)
-
-WebUI.delay(3)
-
-WebUI.closeBrowser()
+WebUI.verifyElementPresent(findTestObject('Object Login/verify_Successfully_Login'), 0)
 

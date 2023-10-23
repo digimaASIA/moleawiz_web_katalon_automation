@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>scroll_list_data_index_3_Ongoing_Program_Home</name>
+   <tag></tag>
+   <elementGuidId>82820d66-4747-4e7d-9bf6-154177af3ebc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'list-data-ongoing-program-home' and @data-id = '3']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>list-data-ongoing-program-home</value>
+      <webElementGuid>e8175f9b-d0eb-4c1f-bb8b-87fe87c3a789</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-id</name>
+      <type>Main</type>
+      <value>3</value>
+      <webElementGuid>5ca35013-7ef0-4d33-9056-42fb8462fa06</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

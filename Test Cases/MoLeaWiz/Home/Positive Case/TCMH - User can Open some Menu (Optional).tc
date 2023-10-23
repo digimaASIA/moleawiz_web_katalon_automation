@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TCMH20 - User can Open some Menu (Optional)</name>
+   <name>TCMH - User can Open some Menu (Optional)</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>ec4d872b-8b81-440b-ac6c-55af3d1bece4</testCaseGuid>

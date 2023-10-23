@@ -24,6 +24,7 @@ import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
@@ -46,7 +47,7 @@ import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 
 
-class FunctionCaptchaLogin {
+class FunctionLogin {
 	/**
 	 * Function automation captcha
 	 */
@@ -61,24 +62,40 @@ class FunctionCaptchaLogin {
 
 		WebUI.sendKeys(findTestObject('Object Login/input_Captcha_Your_Answer_Login'), yourAnswer.toString())
 	}
+	/**
+	 * Function automation login
+	 */
+	@Keyword
+	def automationLogin() {
+		WebUI.openBrowser(GlobalVariable.base_url)
+		WebUI.setText(findTestObject('Object Login/input_Username_Login'), GlobalVariable.usernameMoLeaWizOutlook)
+		WebUI.setText(findTestObject('Object Login/input_Password_Login'), GlobalVariable.passwordMoLeaWizOutlook)
+		WebUI.comment('function captcha your answer')
+		def captcha1 = WebUI.getText(findTestObject('Object Login/captcha_Num1_Login'))
+		def intCaptcha1 = captcha1.toInteger()
 
+		def captcha2 = WebUI.getText(findTestObject('Object Login/captcha_Num2_Login'))
+		def intCaptcha2 = captcha2.toInteger()
+		def yourAnswer = intCaptcha1 + intCaptcha2
+
+		WebUI.sendKeys(findTestObject('Object Login/input_Captcha_Your_Answer_Login'), yourAnswer.toString())
+
+		WebUI.click(findTestObject('Object Login/checkbox_Remember_Me_Login'))
+		WebUI.click(findTestObject('Object Login/btn_login'))
+		WebUI.delay(3)
+		WebUI.click(findTestObject('Object Login/dropdown_User_Profile'))
+		WebUI.click(findTestObject('Object Home/btn_logout_User_Profile'))
+		WebUI.verifyElementPresent(findTestObject('Object Login/input_Username_Login'), 0)
+		WebUI.verifyElementPresent(findTestObject('Object Login/input_Password_Login'), 0)
+		WebUI.verifyElementPresent(findTestObject('Object Login/btn_login'), 0)
+	}
 	/**
 	 * Click element
 	 * @param to Katalon test object
 	 */
 	@Keyword
-	def clickElement(TestObject to) {
-		try {
-			WebElement element = WebUiBuiltInKeywords.findWebElement(to);
-			KeywordUtil.logInfo("Clicking element")
-			element.click()
-			KeywordUtil.markPassed("Element has been clicked")
-		} catch (WebElementNotFoundException e) {
-			KeywordUtil.markFailed("Element not found")
-		} catch (Exception e) {
-			KeywordUtil.markFailed("Fail to click on element")
-		}
-	}
+	def automationLogin(TestObject to) {
+			}
 
 	/**
 	 * Get all rows of HTML table

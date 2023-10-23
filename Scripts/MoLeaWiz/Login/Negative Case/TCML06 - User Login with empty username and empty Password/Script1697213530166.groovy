@@ -21,7 +21,7 @@ WebUI.openBrowser(GlobalVariable.base_url)
 
 WebUI.comment('function captcha your answer')
 
-CustomKeywords.'keywordFunctionLogin.FunctionCaptchaLogin.automationCaptcha'()
+CustomKeywords.'keywordFunctionLogin.FunctionLogin.automationCaptcha'()
 
 WebUI.click(findTestObject('Object Login/btn_login'))
 
