@@ -17,10 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'keywordFunctionLogin.FunctionLogin.automationLogin'()
-WebUI.click(findTestObject('Object Menu/btn_Collapse_Menu'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Home/btn_Dots_Corousel_Banner_1_Home'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Menu/btn_Home_Menu'))
+WebUI.click(findTestObject('Object Home/btn_Dots_Corousel_Banner_2_Home'))
 
-WebUI.verifyElementPresent(findTestObject('Object Login/verify_Successfully_Login'), 0)
+WebUI.click(findTestObject('Object Home/btn_Dots_Corousel_Banner_3_Home'))
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@name = 'btn-start-new-program-home']</value>
+         <value>//*[@name = 'btn-continue-ongoing-course-home']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>btn-start-new-program-home</value>
-      <webElementGuid>a4626e9b-6f01-4809-bb67-ad85cb70183d</webElementGuid>
+      <value>btn-continue-ongoing-course-home</value>
+      <webElementGuid>b6617dd1-9ca1-4e69-9a80-740cec4b9e5d</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

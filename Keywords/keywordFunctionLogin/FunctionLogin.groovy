@@ -45,6 +45,7 @@ import com.kms.katalon.core.mobile.helper.MobileElementCommonHelper
 import com.kms.katalon.core.util.KeywordUtil
 
 import com.kms.katalon.core.webui.exception.WebElementNotFoundException
+import com.kms.katalon.core.webui.common.WebUiCommonHelper
 
 
 class FunctionLogin {
@@ -95,7 +96,7 @@ class FunctionLogin {
 	 */
 	@Keyword
 	def automationLogin(TestObject to) {
-			}
+	}
 
 	/**
 	 * Get all rows of HTML table

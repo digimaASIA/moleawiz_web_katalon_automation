@@ -21,5 +21,7 @@ WebUI.click(findTestObject('Object Menu/btn_Collapse_Menu'))
 
 WebUI.click(findTestObject('Object Menu/btn_Achievements_Menu'))
 
+WebUI.click(findTestObject('Object Menu/btn_Collapse_Menu'))
+
 WebUI.verifyElementPresent(findTestObject('Object Menu/verify_Successfully_Open_Achievements_Menu'), 0)
 
