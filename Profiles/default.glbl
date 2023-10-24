@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'hafizh@digimasia.com'</initValue>
+      <initValue>'testerdigima@digimasia.com'</initValue>
       <name>usernameMoLeaWizOutlook</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
