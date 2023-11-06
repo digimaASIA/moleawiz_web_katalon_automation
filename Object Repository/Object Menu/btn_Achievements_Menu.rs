@@ -6,15 +6,15 @@
    <elementGuidId>4a2ba4c8-1d5e-4ddb-9f71-35864cd5c411</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>li.ant-menu-item:nth-child(4)</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@name = 'btn-achievements-menu']</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.ant-menu-item:nth-child(4)</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,6 +22,6 @@
       <name>name</name>
       <type>Main</type>
       <value>btn-achievements-menu</value>
-      <webElementGuid>7a91b46f-ee30-4860-ae35-6037a0dfc8e6</webElementGuid>
+      <webElementGuid>805f2230-a4d3-48d6-9498-677c7d3a3ff0</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

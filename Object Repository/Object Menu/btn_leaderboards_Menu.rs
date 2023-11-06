@@ -6,15 +6,15 @@
    <elementGuidId>831b9261-4a74-4f47-8e1b-198c83c9256d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>li.ant-menu-item:nth-child(6)</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@name = 'btn-leaderboards-menu']</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.ant-menu-item:nth-child(6)</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,6 +22,6 @@
       <name>name</name>
       <type>Main</type>
       <value>btn-leaderboards-menu</value>
-      <webElementGuid>2c0bc2af-37ef-4453-9d34-b51b6e4fcbf3</webElementGuid>
+      <webElementGuid>0f78f43e-817a-4549-93ab-f069c9278f79</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

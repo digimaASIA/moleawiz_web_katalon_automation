@@ -7,33 +7,25 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@data-menu-id = 'rc-menu-uuid-87257-2-learningJourney']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>li.ant-menu-item:nth-child(2)</value>
+         <value>//*[@name = 'btn-my-learning-journey-menu']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//span[@class = &quot;ant-menu-title-content&quot;]/a[@name = &quot;btn-my-learning-journey-menu&quot;]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.ant-menu-item:nth-child(2)</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
       <value>btn-my-learning-journey-menu</value>
-      <webElementGuid>84fc57f4-0bd8-4e64-b378-e635aa61c1fd</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-menu-id</name>
-      <type>Main</type>
-      <value>rc-menu-uuid-87257-2-learningJourney</value>
-      <webElementGuid>5c553612-73e3-41db-9bdc-764cf4eddb2a</webElementGuid>
+      <webElementGuid>1968750e-e280-4c3f-801f-3d6fe46eb1a7</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

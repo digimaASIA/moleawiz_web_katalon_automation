@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.base_url)
+WebUI.openBrowser('http://192.168.43.43:5173/')
 
 WebUI.setText(findTestObject('Object Login/input_Username_Login'), GlobalVariable.usernameMoLeaWizOutlook)
 
@@ -30,4 +30,10 @@ CustomKeywords.'keywordFunctionLogin.FunctionLogin.automationCaptcha'()
 WebUI.click(findTestObject('Object Login/checkbox_Remember_Me_Login'))
 
 WebUI.click(findTestObject('Object Login/btn_login'))
+
+WebUI.click(findTestObject('Object Menu/btn_My_Learning_Journey_Menu'))
+
+WebUI.click(findTestObject('Object Menu/btn_Achievements_Menu'))
+
+WebUI.click(findTestObject('Object Menu/btn_Home_Menu'))
 

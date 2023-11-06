@@ -12,24 +12,24 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>073a3426-a97c-48c2-920c-c94ab80c893c</testSuiteGuid>
    <testCaseLink>
-      <guid>40b1c44a-c7aa-44a9-91c0-0e283c3924f4</guid>
+      <guid>90d36fa3-01a1-4c70-9ca7-1cf21574192e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/MoLeaWiz/Home/Positive Case/TCMH20 - User can Swipe Banner when click button Carousel in Home Page</testCaseId>
+      <testCaseId>Test Cases/MoLeaWiz/Home/Positive Case/TCMH01 - User Open My Learning Journey</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>3f9938c7-254e-4708-8aa8-d4ed583cd167</guid>
+      <guid>6661153c-13f5-413d-a57d-66bc9140ceb9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/MoLeaWiz/Home/Positive Case/TCMH22 - User can scroll list data Expired in Month in Home Page</testCaseId>
+      <testCaseId>Test Cases/MoLeaWiz/Home/Positive Case/TCMH02 - User Open Achievements</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>0db52150-dde7-4560-bed1-aaab86cbf432</guid>
+      <guid>c0b162f3-710a-44e0-88eb-0bed209c9978</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/MoLeaWiz/Home/Positive Case/TCMH23 - User can scroll list data Ongoing Program in Month in Home Page</testCaseId>
+      <testCaseId>Test Cases/MoLeaWiz/Home/Positive Case/TCMH08 - User Open Home</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

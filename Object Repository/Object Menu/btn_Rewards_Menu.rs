@@ -6,15 +6,15 @@
    <elementGuidId>150ff5bd-6380-4713-b12c-0f054ede5324</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>li.ant-menu-item:nth-child(5)</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@name = 'btn-rewards-menu']</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.ant-menu-item:nth-child(5)</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,6 +22,6 @@
       <name>name</name>
       <type>Main</type>
       <value>btn-rewards-menu</value>
-      <webElementGuid>e443652e-e229-4978-8876-64e4beaeb975</webElementGuid>
+      <webElementGuid>944807ef-f0ed-48f8-a2bc-661785df9bbd</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

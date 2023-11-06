@@ -14,7 +14,7 @@
          <value>label.ant-radio-button-wrapper:nth-child(2)</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,6 +22,6 @@
       <name>id</name>
       <type>Main</type>
       <value>radio-btn-on-going-my-learning-journey</value>
-      <webElementGuid>5a22c8ea-3378-4487-bd4a-a5997a22133b</webElementGuid>
+      <webElementGuid>a7ba1cbd-2f6b-4dc1-981c-f856d6f0593a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

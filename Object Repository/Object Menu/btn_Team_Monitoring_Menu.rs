@@ -6,15 +6,15 @@
    <elementGuidId>0c9ce8d8-13aa-4c0f-ad7a-8b6c0f74f244</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>li.ant-menu-item:nth-child(8)</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@name = 'btn-team-monitoring-menu']</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.ant-menu-item:nth-child(8)</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,6 +22,6 @@
       <name>name</name>
       <type>Main</type>
       <value>btn-team-monitoring-menu</value>
-      <webElementGuid>9bb82e6d-0467-4950-89b6-0c96f37ca0c6</webElementGuid>
+      <webElementGuid>1cf437db-5913-407f-b7ee-14664cb144ed</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

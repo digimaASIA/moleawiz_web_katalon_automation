@@ -6,15 +6,15 @@
    <elementGuidId>c8449f21-be3f-4fca-ac7e-3738fde662c8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>li.ant-menu-item:nth-child(9)</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@name = 'btn-reviews-menu']</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.ant-menu-item:nth-child(9)</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,6 +22,6 @@
       <name>name</name>
       <type>Main</type>
       <value>btn-reviews-menu</value>
-      <webElementGuid>6bc03568-f254-482c-9bfc-f189495cd5e5</webElementGuid>
+      <webElementGuid>e0d0eb39-cbf8-493f-b98e-d4df2541c0f6</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
