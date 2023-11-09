@@ -31,13 +31,19 @@ WebUI.click(findTestObject('Object Login/btn_login'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Login/btn_login'))
-
-WebUI.delay(2)
+CustomKeywords.'keywordFunctionLogin.FunctionLogin.automationCaptcha'()
 
 WebUI.click(findTestObject('Object Login/btn_login'))
 
 WebUI.delay(2)
+
+CustomKeywords.'keywordFunctionLogin.FunctionLogin.automationCaptcha'()
+
+WebUI.click(findTestObject('Object Login/btn_login'))
+
+WebUI.delay(2)
+
+CustomKeywords.'keywordFunctionLogin.FunctionLogin.automationCaptcha'()
 
 WebUI.click(findTestObject('Object Login/btn_login'))
 

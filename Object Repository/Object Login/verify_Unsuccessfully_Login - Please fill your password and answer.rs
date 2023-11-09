@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Please fill your password dan answer' or . = 'Please fill your password dan answer')]</value>
+         <value>//*[(text() = 'Invalid login credentials. Please try again.' or . = 'Invalid login credentials. Please try again.')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Please fill your password dan answer</value>
-      <webElementGuid>96436c63-3d7a-4318-a719-7761f08390bc</webElementGuid>
+      <value>Invalid login credentials. Please try again.</value>
+      <webElementGuid>500f245a-3210-46bf-bda8-2f9951bff870</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

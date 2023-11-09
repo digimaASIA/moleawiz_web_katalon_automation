@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'id-remember-me-login']</value>
+         <value>//*[@id = 'btn-remember-me-login']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,9 +15,9 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>name</name>
       <type>Main</type>
-      <value>id-remember-me-login</value>
-      <webElementGuid>6c13afa0-0d03-4388-8aa3-68d203a1e03e</webElementGuid>
+      <value>btn-remember-me-login</value>
+      <webElementGuid>0dc92c50-43c9-4a11-b2d8-91bfcad7120c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

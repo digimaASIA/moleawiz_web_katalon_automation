@@ -1,0 +1,72 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Scenario Negative Case - Forgot Password,Chrome 119.0.0.0,,,2023-11-09 21:12:14,2023-11-09 21:14:14,2m - 0.310s,PASSED
+,,,,,,,
+Test Cases/MoLeaWiz/Forgot Password/Negative Case/TCFP02 - User tidak dapat mengubah kata sandi di Forgot Password dengan mengkosongkan field Username,Chrome 119.0.0.0,,,2023-11-09 21:12:14,2023-11-09 21:12:27,12.871s,PASSED
+openBrowser(base_url),Chrome 119.0.0.0,,,2023-11-09 21:12:14,2023-11-09 21:12:20,5.758s,PASSED
+"click(findTestObject(""Object Forgot Password/btn_text_Forgot_Your_Password""), STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-09 21:12:20,2023-11-09 21:12:21,0.981s,PASSED
+"setText(findTestObject(""Object Forgot Password/input_Username_Forgot_Password""), invalidUsername)",Chrome 119.0.0.0,,,2023-11-09 21:12:21,2023-11-09 21:12:22,1.005s,PASSED
+"click(findTestObject(""Object Forgot Password/btn_Request_Verification_Code_Forgot_Password""))",Chrome 119.0.0.0,,,2023-11-09 21:12:22,2023-11-09 21:12:22,0.380s,PASSED
+"verifyElementVisible(findTestObject(""Object Forgot Password/verify_Unsuccessfully_Change_Password - Invalid username Please try again""), STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-09 21:12:22,2023-11-09 21:12:23,0.826s,PASSED
+delay(3),Chrome 119.0.0.0,,,2023-11-09 21:12:23,2023-11-09 21:12:26,3.018s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-09 21:12:26,2023-11-09 21:12:27,0.601s,PASSED
+,,,,,,,
+Test Cases/MoLeaWiz/Forgot Password/Negative Case/TCFP03 - User tidak dapat mengubah kata sandi di Forgot Password dengan invalid Username,Chrome 119.0.0.0,,,2023-11-09 21:12:27,2023-11-09 21:12:43,15.859s,PASSED
+openBrowser(base_url),Chrome 119.0.0.0,,,2023-11-09 21:12:27,2023-11-09 21:12:37,10.206s,PASSED
+"click(findTestObject(""Object Forgot Password/btn_text_Forgot_Your_Password""), STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-09 21:12:37,2023-11-09 21:12:38,0.695s,PASSED
+"click(findTestObject(""Object Forgot Password/btn_Request_Verification_Code_Forgot_Password""))",Chrome 119.0.0.0,,,2023-11-09 21:12:38,2023-11-09 21:12:38,0.652s,PASSED
+"verifyElementVisible(findTestObject(""Object Forgot Password/verify_Unsuccessfully_Change_Password - Invalid username Please try again""), STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-09 21:12:38,2023-11-09 21:12:39,0.496s,PASSED
+delay(3),Chrome 119.0.0.0,,,2023-11-09 21:12:39,2023-11-09 21:12:42,3.002s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-09 21:12:42,2023-11-09 21:12:43,0.591s,PASSED
+,,,,,,,
+Test Cases/MoLeaWiz/Forgot Password/Negative Case/TCFP04 - User tidak dapat mengubah kata sandi di Forgot Password dengan mengkosongkan field Verification Code,Chrome 119.0.0.0,,,2023-11-09 21:12:43,2023-11-09 21:13:03,20.751s,PASSED
+openBrowser(base_url),Chrome 119.0.0.0,,,2023-11-09 21:12:43,2023-11-09 21:12:54,11.184s,PASSED
+"click(findTestObject(""Object Forgot Password/btn_text_Forgot_Your_Password""), STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-09 21:12:54,2023-11-09 21:12:55,0.685s,PASSED
+"click(findTestObject(""Object Forgot Password/btn_Icon_Back_Forgot_Password""))",Chrome 119.0.0.0,,,2023-11-09 21:12:55,2023-11-09 21:12:55,0.672s,PASSED
+"click(findTestObject(""Object Forgot Password/btn_text_Forgot_Your_Password""), STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-09 21:12:55,2023-11-09 21:12:56,0.591s,PASSED
+"setText(findTestObject(""Object Forgot Password/input_Username_Forgot_Password""), usernameTesterHafizh)",Chrome 119.0.0.0,,,2023-11-09 21:12:56,2023-11-09 21:12:57,0.914s,PASSED
+"click(findTestObject(""Object Forgot Password/btn_Request_Verification_Code_Forgot_Password""))",Chrome 119.0.0.0,,,2023-11-09 21:12:57,2023-11-09 21:12:57,0.346s,PASSED
+"click(findTestObject(""Object Forgot Password/input_Verification_Code_Forgot_Password""))",Chrome 119.0.0.0,,,2023-11-09 21:12:57,2023-11-09 21:12:59,2.289s,PASSED
+"verifyElementVisible(findTestObject(""Object Forgot Password/btn_Verify_Forgot_Password""), STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-09 21:12:59,2023-11-09 21:13:00,0.282s,PASSED
+delay(3),Chrome 119.0.0.0,,,2023-11-09 21:13:00,2023-11-09 21:13:03,3.003s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-09 21:13:03,2023-11-09 21:13:03,0.584s,PASSED
+,,,,,,,
+Test Cases/MoLeaWiz/Forgot Password/Negative Case/TCFP05 - User gagal mengubah kata sandi di Forgot Password dengan invalid Verification Code sebanyak 3 kali,Chrome 119.0.0.0,,,2023-11-09 21:13:03,2023-11-09 21:13:26,22.859s,PASSED
+openBrowser(base_url),Chrome 119.0.0.0,,,2023-11-09 21:13:04,2023-11-09 21:13:05,1.262s,PASSED
+"click(findTestObject(""Object Forgot Password/btn_text_Forgot_Your_Password""), STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-09 21:13:05,2023-11-09 21:13:07,2.567s,PASSED
+"click(findTestObject(""Object Forgot Password/btn_Icon_Back_Forgot_Password""))",Chrome 119.0.0.0,,,2023-11-09 21:13:07,2023-11-09 21:13:08,0.597s,PASSED
+"click(findTestObject(""Object Forgot Password/btn_text_Forgot_Your_Password""), STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-09 21:13:08,2023-11-09 21:13:09,0.583s,PASSED
+"setText(findTestObject(""Object Forgot Password/input_Username_Forgot_Password""), usernameTesterHafizh)",Chrome 119.0.0.0,,,2023-11-09 21:13:09,2023-11-09 21:13:09,0.900s,PASSED
+"click(findTestObject(""Object Forgot Password/btn_Request_Verification_Code_Forgot_Password""))",Chrome 119.0.0.0,,,2023-11-09 21:13:09,2023-11-09 21:13:10,0.349s,PASSED
+"setText(findTestObject(""Object Forgot Password/input_Verification_Code_Forgot_Password""), ""12345"")",Chrome 119.0.0.0,,,2023-11-09 21:13:10,2023-11-09 21:13:13,3.106s,PASSED
+"click(findTestObject(""Object Forgot Password/btn_Verify_Forgot_Password""))",Chrome 119.0.0.0,,,2023-11-09 21:13:13,2023-11-09 21:13:14,0.654s,PASSED
+"click(findTestObject(""Object Forgot Password/input_Verification_Code_Forgot_Password""), STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-09 21:13:14,2023-11-09 21:13:15,1.061s,PASSED
+"sendKeys(findTestObject(""Object Forgot Password/input_Verification_Code_Forgot_Password""), Keys.chord(CONTROL, ""a""))",Chrome 119.0.0.0,,,2023-11-09 21:13:15,2023-11-09 21:13:15,0.349s,PASSED
+"sendKeys(findTestObject(""Object Forgot Password/input_Verification_Code_Forgot_Password""), Keys.chord(BACK_SPACE))",Chrome 119.0.0.0,,,2023-11-09 21:13:15,2023-11-09 21:13:16,0.650s,PASSED
+"setText(findTestObject(""Object Forgot Password/input_Verification_Code_Forgot_Password""), ""12345"")",Chrome 119.0.0.0,,,2023-11-09 21:13:16,2023-11-09 21:13:17,1.254s,PASSED
+"click(findTestObject(""Object Forgot Password/btn_Verify_Forgot_Password""))",Chrome 119.0.0.0,,,2023-11-09 21:13:17,2023-11-09 21:13:18,0.755s,PASSED
+"click(findTestObject(""Object Forgot Password/input_Verification_Code_Forgot_Password""), STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-09 21:13:18,2023-11-09 21:13:19,0.958s,PASSED
+"sendKeys(findTestObject(""Object Forgot Password/input_Verification_Code_Forgot_Password""), Keys.chord(CONTROL, ""a""))",Chrome 119.0.0.0,,,2023-11-09 21:13:19,2023-11-09 21:13:19,0.341s,PASSED
+"sendKeys(findTestObject(""Object Forgot Password/input_Verification_Code_Forgot_Password""), Keys.chord(BACK_SPACE))",Chrome 119.0.0.0,,,2023-11-09 21:13:19,2023-11-09 21:13:20,0.644s,PASSED
+"setText(findTestObject(""Object Forgot Password/input_Verification_Code_Forgot_Password""), ""12345"")",Chrome 119.0.0.0,,,2023-11-09 21:13:20,2023-11-09 21:13:21,1.358s,PASSED
+"click(findTestObject(""Object Forgot Password/btn_Verify_Forgot_Password""))",Chrome 119.0.0.0,,,2023-11-09 21:13:21,2023-11-09 21:13:22,0.654s,PASSED
+"verifyElementVisible(findTestObject(""Object Forgot Password/verify_Unsuccessfully_Change_Password - Too many failed verify attempts""), STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-09 21:13:22,2023-11-09 21:13:23,0.997s,PASSED
+delay(3),Chrome 119.0.0.0,,,2023-11-09 21:13:23,2023-11-09 21:13:26,3.001s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-09 21:13:26,2023-11-09 21:13:26,0.583s,PASSED
+,,,,,,,
+Test Cases/MoLeaWiz/Forgot Password/Negative Case/TCFP06 - User tidak dapat mengubah kata sandi di Forgot Password dengan tidak samanya inputan New Password dan Confirm New Password,Chrome 119.0.0.0,,,2023-11-09 21:13:26,2023-11-09 21:14:14,47.727s,PASSED
+openBrowser(base_url),Chrome 119.0.0.0,,,2023-11-09 21:13:26,2023-11-09 21:13:33,6.435s,PASSED
+"click(findTestObject(""Object Forgot Password/btn_text_Forgot_Your_Password""), STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-09 21:13:33,2023-11-09 21:13:34,0.709s,PASSED
+"click(findTestObject(""Object Forgot Password/btn_Icon_Back_Forgot_Password""))",Chrome 119.0.0.0,,,2023-11-09 21:13:34,2023-11-09 21:13:34,0.659s,PASSED
+"click(findTestObject(""Object Forgot Password/btn_text_Forgot_Your_Password""), STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-09 21:13:34,2023-11-09 21:13:35,0.571s,PASSED
+"setText(findTestObject(""Object Forgot Password/input_Username_Forgot_Password""), usernameTesterHafizh)",Chrome 119.0.0.0,,,2023-11-09 21:13:35,2023-11-09 21:13:36,0.890s,PASSED
+"click(findTestObject(""Object Forgot Password/btn_Request_Verification_Code_Forgot_Password""))",Chrome 119.0.0.0,,,2023-11-09 21:13:36,2023-11-09 21:13:36,0.350s,PASSED
+"comment(""Delay for input verification code by manually"")",Chrome 119.0.0.0,,,2023-11-09 21:13:36,2023-11-09 21:13:36,0.007s,PASSED
+"delay(30, STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-09 21:13:36,2023-11-09 21:14:06,30.003s,PASSED
+"click(findTestObject(""Object Forgot Password/btn_Verify_Forgot_Password""))",Chrome 119.0.0.0,,,2023-11-09 21:14:06,2023-11-09 21:14:07,0.654s,PASSED
+"setText(findTestObject(""Object Forgot Password/input_New_Password_Forgot_Password""), ""12345"")",Chrome 119.0.0.0,,,2023-11-09 21:14:07,2023-11-09 21:14:08,1.160s,PASSED
+"click(findTestObject(""Object Forgot Password/btn_Icon_Hide_UnHide_Password_Forgot_Password""))",Chrome 119.0.0.0,,,2023-11-09 21:14:08,2023-11-09 21:14:08,0.549s,PASSED
+"setText(findTestObject(""Object Forgot Password/input_Confirm_New_Password_Forgot_Password""), ""123456"")",Chrome 119.0.0.0,,,2023-11-09 21:14:08,2023-11-09 21:14:09,0.863s,PASSED
+"click(findTestObject(""Object Forgot Password/btn_Change_Password_Forgot_Password""), STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-09 21:14:09,2023-11-09 21:14:10,0.562s,PASSED
+"verifyElementVisible(findTestObject(""Object Forgot Password/verify_Unsuccessfully_Change_Password - The password doesnt match Please review your input""), STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-09 21:14:10,2023-11-09 21:14:10,0.487s,PASSED
+delay(3),Chrome 119.0.0.0,,,2023-11-09 21:14:10,2023-11-09 21:14:13,3.001s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-09 21:14:13,2023-11-09 21:14:14,0.606s,PASSED

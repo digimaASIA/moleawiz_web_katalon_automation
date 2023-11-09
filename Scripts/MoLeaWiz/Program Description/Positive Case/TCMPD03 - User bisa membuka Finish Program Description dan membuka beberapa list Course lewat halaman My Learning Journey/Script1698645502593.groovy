@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Menu/btn_Home_Menu'))
+WebUI.click(findTestObject('Object Menu/btn_My_Learning_Journey_Menu'))
+
+WebUI.scrollToElement(findTestObject('Object My Learning Journey/btn_Start_My_Learning_Journey'), 0)
 
 WebUI.click(findTestObject('Object My Learning Journey/btn_Start_My_Learning_Journey'))
 
+WebUI.verifyElementPresent(findTestObject('Object Program Description/verify_Successfully_Open_Program_Description'), 0)
+
 WebUI.click(findTestObject('Object Program Description/dropdown_list_Course_Index_0_Program_Description_Program'))
-
-WebUI.click(findTestObject('Object Program Description/dropdown_list_Course_Index_1_Program_Description_Program'))
-
-WebUI.verifyElementPresent(findTestObject('Object My Learning Journey/btn_Continue_My_Learning_Journey'), 0)
 

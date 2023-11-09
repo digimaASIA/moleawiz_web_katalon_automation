@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('http://192.168.43.43:5173/')
+WebUI.openBrowser(GlobalVariable.base_url)
 
-WebUI.setText(findTestObject('Object Login/input_Username_Login'), GlobalVariable.usernameMoLeaWizOutlook)
+WebUI.setText(findTestObject('Object Login/input_Username_Login'), GlobalVariable.usernameMoLeaWiz)
 
-WebUI.setText(findTestObject('Object Login/input_Password_Login'), GlobalVariable.passwordMoLeaWizOutlook)
+WebUI.setText(findTestObject('Object Login/input_Password_Login'), GlobalVariable.passwordMoLeaWiz)
 
 WebUI.comment('function captcha your answer')
 
@@ -31,9 +31,5 @@ WebUI.click(findTestObject('Object Login/checkbox_Remember_Me_Login'))
 
 WebUI.click(findTestObject('Object Login/btn_login'))
 
-WebUI.click(findTestObject('Object Menu/btn_My_Learning_Journey_Menu'))
-
-WebUI.click(findTestObject('Object Menu/btn_Achievements_Menu'))
-
-WebUI.click(findTestObject('Object Menu/btn_Home_Menu'))
+WebUI.verifyElementPresent(findTestObject('Object Login/verify_Successfully_Login'), 0)
 

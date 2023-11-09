@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Please fill your answer' or . = 'Please fill your answer')]</value>
+         <value>//*[(text() = 'Invalid answer. Please try again.' or . = 'Invalid answer. Please try again.')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Please fill your answer</value>
-      <webElementGuid>8beb9d8f-792b-430a-91d2-972d698a4c2d</webElementGuid>
+      <value>Invalid answer. Please try again.</value>
+      <webElementGuid>e3e087cc-3849-4aa8-abc8-cd430ac3be3d</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

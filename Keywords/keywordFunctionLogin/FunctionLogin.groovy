@@ -69,8 +69,8 @@ class FunctionLogin {
 	@Keyword
 	def automationLogin() {
 		WebUI.openBrowser(GlobalVariable.base_url)
-		WebUI.setText(findTestObject('Object Login/input_Username_Login'), GlobalVariable.usernameMoLeaWizOutlook)
-		WebUI.setText(findTestObject('Object Login/input_Password_Login'), GlobalVariable.passwordMoLeaWizOutlook)
+		WebUI.setText(findTestObject('Object Login/input_Username_Login'), GlobalVariable.usernameMoLeaWiz)
+		WebUI.setText(findTestObject('Object Login/input_Password_Login'), GlobalVariable.passwordMoLeaWiz)
 		WebUI.comment('function captcha your answer')
 		def captcha1 = WebUI.getText(findTestObject('Object Login/captcha_Num1_Login'))
 		def intCaptcha1 = captcha1.toInteger()

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Please fill your username, password, dan answer' or . = 'Please fill your username, password, dan answer')]</value>
+         <value>//*[(text() = 'Invalid login credentials. Please try again.' or . = 'Invalid login credentials. Please try again.')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -20,7 +20,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Please fill your username, password, dan answer</value>
-      <webElementGuid>813a2dbb-42d3-49a8-9990-157b8767963c</webElementGuid>
+      <value>Invalid login credentials. Please try again.</value>
+      <webElementGuid>16490e84-47c6-481e-9abb-a4c58c6249ac</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
