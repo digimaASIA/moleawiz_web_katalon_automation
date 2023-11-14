@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@name = 'btn-back-request-forgot-password']</value>
+         <value>//*[@name = 'btn-back-forgot-password']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>btn-back-request-forgot-password</value>
-      <webElementGuid>a8cceec0-84dc-476c-8033-329b5acdfc9e</webElementGuid>
+      <value>btn-back-forgot-password</value>
+      <webElementGuid>718966cf-bc31-4fa3-81a7-ff6aa9e10a92</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

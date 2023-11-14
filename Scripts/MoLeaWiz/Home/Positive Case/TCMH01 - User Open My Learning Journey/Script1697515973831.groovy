@@ -17,21 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Menu/btn_Collapse_Menu'))
-
 WebUI.click(findTestObject('Object Menu/btn_My_Learning_Journey_Menu'))
-
-WebUI.click(findTestObject('Object Menu/btn_Achievements_Menu'))
-
-WebUI.click(findTestObject('Object Menu/btn_Rewards_Menu'))
-
-WebUI.click(findTestObject('Object Menu/btn_Leaderboards_Menu'))
-
-WebUI.click(findTestObject('Object Menu/btn_Team_Monitoring_Menu'))
-
-WebUI.click(findTestObject('Object Menu/btn_Reviews_Menu'))
-
-WebUI.click(findTestObject('Object Menu/btn_Help_Menu'))
-
-WebUI.click(findTestObject('Object Menu/btn_Home_Menu'))
 

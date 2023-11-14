@@ -35,13 +35,13 @@ WebUI.delay(30, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Forgot Password/btn_Verify_Forgot_Password'))
 
-WebUI.setText(findTestObject('Object Forgot Password/input_New_Password_Forgot_Password'), '12345')
+WebUI.setText(findTestObject('Object Forgot Password/input_New_Password_Change_Password'), '12345')
 
-WebUI.click(findTestObject('Object Forgot Password/btn_Icon_Hide_UnHide_Password_Forgot_Password'))
+WebUI.click(findTestObject('Object Forgot Password/btn_Hide_Change_Password'))
 
-WebUI.setText(findTestObject('Object Forgot Password/input_Confirm_New_Password_Forgot_Password'), '123456')
+WebUI.setText(findTestObject('Object Forgot Password/input_Confirm_New_Password_Change_Password'), '123456')
 
-WebUI.click(findTestObject('Object Forgot Password/btn_Change_Password_Forgot_Password'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Forgot Password/btn_Change_Password'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('Object Forgot Password/verify_Unsuccessfully_Change_Password - The password doesnt match Please review your input'), 
     FailureHandling.STOP_ON_FAILURE)

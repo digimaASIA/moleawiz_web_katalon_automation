@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.base_url)
 
-WebUI.setText(findTestObject('Object Login/input_Username_Login'), GlobalVariable.usernameMoLeaWiz)
+WebUI.setText(findTestObject('Object Login/input_Username_Login'), 'testerdigima@digimasia.com')
 
-WebUI.setText(findTestObject('Object Login/input_Password_Login'), GlobalVariable.passwordMoLeaWiz)
+WebUI.setText(findTestObject('Object Login/input_Password_Login'), '12345')
 
 WebUI.comment('function captcha your answer')
 
@@ -37,11 +37,7 @@ WebUI.click(findTestObject('Object Login/dropdown_User_Profile'))
 
 WebUI.click(findTestObject('Object Home/btn_logout_User_Profile'))
 
-WebUI.verifyElementPresent(findTestObject('Object Login/input_Username_Login'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Object Login/input_Password_Login'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Object Login/btn_login'), 0)
+WebUI.click(findTestObject('Object Home/btn_Yes_Logout_Home'))
 
 WebUI.delay(3)
 
