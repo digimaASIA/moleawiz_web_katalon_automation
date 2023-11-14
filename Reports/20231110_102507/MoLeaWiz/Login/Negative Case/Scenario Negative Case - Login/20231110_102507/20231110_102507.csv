@@ -1,0 +1,67 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Scenario Negative Case - Login,Chrome 119.0.0.0,,,2023-11-10 10:25:12,2023-11-10 10:27:00,1m - 47.733s,PASSED
+,,,,,,,
+Test Cases/MoLeaWiz/Login/Negative Case/TCML03 - User cant Login with empty all mandatory field,Chrome 119.0.0.0,,,2023-11-10 10:25:13,2023-11-10 10:25:29,15.879s,PASSED
+openBrowser(base_url),Chrome 119.0.0.0,,,2023-11-10 10:25:14,2023-11-10 10:25:23,9.908s,PASSED
+"click(findTestObject(""Object Login/btn_login""))",Chrome 119.0.0.0,,,2023-11-10 10:25:23,2023-11-10 10:25:25,1.260s,PASSED
+"verifyElementVisible(findTestObject(""Object Login/verify_Unsuccessfully_Login - Please fill your username, password, and answer""), STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-10 10:25:25,2023-11-10 10:25:25,0.592s,PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-10 10:25:25,2023-11-10 10:25:27,2.050s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-10 10:25:27,2023-11-10 10:25:29,1.239s,PASSED
+,,,,,,,
+Test Cases/MoLeaWiz/Login/Negative Case/TCML04 - User cant Login with valid username and empty Password and Your answer,Chrome 119.0.0.0,,,2023-11-10 10:25:29,2023-11-10 10:25:42,13.045s,PASSED
+openBrowser(base_url),Chrome 119.0.0.0,,,2023-11-10 10:25:29,2023-11-10 10:25:35,6.338s,PASSED
+"setText(findTestObject(""Object Login/input_Username_Login""), usernameMoLeaWiz)",Chrome 119.0.0.0,,,2023-11-10 10:25:35,2023-11-10 10:25:37,1.895s,PASSED
+"click(findTestObject(""Object Login/btn_login""))",Chrome 119.0.0.0,,,2023-11-10 10:25:37,2023-11-10 10:25:38,0.584s,PASSED
+"verifyElementVisible(findTestObject(""Object Login/verify_Unsuccessfully_Login - Please fill your password and answer""), STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-10 10:25:38,2023-11-10 10:25:39,0.551s,PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-10 10:25:39,2023-11-10 10:25:41,2.009s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-10 10:25:41,2023-11-10 10:25:42,1.101s,PASSED
+,,,,,,,
+Test Cases/MoLeaWiz/Login/Negative Case/TCML05 - User cant Login with invalid username and password,Chrome 119.0.0.0,,,2023-11-10 10:25:42,2023-11-10 10:26:00,18.211s,PASSED
+openBrowser(base_url),Chrome 119.0.0.0,,,2023-11-10 10:25:42,2023-11-10 10:25:50,7.436s,PASSED
+"setText(findTestObject(""Object Login/input_Username_Login""), invalidUsername)",Chrome 119.0.0.0,,,2023-11-10 10:25:50,2023-11-10 10:25:51,1.591s,PASSED
+"setText(findTestObject(""Object Login/input_Password_Login""), invalidPassword)",Chrome 119.0.0.0,,,2023-11-10 10:25:51,2023-11-10 10:25:52,0.881s,PASSED
+"comment(""function captcha your answer"")",Chrome 119.0.0.0,,,2023-11-10 10:25:52,2023-11-10 10:25:52,0.017s,PASSED
+keywordFunctionLogin.FunctionLogin.automationCaptcha(),Chrome 119.0.0.0,,,2023-11-10 10:25:52,2023-11-10 10:25:53,1.402s,PASSED
+"click(findTestObject(""Object Login/btn_login""))",Chrome 119.0.0.0,,,2023-11-10 10:25:53,2023-11-10 10:25:54,0.604s,PASSED
+"verifyElementVisible(findTestObject(""Object Login/verify_Unsuccessfully_Login - Invalid login credentials Please try again""), STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-10 10:25:54,2023-11-10 10:25:56,1.714s,PASSED
+delay(3),Chrome 119.0.0.0,,,2023-11-10 10:25:56,2023-11-10 10:25:59,3.016s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-10 10:25:59,2023-11-10 10:26:00,1.048s,PASSED
+,,,,,,,
+Test Cases/MoLeaWiz/Login/Negative Case/TCML06 - User Login with empty username and empty Password,Chrome 119.0.0.0,,,2023-11-10 10:26:00,2023-11-10 10:26:14,13.935s,PASSED
+openBrowser(base_url),Chrome 119.0.0.0,,,2023-11-10 10:26:00,2023-11-10 10:26:08,7.340s,PASSED
+"comment(""function captcha your answer"")",Chrome 119.0.0.0,,,2023-11-10 10:26:08,2023-11-10 10:26:08,0.006s,PASSED
+keywordFunctionLogin.FunctionLogin.automationCaptcha(),Chrome 119.0.0.0,,,2023-11-10 10:26:08,2023-11-10 10:26:10,1.909s,PASSED
+"click(findTestObject(""Object Login/btn_login""))",Chrome 119.0.0.0,,,2023-11-10 10:26:10,2023-11-10 10:26:10,0.501s,PASSED
+"verifyElementPresent(findTestObject(""Object Login/verify_Unsuccessfully_Login - Please fill your username and password""), 0)",Chrome 119.0.0.0,,,2023-11-10 10:26:10,2023-11-10 10:26:11,0.507s,PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-10 10:26:11,2023-11-10 10:26:13,2.012s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-10 10:26:13,2023-11-10 10:26:14,1.118s,PASSED
+,,,,,,,
+Test Cases/MoLeaWiz/Login/Negative Case/TCML07 - User Login with empty Your Answer,Chrome 119.0.0.0,,,2023-11-10 10:26:14,2023-11-10 10:26:29,15.670s,PASSED
+openBrowser(base_url),Chrome 119.0.0.0,,,2023-11-10 10:26:14,2023-11-10 10:26:22,8.059s,PASSED
+"setText(findTestObject(""Object Login/input_Username_Login""), usernameMoLeaWiz)",Chrome 119.0.0.0,,,2023-11-10 10:26:22,2023-11-10 10:26:24,1.892s,PASSED
+"setText(findTestObject(""Object Login/input_Password_Login""), passwordMoLeaWiz)",Chrome 119.0.0.0,,,2023-11-10 10:26:24,2023-11-10 10:26:25,0.985s,PASSED
+"click(findTestObject(""Object Login/btn_login""))",Chrome 119.0.0.0,,,2023-11-10 10:26:25,2023-11-10 10:26:26,0.653s,PASSED
+"verifyElementPresent(findTestObject(""Object Login/verify_Unsuccessfully_Login - Please fill your answer""), 0)",Chrome 119.0.0.0,,,2023-11-10 10:26:26,2023-11-10 10:26:26,0.551s,PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-10 10:26:26,2023-11-10 10:26:28,2.014s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-10 10:26:28,2023-11-10 10:26:29,1.063s,PASSED
+,,,,,,,
+Test Cases/MoLeaWiz/Login/Negative Case/TCML08 - User cant login because to many try login with invalid username and password,Chrome 119.0.0.0,,,2023-11-10 10:26:29,2023-11-10 10:27:00,30.485s,PASSED
+openBrowser(base_url),Chrome 119.0.0.0,,,2023-11-10 10:26:30,2023-11-10 10:26:37,6.665s,PASSED
+"setText(findTestObject(""Object Login/input_Username_Login""), ""test1234"")",Chrome 119.0.0.0,,,2023-11-10 10:26:37,2023-11-10 10:26:38,1.522s,PASSED
+"setText(findTestObject(""Object Login/input_Password_Login""), ""12345"")",Chrome 119.0.0.0,,,2023-11-10 10:26:38,2023-11-10 10:26:39,0.928s,PASSED
+"comment(""function captcha your answer"")",Chrome 119.0.0.0,,,2023-11-10 10:26:39,2023-11-10 10:26:39,0.002s,PASSED
+keywordFunctionLogin.FunctionLogin.automationCaptcha(),Chrome 119.0.0.0,,,2023-11-10 10:26:39,2023-11-10 10:26:41,1.420s,PASSED
+"click(findTestObject(""Object Login/btn_login""))",Chrome 119.0.0.0,,,2023-11-10 10:26:41,2023-11-10 10:26:41,0.621s,PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-10 10:26:41,2023-11-10 10:26:43,2.009s,PASSED
+keywordFunctionLogin.FunctionLogin.automationCaptcha(),Chrome 119.0.0.0,,,2023-11-10 10:26:43,2023-11-10 10:26:45,1.355s,PASSED
+"click(findTestObject(""Object Login/btn_login""))",Chrome 119.0.0.0,,,2023-11-10 10:26:45,2023-11-10 10:26:45,0.557s,PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-10 10:26:45,2023-11-10 10:26:47,2.004s,PASSED
+keywordFunctionLogin.FunctionLogin.automationCaptcha(),Chrome 119.0.0.0,,,2023-11-10 10:26:47,2023-11-10 10:26:48,1.344s,PASSED
+"click(findTestObject(""Object Login/btn_login""))",Chrome 119.0.0.0,,,2023-11-10 10:26:48,2023-11-10 10:26:49,0.590s,PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-10 10:26:49,2023-11-10 10:26:51,2.015s,PASSED
+keywordFunctionLogin.FunctionLogin.automationCaptcha(),Chrome 119.0.0.0,,,2023-11-10 10:26:51,2023-11-10 10:26:52,1.341s,PASSED
+"click(findTestObject(""Object Login/btn_login""))",Chrome 119.0.0.0,,,2023-11-10 10:26:52,2023-11-10 10:26:53,0.623s,PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-10 10:26:53,2023-11-10 10:26:55,2.012s,PASSED
+"verifyElementVisible(findTestObject(""Object Login/verify_Unsuccessfully_Login - Too many failed login attempts Please try again in 1 minutes""), STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-10 10:26:55,2023-11-10 10:26:56,0.619s,PASSED
+delay(3),Chrome 119.0.0.0,,,2023-11-10 10:26:56,2023-11-10 10:26:59,3.008s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-10 10:26:59,2023-11-10 10:27:00,1.322s,PASSED

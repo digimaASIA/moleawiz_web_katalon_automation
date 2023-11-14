@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_Icon_Hide_UnHide_Password_Forgot_Password</name>
+   <name>btn_Hide_Change_Password</name>
    <tag></tag>
    <elementGuidId>05a708cf-ae68-41eb-ac55-95054e971d1e</elementGuidId>
    <selectorCollection>

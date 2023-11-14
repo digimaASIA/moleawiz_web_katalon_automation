@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_New_Password_Forgot_Password</name>
+   <name>btn_OK_Change_Password</name>
    <tag></tag>
-   <elementGuidId>065be547-b7d8-486b-b7a5-753e91d7c2ba</elementGuidId>
+   <elementGuidId>abcb9541-af47-4ca1-8624-77278fb62c14</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@placeholder = 'New Password']</value>
+         <value>//*[@name = 'btn-ok-change-password']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,9 +15,9 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>name</name>
       <type>Main</type>
-      <value>New Password</value>
-      <webElementGuid>6a8a0e73-f5a6-40bc-95fe-9d993e3ed884</webElementGuid>
+      <value>btn-ok-change-password</value>
+      <webElementGuid>b2cae29e-6716-4909-9a5f-dce11ade11af</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
