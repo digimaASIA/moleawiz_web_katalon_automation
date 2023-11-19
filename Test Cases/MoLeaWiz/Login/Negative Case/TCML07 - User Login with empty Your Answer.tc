@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TCML07 - User Login with empty Your Answer</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>7410f283-36dc-48ca-bf78-11185c6d716c</testCaseGuid>
-</TestCaseEntity>

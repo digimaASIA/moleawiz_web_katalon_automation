@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCML03 - User Login dengan mengkosongkan semua field mandatory</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3638792b-1669-441e-9163-aaf88be10817</testCaseGuid>
+</TestCaseEntity>

@@ -29,3 +29,18 @@ WebUI.click(findTestObject('Object Program Description/dropdown_list_Course_Inde
 
 WebUI.click(findTestObject('Object Module Description/list_Module_Index_0_Module_Description'))
 
+WebUI.verifyElementPresent(findTestObject('Object Module Description/verify_Successfully_Open_Module_Description - MODULE 1'), 
+    0)
+
+WebUI.verifyElementPresent(findTestObject('Object Module Description/verify_Successfully_Open_Module_Description - Module Type'), 
+    0)
+
+WebUI.verifyElementPresent(findTestObject('Object Module Description/verify_Successfully_Open_Module_Description - Grading Method'), 
+    0)
+
+WebUI.verifyElementPresent(findTestObject('Object Module Description/verify_Successfully_Open_Module_Description - Number of Attempt'), 
+    0)
+
+WebUI.verifyElementPresent(findTestObject('Object Module Description/verify_Successfully_Open_Module_Description - Attempt Limit'), 
+    0)
+

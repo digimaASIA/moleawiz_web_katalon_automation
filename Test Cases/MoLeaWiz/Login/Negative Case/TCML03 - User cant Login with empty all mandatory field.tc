@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TCML03 - User cant Login with empty all mandatory field</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>3638792b-1669-441e-9163-aaf88be10817</testCaseGuid>
-</TestCaseEntity>
