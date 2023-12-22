@@ -9,7 +9,7 @@ Step clone project langsung di katalon
 2. Pada menu bagian kiri klik "Clone Project"
 3. Masukkan kebutuhan url git,
    - URL        : https://github.com/digimaASIA/moleawiz_web_katalon_automation
-   - User       : DigimaHafizh (bisa disesuaikan)
-   - Token      : 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
+   - User       : DigimaHafizh (bisa disesuaikan dengan akun github sendiri)
+   - Token      : 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
 4. Save Auth di ceklis
 5. Klik finish
