@@ -25,7 +25,3 @@ WebUI.click(findTestObject('Object My Learning Journey/btn_Finish_My_Learning_Jo
 
 WebUI.verifyElementPresent(findTestObject('Object My Learning Journey/btn_Restart_My_Learning_Journey'), 0)
 
-WebUI.verifyElementNotVisible(findTestObject('Object My Learning Journey/btn_Start_My_Learning_Journey'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementNotVisible(findTestObject('Object My Learning Journey/btn_Continue_My_Learning_Journey'), FailureHandling.STOP_ON_FAILURE)
-

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMHC08 - User bisa membuka list Help Supervisor dan Reviewer pada halaman Help dam membuka beberapa list collapse help Supervisor dan Reviewer</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eb226150-4cff-49c4-805a-5ffabf73cc79</testCaseGuid>
+</TestCaseEntity>

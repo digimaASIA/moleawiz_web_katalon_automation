@@ -11,9 +11,17 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//*[(text() = 'Team Monitoring' or . = 'Team Monitoring')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Team Monitoring</value>
+      <webElementGuid>ade035d6-ff33-45d9-9755-43ea7ca7ad37</webElementGuid>
+   </webElementProperties>
 </WebElementEntity>

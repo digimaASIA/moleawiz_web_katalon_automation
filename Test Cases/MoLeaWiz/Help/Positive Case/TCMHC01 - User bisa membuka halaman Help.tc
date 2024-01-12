@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMHC01 - User bisa membuka halaman Help</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a552021a-50e7-4cc9-a21b-07d68513acd9</testCaseGuid>
+</TestCaseEntity>

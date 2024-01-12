@@ -11,9 +11,17 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//*[(text() = 'Leaderboards' or . = 'Leaderboards')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Leaderboards</value>
+      <webElementGuid>28bc04f2-f9d7-4ea4-8cfa-31e967c0600f</webElementGuid>
+   </webElementProperties>
 </WebElementEntity>

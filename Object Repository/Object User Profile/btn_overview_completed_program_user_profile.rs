@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_overview_completed_program_user_profile</name>
+   <tag></tag>
+   <elementGuidId>2671f07f-6b78-440d-9eef-227923d69d3b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'btn-overview-completed-program-user-profile' and @data-index = '0']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>btn-overview-completed-program-user-profile</value>
+      <webElementGuid>e9d4ac41-8f0d-4361-91a2-0a69a9d082e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-index</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>a39bb9c0-62b1-4788-a20d-4804e7e76607</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

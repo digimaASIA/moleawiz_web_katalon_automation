@@ -11,9 +11,17 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//*[(text() = 'Reviews' or . = 'Reviews')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Reviews</value>
+      <webElementGuid>3d8cd41e-1e35-401c-8663-8f9745a5b421</webElementGuid>
+   </webElementProperties>
 </WebElementEntity>
