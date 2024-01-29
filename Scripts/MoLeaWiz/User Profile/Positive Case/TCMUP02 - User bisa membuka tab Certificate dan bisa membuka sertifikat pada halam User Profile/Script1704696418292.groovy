@@ -38,3 +38,5 @@ WebUI.click(findTestObject('Object User Profile/btn_view_certificates_user_profi
 
 WebUI.click(findTestObject('Object User Profile/btn_download_certificates_user_profile'))
 
+WebUI.click(findTestObject('Object User Profile/btn_view_close_certificates_user_profile'))
+
