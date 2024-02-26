@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>list_other_help</name>
+   <name>list_profile_help</name>
    <tag></tag>
-   <elementGuidId>0965781c-5dac-4785-9222-e6fd3addebaa</elementGuidId>
+   <elementGuidId>d9befdfc-9c7f-4123-803e-cafa9507c6a0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'list-others-help']</value>
+         <value>//*[@id = 'list-profile-help']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>list-others-help</value>
-      <webElementGuid>0334b393-da68-4fa2-91e5-31f7c5ef0e5d</webElementGuid>
+      <value>list-profile-help</value>
+      <webElementGuid>4aa3fe52-5030-49a2-9b2c-2fce84b20c76</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

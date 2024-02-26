@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMHC12 - User bisa membuka list Help Privacy dan Policy pada halaman Help dan membuka beberapa list collapse help Privecy dan Policy</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>97d6d91e-11bc-4a23-a1ac-c5d52b2d7b4f</testCaseGuid>
+</TestCaseEntity>

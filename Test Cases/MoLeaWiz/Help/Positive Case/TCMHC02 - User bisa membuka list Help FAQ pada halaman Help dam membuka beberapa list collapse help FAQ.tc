@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TCMHC02 - User bisa membuka list Help FAQ pada halaman Help dam membuka beberapa list collapse help FAQ</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>fd64dcbe-792e-473f-bbbb-30b97f86ae89</testCaseGuid>
-</TestCaseEntity>

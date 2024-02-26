@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Scenario Postive Case - Help" time="65.182" tests="12" failures="0" errors="0">
+   <testsuite name="Scenario Postive Case - Help" tests="12" failures="0" errors="0" time="65.182" skipped="0" timestamp="2024-02-26 11:21:29" hostname="User - DESKTOP-9D92447" id="Test Suites/MoLeaWiz/Help Center/Positive Case/Scenario Postive Case - Help">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\User\\git\\moleawiz_web_katalon_automation\\Reports\\20240226_112122\\MoLeaWiz\\Help Center\\Positive Case\\Scenario Postive Case - Help\\20240226_112122"/>
+         <property name="logFiles" value="C:\\Users\\User\\git\\moleawiz_web_katalon_automation\\Reports\\20240226_112122\\MoLeaWiz\\Help Center\\Positive Case\\Scenario Postive Case - Help\\20240226_112122\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - DESKTOP-9D92447"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 122.0.0.0"/>
+         <property name="hostAddress" value="192.168.2.179"/>
+         <property name="sessionId" value="3bb7a57450e4777684f0205960d07377"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/MoLeaWiz/Help/Positive Case/TCMHC01 - User bisa membuka halaman Help" time="9.992" classname="Test Cases/MoLeaWiz/Help/Positive Case/TCMHC01 - User bisa membuka halaman Help" status="PASSED">
+         <system-out><![CDATA[2024-02-26 11:21:30 - [TEST_CASE][PASSED] - Test Cases/MoLeaWiz/Help/Positive Case/TCMHC01 - User bisa membuka halaman Help: Test Cases/MoLeaWiz/Help/Positive Case/TCMHC01 - User bisa membuka halaman Help
+
+2024-02-26 11:21:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Menu/btn_Help_Menu")): Object: 'Object Repository/Object Menu/btn_Help_Menu' is clicked on
+
+2024-02-26 11:21:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Menu/btn_Help_Menu' is clicked on
+
+2024-02-26 11:21:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Menu/verify_Successfully_Open_Help_Menu"), 0): Object 'Object Repository/Object Menu/verify_Successfully_Open_Help_Menu' is present
+
+2024-02-26 11:21:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-02-26 11:21:40 - [MESSAGE][PASSED] - Object 'Object Repository/Object Menu/verify_Successfully_Open_Help_Menu' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MoLeaWiz/Help/Positive Case/TCMHC02 - User bisa membuka list Help FAQ pada halaman Help dan membuka beberapa list collapse help FAQ" time="5.225" classname="Test Cases/MoLeaWiz/Help/Positive Case/TCMHC02 - User bisa membuka list Help FAQ pada halaman Help dan membuka beberapa list collapse help FAQ" status="PASSED">
+         <system-out><![CDATA[2024-02-26 11:21:40 - [TEST_CASE][PASSED] - Test Cases/MoLeaWiz/Help/Positive Case/TCMHC02 - User bisa membuka list Help FAQ pada halaman Help dan membuka beberapa list collapse help FAQ: Test Cases/MoLeaWiz/Help/Positive Case/TCMHC02 - User bisa membuka list Help FAQ pada halaman Help dan membuka beberapa list collapse help FAQ
+
+2024-02-26 11:21:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Menu/btn_Help_Menu")): Object: 'Object Repository/Object Menu/btn_Help_Menu' is clicked on
+
+2024-02-26 11:21:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Menu/btn_Help_Menu' is clicked on
+
+2024-02-26 11:21:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Help/list_faq_help")): Object: 'Object Repository/Object Help/list_faq_help' is clicked on
+
+2024-02-26 11:21:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Help/list_faq_help' is clicked on
+
+2024-02-26 11:21:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Help/list_collapse_help_index_0")): Object: 'Object Repository/Object Help/list_collapse_help_index_0' is clicked on
+
+2024-02-26 11:21:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Help/list_collapse_help_index_0' is clicked on
+
+2024-02-26 11:21:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Help/list_collapse_help_index_1")): Object: 'Object Repository/Object Help/list_collapse_help_index_1' is clicked on
+
+2024-02-26 11:21:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Help/list_collapse_help_index_1' is clicked on
+
+2024-02-26 11:21:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Help/list_collapse_help_index_1")): Object: 'Object Repository/Object Help/list_collapse_help_index_1' is clicked on
+
+2024-02-26 11:21:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Help/list_collapse_help_index_1' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MoLeaWiz/Help/Positive Case/TCMHC03 - User bisa membuka list Help Login pada halaman Help dan membuka beberapa list collapse help Login" time="4.415" classname="Test Cases/MoLeaWiz/Help/Positive Case/TCMHC03 - User bisa membuka list Help Login pada halaman Help dan membuka beberapa list collapse help Login" status="PASSED">
+         <system-out><![CDATA[2024-02-26 11:21:45 - [TEST_CASE][PASSED] - Test Cases/MoLeaWiz/Help/Positive Case/TCMHC03 - User bisa membuka list Help Login pada halaman Help dan membuka beberapa list collapse help Login: Test Cases/MoLeaWiz/Help/Positive Case/TCMHC03 - User bisa membuka list Help Login pada halaman Help dan membuka beberapa list collapse help Login
+
+2024-02-26 11:21:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Menu/btn_Help_Menu")): Object: 'Object Repository/Object Menu/btn_Help_Menu' is clicked on
+
+2024-02-26 11:21:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Menu/btn_Help_Menu' is clicked on
+
+2024-02-26 11:21:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Help/list_login_help")): Object: 'Object Repository/Object Help/list_login_help' is clicked on
+
+2024-02-26 11:21:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Help/list_login_help' is clicked on
+
+2024-02-26 11:21:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Help/list_collapse_help_index_0")): Object: 'Object Repository/Object Help/list_collapse_help_index_0' is clicked on
+
+2024-02-26 11:21:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Help/list_collapse_help_index_0' is clicked on
+
+2024-02-26 11:21:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Help/list_collapse_help_index_1")): Object: 'Object Repository/Object Help/list_collapse_help_index_1' is clicked on
+
+2024-02-26 11:21:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Help/list_collapse_help_index_1' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MoLeaWiz/Help/Positive Case/TCMHC04 - User bisa membuka list Help Profile pada halaman Help dan membuka beberapa list collapse help Profile" time="4.398" classname="Test Cases/MoLeaWiz/Help/Positive Case/TCMHC04 - User bisa membuka list Help Profile pada halaman Help dan membuka beberapa list collapse help Profile" status="PASSED">
+         <system-out><![CDATA[2024-02-26 11:21:50 - [TEST_CASE][PASSED] - Test Cases/MoLeaWiz/Help/Positive Case/TCMHC04 - User bisa membuka list Help Profile pada halaman Help dan membuka beberapa list collapse help Profile: Test Cases/MoLeaWiz/Help/Positive Case/TCMHC04 - User bisa membuka list Help Profile pada halaman Help dan membuka beberapa list collapse help Profile
+
+2024-02-26 11:21:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Menu/btn_Help_Menu")): Object: 'Object Repository/Object Menu/btn_Help_Menu' is clicked on
+
+2024-02-26 11:21:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Menu/btn_Help_Menu' is clicked on
+
+2024-02-26 11:21:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Help/list_profile_help")): Object: 'Object Repository/Object Help/list_profile_help' is clicked on
+
+2024-02-26 11:21:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Help/list_profile_help' is clicked on
+
+2024-02-26 11:21:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Help/list_collapse_help_index_0")): Object: 'Object Repository/Object Help/list_collapse_help_index_0' is clicked on
+
+2024-02-26 11:21:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Help/list_collapse_help_index_0' is clicked on
+
+2024-02-26 11:21:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Help/list_collapse_help_index_1")): Object: 'Object Repository/Object Help/list_collapse_help_index_1' is clicked on
+
+2024-02-26 11:21:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Help/list_collapse_help_index_1' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MoLeaWiz/Help/Positive Case/TCMHC05 - User bisa membuka list Help My Learning Journey pada halaman Help dan membuka beberapa list collapse help My Learning Journey" time="4.515" classname="Test Cases/MoLeaWiz/Help/Positive Case/TCMHC05 - User bisa membuka list Help My Learning Journey pada halaman Help dan membuka beberapa list collapse help My Learning Journey" status="PASSED">
+         <system-out><![CDATA[2024-02-26 11:21:54 - [TEST_CASE][PASSED] - Test Cases/MoLeaWiz/Help/Positive Case/TCMHC05 - User bisa membuka list Help My Learning Journey pada halaman Help dan membuka beberapa list collapse help My Learning Journey: Test Cases/MoLeaWiz/Help/Positive Case/TCMHC05 - User bisa membuka list Help My Learning Journey pada halaman Help dan membuka beberapa list collapse help My Learning Journey
+
+2024-02-26 11:21:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Menu/btn_Help_Menu")): Object: 'Object Repository/Object Menu/btn_Help_Menu' is clicked on
+
+2024-02-26 11:21:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Menu/btn_Help_Menu' is clicked on
+
+2024-02-26 11:21:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Help/list_my_learning_journey_help")): Object: 'Object Repository/Object Help/list_my_learning_journey_help' is clicked on
+
+2024-02-26 11:21:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Help/list_my_learning_journey_help' is clicked on
+
+2024-02-26 11:21:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Help/list_collapse_help_index_0")): Object: 'Object Repository/Object Help/list_collapse_help_index_0' is clicked on
+
+2024-02-26 11:21:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Help/list_collapse_help_index_0' is clicked on
+
+2024-02-26 11:21:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Help/list_collapse_help_index_1")): Object: 'Object Repository/Object Help/list_collapse_help_index_1' is clicked on
+
+2024-02-26 11:21:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Help/list_collapse_help_index_1' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MoLeaWiz/Help/Positive Case/TCMHC06 - User bisa membuka list Help Learning Activity pada halaman Help dan membuka beberapa list collapse help Learning Activity" time="4.416" classname="Test Cases/MoLeaWiz/Help/Positive Case/TCMHC06 - User bisa membuka list Help Learning Activity pada halaman Help dan membuka beberapa list collapse help Learning Activity" status="PASSED">
+         <system-out><![CDATA[2024-02-26 11:21:59 - [TEST_CASE][PASSED] - Test Cases/MoLeaWiz/Help/Positive Case/TCMHC06 - User bisa membuka list Help Learning Activity pada halaman Help dan membuka beberapa list collapse help Learning Activity: Test Cases/MoLeaWiz/Help/Positive Case/TCMHC06 - User bisa membuka list Help Learning Activity pada halaman Help dan membuka beberapa list collapse help Learning Activity
+
+2024-02-26 11:22:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Menu/btn_Help_Menu")): Object: 'Object Repository/Object Menu/btn_Help_Menu' is clicked on
+
+2024-02-26 11:22:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Menu/btn_Help_Menu' is clicked on
+
+2024-02-26 11:22:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Help/list_learning_activity_help")): Object: 'Object Repository/Object Help/list_learning_activity_help' is clicked on
+
+2024-02-26 11:22:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Help/list_learning_activity_help' is clicked on
+
+2024-02-26 11:22:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Help/list_collapse_help_index_0")): Object: 'Object Repository/Object Help/list_collapse_help_index_0' is clicked on
+
+2024-02-26 11:22:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Help/list_collapse_help_index_0' is clicked on
+
+2024-02-26 11:22:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Help/list_collapse_help_index_1")): Object: 'Object Repository/Object Help/list_collapse_help_index_1' is clicked on
+
+2024-02-26 11:22:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Help/list_collapse_help_index_1' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MoLeaWiz/Help/Positive Case/TCMHC07 - User bisa membuka list Help Learning Point pada halaman Help dan membuka beberapa list collapse help Learning Point" time="4.357" classname="Test Cases/MoLeaWiz/Help/Positive Case/TCMHC07 - User bisa membuka list Help Learning Point pada halaman Help dan membuka beberapa list collapse help Learning Point" status="PASSED">
+         <system-out><![CDATA[2024-02-26 11:22:03 - [TEST_CASE][PASSED] - Test Cases/MoLeaWiz/Help/Positive Case/TCMHC07 - User bisa membuka list Help Learning Point pada halaman Help dan membuka beberapa list collapse help Learning Point: Test Cases/MoLeaWiz/Help/Positive Case/TCMHC07 - User bisa membuka list Help Learning Point pada halaman Help dan membuka beberapa list collapse help Learning Point
+
+2024-02-26 11:22:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Menu/btn_Help_Menu")): Object: 'Object Repository/Object Menu/btn_Help_Menu' is clicked on
+
+2024-02-26 11:22:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Menu/btn_Help_Menu' is clicked on
+
+2024-02-26 11:22:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Help/list_learning_point_help")): Object: 'Object Repository/Object Help/list_learning_point_help' is clicked on
+
+2024-02-26 11:22:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Help/list_learning_point_help' is clicked on
+
+2024-02-26 11:22:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Help/list_collapse_help_index_0")): Object: 'Object Repository/Object Help/list_collapse_help_index_0' is clicked on
+
+2024-02-26 11:22:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Help/list_collapse_help_index_0' is clicked on
+
+2024-02-26 11:22:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Help/list_collapse_help_index_1")): Object: 'Object Repository/Object Help/list_collapse_help_index_1' is clicked on
+
+2024-02-26 11:22:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Help/list_collapse_help_index_1' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MoLeaWiz/Help/Positive Case/TCMHC09 - User bisa membuka list Help Account Data dan Security pada halaman Help dan membuka beberapa list collapse help Account Data dan Security" time="5.302" classname="Test Cases/MoLeaWiz/Help/Positive Case/TCMHC09 - User bisa membuka list Help Account Data dan Security pada halaman Help dan membuka beberapa list collapse help Account Data dan Security" status="PASSED">
+         <system-out><![CDATA[2024-02-26 11:22:08 - [TEST_CASE][PASSED] - Test Cases/MoLeaWiz/Help/Positive Case/TCMHC09 - User bisa membuka list Help Account Data dan Security pada halaman Help dan membuka beberapa list collapse help Account Data dan Security: Test Cases/MoLeaWiz/Help/Positive Case/TCMHC09 - User bisa membuka list Help Account Data dan Security pada halaman Help dan membuka beberapa list collapse help Account Data dan Security
+
+2024-02-26 11:22:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Menu/btn_Help_Menu")): Object: 'Object Repository/Object Menu/btn_Help_Menu' is clicked on
+
+2024-02-26 11:22:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Menu/btn_Help_Menu' is clicked on
+
+2024-02-26 11:22:10 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Help/list_account_data_security_help"), 0): Scroll to object 'Object Repository/Object Help/list_account_data_security_help' successfully
+
+2024-02-26 11:22:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-02-26 11:22:10 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Object Help/list_account_data_security_help' successfully
+
+2024-02-26 11:22:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Help/list_account_data_security_help")): Object: 'Object Repository/Object Help/list_account_data_security_help' is clicked on
+
+2024-02-26 11:22:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Help/list_account_data_security_help' is clicked on
+
+2024-02-26 11:22:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Help/list_collapse_help_index_0")): Object: 'Object Repository/Object Help/list_collapse_help_index_0' is clicked on
+
+2024-02-26 11:22:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Help/list_collapse_help_index_0' is clicked on
+
+2024-02-26 11:22:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Help/list_collapse_help_index_1")): Object: 'Object Repository/Object Help/list_collapse_help_index_1' is clicked on
+
+2024-02-26 11:22:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Help/list_collapse_help_index_1' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MoLeaWiz/Help/Positive Case/TCMHC10 - User bisa membuka list Help Other pada halaman Help dan membuka beberapa list collapse help Other" time="4.37" classname="Test Cases/MoLeaWiz/Help/Positive Case/TCMHC10 - User bisa membuka list Help Other pada halaman Help dan membuka beberapa list collapse help Other" status="PASSED">
+         <system-out><![CDATA[2024-02-26 11:22:13 - [TEST_CASE][PASSED] - Test Cases/MoLeaWiz/Help/Positive Case/TCMHC10 - User bisa membuka list Help Other pada halaman Help dan membuka beberapa list collapse help Other: Test Cases/MoLeaWiz/Help/Positive Case/TCMHC10 - User bisa membuka list Help Other pada halaman Help dan membuka beberapa list collapse help Other
+
+2024-02-26 11:22:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Menu/btn_Help_Menu")): Object: 'Object Repository/Object Menu/btn_Help_Menu' is clicked on
+
+2024-02-26 11:22:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Menu/btn_Help_Menu' is clicked on
+
+2024-02-26 11:22:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Help/list_other_help")): Object: 'Object Repository/Object Help/list_other_help' is clicked on
+
+2024-02-26 11:22:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Help/list_other_help' is clicked on
+
+2024-02-26 11:22:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Help/list_collapse_help_index_0")): Object: 'Object Repository/Object Help/list_collapse_help_index_0' is clicked on
+
+2024-02-26 11:22:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Help/list_collapse_help_index_0' is clicked on
+
+2024-02-26 11:22:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Help/list_collapse_help_index_1")): Object: 'Object Repository/Object Help/list_collapse_help_index_1' is clicked on
+
+2024-02-26 11:22:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Help/list_collapse_help_index_1' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MoLeaWiz/Help/Positive Case/TCMHC11 - User bisa membuka list Help Terms of Service pada halaman Help dan membuka beberapa list collapse help Terms of Service" time="5.009" classname="Test Cases/MoLeaWiz/Help/Positive Case/TCMHC11 - User bisa membuka list Help Terms of Service pada halaman Help dan membuka beberapa list collapse help Terms of Service" status="PASSED">
+         <system-out><![CDATA[2024-02-26 11:22:17 - [TEST_CASE][PASSED] - Test Cases/MoLeaWiz/Help/Positive Case/TCMHC11 - User bisa membuka list Help Terms of Service pada halaman Help dan membuka beberapa list collapse help Terms of Service: Test Cases/MoLeaWiz/Help/Positive Case/TCMHC11 - User bisa membuka list Help Terms of Service pada halaman Help dan membuka beberapa list collapse help Terms of Service
+
+2024-02-26 11:22:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Menu/btn_Help_Menu")): Object: 'Object Repository/Object Menu/btn_Help_Menu' is clicked on
+
+2024-02-26 11:22:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Menu/btn_Help_Menu' is clicked on
+
+2024-02-26 11:22:19 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Help/list_term_of_service_help"), 0): Scroll to object 'Object Repository/Object Help/list_term_of_service_help' successfully
+
+2024-02-26 11:22:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-02-26 11:22:20 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Object Help/list_term_of_service_help' successfully
+
+2024-02-26 11:22:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Help/list_term_of_service_help")): Object: 'Object Repository/Object Help/list_term_of_service_help' is clicked on
+
+2024-02-26 11:22:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Help/list_term_of_service_help' is clicked on
+
+2024-02-26 11:22:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Help/list_collapse_help_index_0")): Object: 'Object Repository/Object Help/list_collapse_help_index_0' is clicked on
+
+2024-02-26 11:22:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Help/list_collapse_help_index_0' is clicked on
+
+2024-02-26 11:22:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Help/list_collapse_help_index_1")): Object: 'Object Repository/Object Help/list_collapse_help_index_1' is clicked on
+
+2024-02-26 11:22:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Help/list_collapse_help_index_1' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MoLeaWiz/Help/Positive Case/TCMHC12 - User bisa membuka list Help Privacy dan Policy pada halaman Help dan membuka beberapa list collapse help Privecy dan Policy" time="5.064" classname="Test Cases/MoLeaWiz/Help/Positive Case/TCMHC12 - User bisa membuka list Help Privacy dan Policy pada halaman Help dan membuka beberapa list collapse help Privecy dan Policy" status="PASSED">
+         <system-out><![CDATA[2024-02-26 11:22:22 - [TEST_CASE][PASSED] - Test Cases/MoLeaWiz/Help/Positive Case/TCMHC12 - User bisa membuka list Help Privacy dan Policy pada halaman Help dan membuka beberapa list collapse help Privecy dan Policy: Test Cases/MoLeaWiz/Help/Positive Case/TCMHC12 - User bisa membuka list Help Privacy dan Policy pada halaman Help dan membuka beberapa list collapse help Privecy dan Policy
+
+2024-02-26 11:22:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Menu/btn_Help_Menu")): Object: 'Object Repository/Object Menu/btn_Help_Menu' is clicked on
+
+2024-02-26 11:22:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Menu/btn_Help_Menu' is clicked on
+
+2024-02-26 11:22:24 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Help/list_privacy_policy_help"), 0): Scroll to object 'Object Repository/Object Help/list_privacy_policy_help' successfully
+
+2024-02-26 11:22:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-02-26 11:22:25 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Object Help/list_privacy_policy_help' successfully
+
+2024-02-26 11:22:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Help/list_privacy_policy_help")): Object: 'Object Repository/Object Help/list_privacy_policy_help' is clicked on
+
+2024-02-26 11:22:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Help/list_privacy_policy_help' is clicked on
+
+2024-02-26 11:22:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Help/list_collapse_help_index_0")): Object: 'Object Repository/Object Help/list_collapse_help_index_0' is clicked on
+
+2024-02-26 11:22:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Help/list_collapse_help_index_0' is clicked on
+
+2024-02-26 11:22:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Help/list_collapse_help_index_1")): Object: 'Object Repository/Object Help/list_collapse_help_index_1' is clicked on
+
+2024-02-26 11:22:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Help/list_collapse_help_index_1' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MoLeaWiz/Help/Positive Case/TCMHC13 - User bisa membuka halaman Email MoLeaWiz" time="6.872" classname="Test Cases/MoLeaWiz/Help/Positive Case/TCMHC13 - User bisa membuka halaman Email MoLeaWiz" status="PASSED">
+         <system-out><![CDATA[2024-02-26 11:22:28 - [TEST_CASE][PASSED] - Test Cases/MoLeaWiz/Help/Positive Case/TCMHC13 - User bisa membuka halaman Email MoLeaWiz: Test Cases/MoLeaWiz/Help/Positive Case/TCMHC13 - User bisa membuka halaman Email MoLeaWiz
+
+2024-02-26 11:22:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Menu/btn_Help_Menu")): Object: 'Object Repository/Object Menu/btn_Help_Menu' is clicked on
+
+2024-02-26 11:22:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Menu/btn_Help_Menu' is clicked on
+
+2024-02-26 11:22:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Help/link_help_moleawiz")): Object: 'Object Repository/Object Help/link_help_moleawiz' is clicked on
+
+2024-02-26 11:22:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Help/link_help_moleawiz' is clicked on
+
+2024-02-26 11:22:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Help/list_collapse_help_index_0")): Object: 'Object Repository/Object Help/list_collapse_help_index_0' is clicked on
+
+2024-02-26 11:22:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Help/list_collapse_help_index_0' is clicked on
+
+2024-02-26 11:22:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Help/list_collapse_help_index_1")): Object: 'Object Repository/Object Help/list_collapse_help_index_1' is clicked on
+
+2024-02-26 11:22:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Help/list_collapse_help_index_1' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-02-26 11:21:29 - [TEST_SUITE][PASSED] - Scenario Postive Case - Help: Test Cases/MoLeaWiz/Help/Positive Case/TCMHC13 - User bisa membuka halaman Email MoLeaWiz]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

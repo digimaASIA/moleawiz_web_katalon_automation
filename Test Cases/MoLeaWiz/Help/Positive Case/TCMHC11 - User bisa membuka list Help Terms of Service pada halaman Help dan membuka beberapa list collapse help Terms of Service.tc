@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMHC11 - User bisa membuka list Help Terms of Service pada halaman Help dan membuka beberapa list collapse help Terms of Service</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>52186f05-255a-4a61-a68a-15380970a070</testCaseGuid>
+</TestCaseEntity>

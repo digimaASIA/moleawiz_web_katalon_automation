@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMHC10 - User bisa membuka list Help Other pada halaman Help dan membuka beberapa list collapse help Other</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fe7d381e-799b-454e-992b-63169b8dcac0</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMHC03 - User bisa membuka list Help Login pada halaman Help dan membuka beberapa list collapse help Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f74dee85-25d9-4daf-b66c-0ce7653cc300</testCaseGuid>
+</TestCaseEntity>
