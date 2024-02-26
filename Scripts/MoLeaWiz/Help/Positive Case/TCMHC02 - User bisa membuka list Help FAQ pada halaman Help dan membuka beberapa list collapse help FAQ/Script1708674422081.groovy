@@ -23,7 +23,25 @@ WebUI.click(findTestObject('Object Help/list_faq_help'))
 
 WebUI.click(findTestObject('Object Help/list_collapse_help_index_0'))
 
-WebUI.click(findTestObject('Object Help/list_collapse_help_index_1'))
+WebUI.verifyElementPresent(findTestObject('Object Help/list_collapse_help_index_0 - FAQ Description'), 0)
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Help/list_collapse_help_index_0'))
 
 WebUI.click(findTestObject('Object Help/list_collapse_help_index_1'))
+
+WebUI.verifyElementPresent(findTestObject('Object Help/list_collapse_help_index_1 - FAQ Description'), 0)
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Help/list_collapse_help_index_1'))
+
+WebUI.click(findTestObject('Object Help/list_collapse_help_index_2'))
+
+WebUI.verifyElementVisible(findTestObject('Object Help/list_collapse_help_index_2 - FAQ Description'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Help/list_collapse_help_index_2'))
 
