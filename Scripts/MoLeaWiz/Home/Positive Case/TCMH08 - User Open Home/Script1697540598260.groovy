@@ -19,5 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Object Menu/btn_Home_Menu'))
 
-WebUI.verifyElementPresent(findTestObject('Object Login/verify_Successfully_Login'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Login/verify_Successfully_Login - Dropdown user profile'), 0)
 

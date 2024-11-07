@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.base_url)
+WebUI.openBrowser(GlobalVariable.base_url_staging)
 
 WebUI.setText(findTestObject('Object Login/input_Username_Login'), GlobalVariable.invalidUsername)
 
@@ -25,7 +25,7 @@ WebUI.setText(findTestObject('Object Login/input_Password_Login'), GlobalVariabl
 
 WebUI.comment('function captcha your answer')
 
-CustomKeywords.'keywordFunctionLogin.FunctionLogin.automationCaptcha'()
+CustomKeywords.'keyword_FunctionCaptchaLogin.FunctionLogin.automationCaptcha'()
 
 WebUI.click(findTestObject('Object Login/btn_login'))
 

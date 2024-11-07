@@ -23,5 +23,5 @@ WebUI.click(findTestObject('Object Menu/btn_Home_Menu'))
 
 WebUI.click(findTestObject('Object Menu/btn_Collapse_Menu'))
 
-WebUI.verifyElementPresent(findTestObject('Object Login/verify_Successfully_Login'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Login/verify_Successfully_Login - Dropdown user profile'), 0)
 

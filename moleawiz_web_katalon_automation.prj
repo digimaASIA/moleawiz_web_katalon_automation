@@ -4,7 +4,10 @@
    <name>moleawiz_web_katalon_automation</name>
    <tag></tag>
    <UUID>2ed8d94a-72c7-4d8d-a3f7-f6a034540001</UUID>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
+   <modifiedEdition>FREE</modifiedEdition>
+   <modifiedVersion>10.0.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
    <projectFileLocation>C:\Users\Hafizh Abdillah\git\moleawiz_web_katalon_automation\moleawiz_web_katalon_automation.prj</projectFileLocation>
    <sourceContent>

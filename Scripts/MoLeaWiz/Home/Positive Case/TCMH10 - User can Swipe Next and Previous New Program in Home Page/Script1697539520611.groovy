@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.base_url)
+WebUI.openBrowser(GlobalVariable.base_url_staging)
 
 WebUI.scrollToElement(findTestObject('Object Home/btn_swiper_Next_Ongoing_Course_Home'), 0)
 

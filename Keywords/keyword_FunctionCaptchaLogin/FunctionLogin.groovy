@@ -1,4 +1,4 @@
-package keywordFunctionLogin
+package keyword_FunctionCaptchaLogin
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -68,9 +68,9 @@ class FunctionLogin {
 	 */
 	@Keyword
 	def automationLogin() {
-		WebUI.openBrowser(GlobalVariable.base_url)
+		WebUI.openBrowser(GlobalVariable.base_url_staging)
 		WebUI.setText(findTestObject('Object Login/input_Username_Login'), GlobalVariable.usernameMoLeaWiz)
-		WebUI.setText(findTestObject('Object Login/input_Password_Login'), GlobalVariable.passwordMoLeaWiz)
+		WebUI.setText(findTestObject('Object Login/input_Password_Login'), GlobalVariable.passwordGeneral)
 		WebUI.comment('function captcha your answer')
 		def captcha1 = WebUI.getText(findTestObject('Object Login/captcha_Num1_Login'))
 		def intCaptcha1 = captcha1.toInteger()

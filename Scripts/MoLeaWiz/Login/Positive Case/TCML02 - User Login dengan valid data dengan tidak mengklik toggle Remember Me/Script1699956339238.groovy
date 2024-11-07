@@ -17,29 +17,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.base_url)
+WebUI.openBrowser(GlobalVariable.base_url_staging)
 
-WebUI.setText(findTestObject('Object Login/input_Username_Login'), 'testerdigima@digimasia.com')
+WebUI.setText(findTestObject('Object Login/input_Username_Login'), GlobalVariable.usernameGeneral)
 
-WebUI.setText(findTestObject('Object Login/input_Password_Login'), '12345')
+WebUI.setText(findTestObject('Object Login/input_Password_Login'), GlobalVariable.passwordGeneral)
 
 WebUI.comment('function captcha your answer')
 
-CustomKeywords.'keywordFunctionLogin.FunctionLogin.automationCaptcha'()
+CustomKeywords.'keyword_FunctionCaptchaLogin.FunctionLogin.automationCaptcha'()
 
 WebUI.click(findTestObject('Object Login/btn_login'))
 
-WebUI.verifyElementVisible(findTestObject('Object Login/verify_Successfully_Login'))
+WebUI.verifyElementVisible(findTestObject('Object Login/verify_Successfully_Login - Dropdown user profile'))
+
+WebUI.verifyElementVisible(findTestObject('Object Login/verify_Successfully_Login - Logo moleawiz web'))
 
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Login/dropdown_User_Profile'))
 
-WebUI.click(findTestObject('Object Home/btn_logout_User_Profile'))
+WebUI.click(findTestObject('Object User Profile/btn_Logout_User_Profile'))
 
 WebUI.click(findTestObject('Object Home/btn_Yes_Logout_Home'))
 
-WebUI.delay(3)
+WebUI.delay(2)
 
 WebUI.closeBrowser()
 

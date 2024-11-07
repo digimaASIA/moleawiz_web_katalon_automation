@@ -4,5 +4,6 @@
    <name>TCML02 - User Login dengan valid data dengan tidak mengklik toggle Remember Me</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>7c73ca8d-2600-4d3d-9bb0-5ae66acdcc95</testCaseGuid>
 </TestCaseEntity>

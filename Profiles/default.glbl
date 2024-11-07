@@ -6,8 +6,8 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://moleawiz-web-dev.digimasia.com'</initValue>
-      <name>base_url</name>
+      <initValue>'https://moleawiz-web-staging.digimasia.com/'</initValue>
+      <name>base_url_staging</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -22,22 +22,22 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'testerhafizh@gmail.com'</initValue>
-      <name>usernameTesterHafizh</name>
+      <name>usernameDummy1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'12345'</initValue>
-      <name>passwordTesterHafizh</name>
+      <name>passwordDummy1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'testerdigima@digimasia.com'</initValue>
-      <name>usernameMoLeaWiz</name>
+      <initValue>'testingdigima@digimasia.com'</initValue>
+      <name>usernameGeneral</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'12345'</initValue>
-      <name>passwordMoLeaWiz</name>
+      <name>passwordGeneral</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
