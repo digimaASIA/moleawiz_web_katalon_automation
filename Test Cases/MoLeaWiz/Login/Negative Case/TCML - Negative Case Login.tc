@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TCML07 - User Login dengan mengkosongkan field Your Answer</name>
+   <name>TCML - Negative Case Login</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>7410f283-36dc-48ca-bf78-11185c6d716c</testCaseGuid>
+   <testCaseGuid>2eaba737-90db-4192-b375-c8810b52b038</testCaseGuid>
 </TestCaseEntity>

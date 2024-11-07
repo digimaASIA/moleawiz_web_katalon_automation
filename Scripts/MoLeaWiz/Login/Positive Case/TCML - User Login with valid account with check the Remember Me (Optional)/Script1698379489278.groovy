@@ -25,7 +25,7 @@ WebUI.setText(findTestObject('Object Login/input_Password_Login'), GlobalVariabl
 
 WebUI.comment('function captcha your answer')
 
-CustomKeywords.'keyword_FunctionCaptchaLogin.FunctionLogin.automationCaptcha'()
+CustomKeywords.'keyword_FunctionLogin.CapchaLogin.automationCaptcha'()
 
 WebUI.click(findTestObject('Object Login/checkbox_Remember_Me_Login'))
 

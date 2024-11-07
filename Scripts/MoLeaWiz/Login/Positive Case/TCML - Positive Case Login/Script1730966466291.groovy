@@ -19,9 +19,35 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.base_url_staging)
 
-WebUI.setText(findTestObject('Object Login/input_Username_Login'), GlobalVariable.invalidUsername)
+WebUI.setText(findTestObject('Object Login/input_Username_Login'), GlobalVariable.usernameGeneral)
 
-WebUI.setText(findTestObject('Object Login/input_Password_Login'), GlobalVariable.invalidPassword)
+WebUI.setText(findTestObject('Object Login/input_Password_Login'), GlobalVariable.passwordGeneral)
+
+WebUI.comment('function captcha your answer')
+
+CustomKeywords.'keyword_FunctionLogin.CapchaLogin.automationCaptcha'()
+
+WebUI.click(findTestObject('Object Login/checkbox_Remember_Me_Login'))
+
+WebUI.click(findTestObject('Object Login/btn_login'))
+
+WebUI.delay(3)
+
+WebUI.verifyElementPresent(findTestObject('Object Login/verify_Successfully_Login - Dropdown user profile'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Object Login/verify_Successfully_Login - Logo moleawiz web'), 0)
+
+WebUI.click(findTestObject('Object Login/dropdown_User_Profile'))
+
+WebUI.click(findTestObject('Object User Profile/btn_Logout_User_Profile'))
+
+WebUI.click(findTestObject('Object Home/btn_Yes_Logout_Home'))
+
+WebUI.verifyElementPresent(findTestObject('Object Login/verify_Successfully_Login - Remember Me Username'), 0)
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('Object Login/input_Password_Login'), GlobalVariable.passwordGeneral)
 
 WebUI.comment('function captcha your answer')
 
@@ -29,30 +55,19 @@ CustomKeywords.'keyword_FunctionLogin.CapchaLogin.automationCaptcha'()
 
 WebUI.click(findTestObject('Object Login/btn_login'))
 
-WebUI.delay(2)
+WebUI.verifyElementVisible(findTestObject('Object Login/verify_Successfully_Login - Dropdown user profile'))
 
-CustomKeywords.'keyword_FunctionLogin.CapchaLogin.automationCaptcha'()
-
-WebUI.click(findTestObject('Object Login/btn_login'))
-
-WebUI.delay(2)
-
-CustomKeywords.'keyword_FunctionLogin.CapchaLogin.automationCaptcha'()
-
-WebUI.click(findTestObject('Object Login/btn_login'))
-
-WebUI.delay(2)
-
-CustomKeywords.'keyword_FunctionLogin.CapchaLogin.automationCaptcha'()
-
-WebUI.click(findTestObject('Object Login/btn_login'))
-
-WebUI.delay(2)
-
-WebUI.verifyElementVisible(findTestObject('Object Login/verify_Unsuccessfully_Login - Too many failed login attempts Please try again in 1 minutes'), 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('Object Login/verify_Successfully_Login - Logo moleawiz web'))
 
 WebUI.delay(3)
+
+WebUI.click(findTestObject('Object Login/dropdown_User_Profile'))
+
+WebUI.click(findTestObject('Object User Profile/btn_Logout_User_Profile'))
+
+WebUI.click(findTestObject('Object Home/btn_Yes_Logout_Home'))
+
+WebUI.delay(2)
 
 WebUI.closeBrowser()
 

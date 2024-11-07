@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.base_url_staging)
 
-WebUI.setText(findTestObject('Object Login/input_Username_Login'), GlobalVariable.usernameMoLeaWiz)
+WebUI.setText(findTestObject('Object Login/input_Username_Login'), GlobalVariable.usernameGeneral)
 
 WebUI.click(findTestObject('Object Login/btn_login'))
 

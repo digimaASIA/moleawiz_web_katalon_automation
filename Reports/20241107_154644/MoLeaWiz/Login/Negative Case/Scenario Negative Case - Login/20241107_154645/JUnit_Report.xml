@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Scenario Negative Case - Login" time="45.094" tests="1" failures="0" errors="0">
+   <testsuite name="Scenario Negative Case - Login" tests="1" failures="0" errors="0" time="45.094" skipped="0" timestamp="07-11-2024T15:46:48" hostname="Hafizh Abdillah - DESKTOP-JE6N759" id="Test Suites/MoLeaWiz/Login/Negative Case/Scenario Negative Case - Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Hafizh Abdillah\\git\\moleawiz_web_katalon_automation\\Reports\\20241107_154644\\MoLeaWiz\\Login\\Negative Case\\Scenario Negative Case - Login\\20241107_154645"/>
+         <property name="logFiles" value="C:\\Users\\Hafizh Abdillah\\git\\moleawiz_web_katalon_automation\\Reports\\20241107_154644\\MoLeaWiz\\Login\\Negative Case\\Scenario Negative Case - Login\\20241107_154645\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Hafizh Abdillah - DESKTOP-JE6N759"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.0.0.223"/>
+         <property name="browser" value="Chrome 130.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="47096e267f26a1a79445f9bf09cbd50f"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/MoLeaWiz/Login/Negative Case/TCML - Negative Case Login" time="44.952" classname="Test Cases/MoLeaWiz/Login/Negative Case/TCML - Negative Case Login" status="PASSED">
+         <system-out><![CDATA[07-11-2024T15:46:48 - [TEST_CASE][PASSED] - Test Cases/MoLeaWiz/Login/Negative Case/TCML - Negative Case Login: Test Cases/MoLeaWiz/Login/Negative Case/TCML - Negative Case Login
+
+07-11-2024T15:46:48 - [TEST_STEP][PASSED] - openBrowser(base_url_staging): Browser is opened with url: 'https://moleawiz-web-staging.digimasia.com/'
+
+07-11-2024T15:46:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+07-11-2024T15:46:48 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1366,768]']
+
+07-11-2024T15:46:49 - [MESSAGE][INFO] - Action delay is set to 50 milliseconds
+
+07-11-2024T15:46:52 - [MESSAGE][PASSED] - Browser is opened with url: 'https://moleawiz-web-staging.digimasia.com/'
+
+07-11-2024T15:46:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Login/btn_login")): Object: 'Object Repository/Object Login/btn_login' is clicked on
+
+07-11-2024T15:46:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Login/btn_login' is clicked on
+
+07-11-2024T15:46:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Login/verify_Unsuccessfully_Login - Please fill your username, password, and answer"), STOP_ON_FAILURE): Object 'Object Repository/Object Login/verify_Unsuccessfully_Login - Please fill your username, password, and answer' is visible
+
+07-11-2024T15:46:53 - [MESSAGE][PASSED] - Object 'Object Repository/Object Login/verify_Unsuccessfully_Login - Please fill your username, password, and answer' is visible
+
+07-11-2024T15:46:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+07-11-2024T15:46:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+07-11-2024T15:46:56 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+07-11-2024T15:46:56 - [MESSAGE][PASSED] - Refresh successfully
+
+07-11-2024T15:46:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Login/input_Username_Login"), usernameGeneral): Text 'testingdigima@digimasia.com' is set on object 'Object Repository/Object Login/input_Username_Login'
+
+07-11-2024T15:46:57 - [MESSAGE][PASSED] - Text 'testingdigima@digimasia.com' is set on object 'Object Repository/Object Login/input_Username_Login'
+
+07-11-2024T15:46:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Login/btn_login")): Object: 'Object Repository/Object Login/btn_login' is clicked on
+
+07-11-2024T15:46:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Login/btn_login' is clicked on
+
+07-11-2024T15:46:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Login/verify_Unsuccessfully_Login - Please fill your password and answer"), STOP_ON_FAILURE): Object 'Object Repository/Object Login/verify_Unsuccessfully_Login - Please fill your password and answer' is visible
+
+07-11-2024T15:46:58 - [MESSAGE][PASSED] - Object 'Object Repository/Object Login/verify_Unsuccessfully_Login - Please fill your password and answer' is visible
+
+07-11-2024T15:46:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+07-11-2024T15:47:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+07-11-2024T15:47:01 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+07-11-2024T15:47:01 - [MESSAGE][PASSED] - Refresh successfully
+
+07-11-2024T15:47:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Login/input_Username_Login"), invalidUsername): Text 'test123' is set on object 'Object Repository/Object Login/input_Username_Login'
+
+07-11-2024T15:47:02 - [MESSAGE][PASSED] - Text 'test123' is set on object 'Object Repository/Object Login/input_Username_Login'
+
+07-11-2024T15:47:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Login/input_Password_Login"), invalidPassword): Text '123' is set on object 'Object Repository/Object Login/input_Password_Login'
+
+07-11-2024T15:47:03 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Object Login/input_Password_Login'
+
+07-11-2024T15:47:03 - [TEST_STEP][PASSED] - comment("function captcha your answer"): function captcha your answer
+
+07-11-2024T15:47:03 - [MESSAGE][INFO] - function captcha your answer
+
+07-11-2024T15:47:03 - [TEST_STEP][PASSED] - keyword_FunctionLogin.CapchaLogin.automationCaptcha(): keyword_FunctionLogin.CapchaLogin.automationCaptcha is PASSED
+
+07-11-2024T15:47:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/Object Login/captcha_Num1_Login' is: '4'
+
+07-11-2024T15:47:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/Object Login/captcha_Num2_Login' is: '8'
+
+07-11-2024T15:47:03 - [MESSAGE][PASSED] - Keys '12' sent to object: 'Object Repository/Object Login/input_Captcha_Your_Answer_Login'
+
+07-11-2024T15:47:03 - [MESSAGE][PASSED] - keyword_FunctionLogin.CapchaLogin.automationCaptcha is PASSED
+
+07-11-2024T15:47:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Login/btn_login")): Object: 'Object Repository/Object Login/btn_login' is clicked on
+
+07-11-2024T15:47:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Login/btn_login' is clicked on
+
+07-11-2024T15:47:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Login/verify_Unsuccessfully_Login - Invalid login credentials Please try again"), STOP_ON_FAILURE): Object 'Object Repository/Object Login/verify_Unsuccessfully_Login - Invalid login credentials Please try again' is visible
+
+07-11-2024T15:47:05 - [MESSAGE][PASSED] - Object 'Object Repository/Object Login/verify_Unsuccessfully_Login - Invalid login credentials Please try again' is visible
+
+07-11-2024T15:47:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+07-11-2024T15:47:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+07-11-2024T15:47:08 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+07-11-2024T15:47:08 - [MESSAGE][PASSED] - Refresh successfully
+
+07-11-2024T15:47:08 - [TEST_STEP][PASSED] - comment("function captcha your answer"): function captcha your answer
+
+07-11-2024T15:47:08 - [MESSAGE][INFO] - function captcha your answer
+
+07-11-2024T15:47:08 - [TEST_STEP][PASSED] - keyword_FunctionLogin.CapchaLogin.automationCaptcha(): keyword_FunctionLogin.CapchaLogin.automationCaptcha is PASSED
+
+07-11-2024T15:47:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/Object Login/captcha_Num1_Login' is: '7'
+
+07-11-2024T15:47:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/Object Login/captcha_Num2_Login' is: '13'
+
+07-11-2024T15:47:09 - [MESSAGE][PASSED] - Keys '20' sent to object: 'Object Repository/Object Login/input_Captcha_Your_Answer_Login'
+
+07-11-2024T15:47:09 - [MESSAGE][PASSED] - keyword_FunctionLogin.CapchaLogin.automationCaptcha is PASSED
+
+07-11-2024T15:47:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Login/btn_login")): Object: 'Object Repository/Object Login/btn_login' is clicked on
+
+07-11-2024T15:47:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Login/btn_login' is clicked on
+
+07-11-2024T15:47:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Login/verify_Unsuccessfully_Login - Please fill your username and password"), 0): Object 'Object Repository/Object Login/verify_Unsuccessfully_Login - Please fill your username and password' is present
+
+07-11-2024T15:47:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+07-11-2024T15:47:10 - [MESSAGE][PASSED] - Object 'Object Repository/Object Login/verify_Unsuccessfully_Login - Please fill your username and password' is present
+
+07-11-2024T15:47:10 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+07-11-2024T15:47:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+07-11-2024T15:47:13 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+07-11-2024T15:47:13 - [MESSAGE][PASSED] - Refresh successfully
+
+07-11-2024T15:47:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Login/input_Username_Login"), usernameGeneral): Text 'testingdigima@digimasia.com' is set on object 'Object Repository/Object Login/input_Username_Login'
+
+07-11-2024T15:47:14 - [MESSAGE][PASSED] - Text 'testingdigima@digimasia.com' is set on object 'Object Repository/Object Login/input_Username_Login'
+
+07-11-2024T15:47:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Login/input_Password_Login"), passwordGeneral): Text '12345' is set on object 'Object Repository/Object Login/input_Password_Login'
+
+07-11-2024T15:47:15 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Object Login/input_Password_Login'
+
+07-11-2024T15:47:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Login/btn_login")): Object: 'Object Repository/Object Login/btn_login' is clicked on
+
+07-11-2024T15:47:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Login/btn_login' is clicked on
+
+07-11-2024T15:47:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Login/verify_Unsuccessfully_Login - Please fill your answer"), 0): Object 'Object Repository/Object Login/verify_Unsuccessfully_Login - Please fill your answer' is present
+
+07-11-2024T15:47:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+07-11-2024T15:47:15 - [MESSAGE][PASSED] - Object 'Object Repository/Object Login/verify_Unsuccessfully_Login - Please fill your answer' is present
+
+07-11-2024T15:47:15 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+07-11-2024T15:47:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+07-11-2024T15:47:18 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+07-11-2024T15:47:19 - [MESSAGE][PASSED] - Refresh successfully
+
+07-11-2024T15:47:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Login/input_Username_Login"), invalidUsername): Text 'test123' is set on object 'Object Repository/Object Login/input_Username_Login'
+
+07-11-2024T15:47:19 - [MESSAGE][PASSED] - Text 'test123' is set on object 'Object Repository/Object Login/input_Username_Login'
+
+07-11-2024T15:47:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Login/input_Password_Login"), invalidPassword): Text '123' is set on object 'Object Repository/Object Login/input_Password_Login'
+
+07-11-2024T15:47:20 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Object Login/input_Password_Login'
+
+07-11-2024T15:47:20 - [TEST_STEP][PASSED] - comment("function captcha your answer"): function captcha your answer
+
+07-11-2024T15:47:20 - [MESSAGE][INFO] - function captcha your answer
+
+07-11-2024T15:47:20 - [TEST_STEP][PASSED] - keyword_FunctionLogin.CapchaLogin.automationCaptcha(): keyword_FunctionLogin.CapchaLogin.automationCaptcha is PASSED
+
+07-11-2024T15:47:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/Object Login/captcha_Num1_Login' is: '14'
+
+07-11-2024T15:47:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/Object Login/captcha_Num2_Login' is: '2'
+
+07-11-2024T15:47:21 - [MESSAGE][PASSED] - Keys '16' sent to object: 'Object Repository/Object Login/input_Captcha_Your_Answer_Login'
+
+07-11-2024T15:47:21 - [MESSAGE][PASSED] - keyword_FunctionLogin.CapchaLogin.automationCaptcha is PASSED
+
+07-11-2024T15:47:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Login/btn_login")): Object: 'Object Repository/Object Login/btn_login' is clicked on
+
+07-11-2024T15:47:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Login/btn_login' is clicked on
+
+07-11-2024T15:47:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+07-11-2024T15:47:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+07-11-2024T15:47:23 - [TEST_STEP][PASSED] - keyword_FunctionLogin.CapchaLogin.automationCaptcha(): keyword_FunctionLogin.CapchaLogin.automationCaptcha is PASSED
+
+07-11-2024T15:47:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/Object Login/captcha_Num1_Login' is: '8'
+
+07-11-2024T15:47:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/Object Login/captcha_Num2_Login' is: '11'
+
+07-11-2024T15:47:24 - [MESSAGE][PASSED] - Keys '19' sent to object: 'Object Repository/Object Login/input_Captcha_Your_Answer_Login'
+
+07-11-2024T15:47:24 - [MESSAGE][PASSED] - keyword_FunctionLogin.CapchaLogin.automationCaptcha is PASSED
+
+07-11-2024T15:47:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Login/btn_login")): Object: 'Object Repository/Object Login/btn_login' is clicked on
+
+07-11-2024T15:47:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Login/btn_login' is clicked on
+
+07-11-2024T15:47:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+07-11-2024T15:47:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+07-11-2024T15:47:26 - [TEST_STEP][PASSED] - keyword_FunctionLogin.CapchaLogin.automationCaptcha(): keyword_FunctionLogin.CapchaLogin.automationCaptcha is PASSED
+
+07-11-2024T15:47:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/Object Login/captcha_Num1_Login' is: '15'
+
+07-11-2024T15:47:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/Object Login/captcha_Num2_Login' is: '15'
+
+07-11-2024T15:47:27 - [MESSAGE][PASSED] - Keys '30' sent to object: 'Object Repository/Object Login/input_Captcha_Your_Answer_Login'
+
+07-11-2024T15:47:27 - [MESSAGE][PASSED] - keyword_FunctionLogin.CapchaLogin.automationCaptcha is PASSED
+
+07-11-2024T15:47:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Login/btn_login")): Object: 'Object Repository/Object Login/btn_login' is clicked on
+
+07-11-2024T15:47:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Login/btn_login' is clicked on
+
+07-11-2024T15:47:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+07-11-2024T15:47:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+07-11-2024T15:47:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Login/verify_Unsuccessfully_Login - Too many failed login attempts Please try again in 1 minutes"), STOP_ON_FAILURE): Object 'Object Repository/Object Login/verify_Unsuccessfully_Login - Too many failed login attempts Please try again in 1 minutes' is visible
+
+07-11-2024T15:47:30 - [MESSAGE][PASSED] - Object 'Object Repository/Object Login/verify_Unsuccessfully_Login - Too many failed login attempts Please try again in 1 minutes' is visible
+
+07-11-2024T15:47:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+07-11-2024T15:47:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+07-11-2024T15:47:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+07-11-2024T15:47:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[07-11-2024T15:46:48 - [TEST_SUITE][PASSED] - Scenario Negative Case - Login: Test Cases/MoLeaWiz/Login/Negative Case/TCML - Negative Case Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -19,6 +19,26 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.base_url_staging)
 
+WebUI.click(findTestObject('Object Login/btn_login'))
+
+WebUI.verifyElementVisible(findTestObject('Object Login/verify_Unsuccessfully_Login - Please fill your username, password, and answer'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
+WebUI.refresh()
+
+WebUI.setText(findTestObject('Object Login/input_Username_Login'), GlobalVariable.usernameGeneral)
+
+WebUI.click(findTestObject('Object Login/btn_login'))
+
+WebUI.verifyElementVisible(findTestObject('Object Login/verify_Unsuccessfully_Login - Please fill your password and answer'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
+WebUI.refresh()
+
 WebUI.setText(findTestObject('Object Login/input_Username_Login'), GlobalVariable.invalidUsername)
 
 WebUI.setText(findTestObject('Object Login/input_Password_Login'), GlobalVariable.invalidPassword)
@@ -29,7 +49,43 @@ CustomKeywords.'keyword_FunctionLogin.CapchaLogin.automationCaptcha'()
 
 WebUI.click(findTestObject('Object Login/btn_login'))
 
-WebUI.delay(2)
+WebUI.verifyElementVisible(findTestObject('Object Login/verify_Unsuccessfully_Login - Invalid login credentials Please try again'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
+WebUI.refresh()
+
+WebUI.comment('function captcha your answer')
+
+CustomKeywords.'keyword_FunctionLogin.CapchaLogin.automationCaptcha'()
+
+WebUI.click(findTestObject('Object Login/btn_login'))
+
+WebUI.verifyElementPresent(findTestObject('Object Login/verify_Unsuccessfully_Login - Please fill your username and password'), 
+    0)
+
+WebUI.delay(3)
+
+WebUI.refresh()
+
+WebUI.setText(findTestObject('Object Login/input_Username_Login'), GlobalVariable.usernameGeneral)
+
+WebUI.setText(findTestObject('Object Login/input_Password_Login'), GlobalVariable.passwordGeneral)
+
+WebUI.click(findTestObject('Object Login/btn_login'))
+
+WebUI.verifyElementPresent(findTestObject('Object Login/verify_Unsuccessfully_Login - Please fill your answer'), 0)
+
+WebUI.delay(3)
+
+WebUI.refresh()
+
+WebUI.setText(findTestObject('Object Login/input_Username_Login'), GlobalVariable.invalidUsername)
+
+WebUI.setText(findTestObject('Object Login/input_Password_Login'), GlobalVariable.invalidPassword)
+
+WebUI.comment('function captcha your answer')
 
 CustomKeywords.'keyword_FunctionLogin.CapchaLogin.automationCaptcha'()
 

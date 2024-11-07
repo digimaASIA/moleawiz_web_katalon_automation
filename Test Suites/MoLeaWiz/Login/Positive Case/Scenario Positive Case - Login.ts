@@ -12,17 +12,10 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>76027814-5474-462c-83ea-77212c50649b</testSuiteGuid>
    <testCaseLink>
-      <guid>cb27925e-a9d3-43c3-a012-0c5d1da61966</guid>
+      <guid>e04822e9-87ec-49dc-a165-84e58f9a5ba2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/MoLeaWiz/Login/Positive Case/TCML01 - User Login dengan valid data dengan mengklik toggle Remember Me</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ec3fc283-b79b-4541-ba0c-83a770687dcc</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/MoLeaWiz/Login/Positive Case/TCML02 - User Login dengan valid data dengan tidak mengklik toggle Remember Me</testCaseId>
+      <testCaseId>Test Cases/MoLeaWiz/Login/Positive Case/TCML - Positive Case Login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
