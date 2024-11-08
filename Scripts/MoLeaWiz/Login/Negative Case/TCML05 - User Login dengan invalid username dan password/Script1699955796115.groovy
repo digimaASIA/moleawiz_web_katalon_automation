@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.base_url_staging)
 
-WebUI.setText(findTestObject('Object Login/input_Username_Login'), GlobalVariable.invalidUsername)
+WebUI.setText(findTestObject('Object Login/input_Username_Login'), GlobalVariable.usernameInvalid)
 
-WebUI.setText(findTestObject('Object Login/input_Password_Login'), GlobalVariable.invalidPassword)
+WebUI.setText(findTestObject('Object Login/input_Password_Login'), GlobalVariable.passwordInvalid)
 
 WebUI.comment('function captcha your answer')
 

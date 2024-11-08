@@ -11,13 +11,23 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'testingdigima@digimasia.com'</initValue>
+      <name>usernameGeneral</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'12345'</initValue>
+      <name>passwordGeneral</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'test123'</initValue>
-      <name>invalidUsername</name>
+      <name>usernameInvalid</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'123'</initValue>
-      <name>invalidPassword</name>
+      <name>passwordInvalid</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -31,13 +41,13 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'testingdigima@digimasia.com'</initValue>
-      <name>usernameGeneral</name>
+      <initValue>'hafizh@digimasia.com'</initValue>
+      <name>usernameDummy2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'12345'</initValue>
-      <name>passwordGeneral</name>
+      <name>passwordDummy2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('http://192.168.1.8:5173')
+WebUI.openBrowser(GlobalVariable.base_url_staging)
 
 WebUI.click(findTestObject('Object Forgot Password/btn_text_Forgot_Your_Password'), FailureHandling.STOP_ON_FAILURE)
 
@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Object Forgot Password/btn_Back_Forgot_Password'))
 
 WebUI.click(findTestObject('Object Forgot Password/btn_text_Forgot_Your_Password'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Forgot Password/input_Username_Forgot_Password'), GlobalVariable.usernameDummy1)
+WebUI.setText(findTestObject('Object Forgot Password/input_Username_Forgot_Password'), GlobalVariable.usernameDummy2)
 
 WebUI.click(findTestObject('Object Forgot Password/btn_Request_Verification_Code_Forgot_Password'))
 
@@ -45,10 +45,16 @@ WebUI.click(findTestObject('Object Forgot Password/btn_Hide_Change_Password'))
 
 WebUI.click(findTestObject('Object Forgot Password/btn_Change_Password'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Object Forgot Password/verify_Successfully_Change_Password - Password Successfully Changed'), 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('Object Forgot Password/verify_Successfully_Change_Password - Logo MoLeaWiz'), 
+    0)
 
-WebUI.click(findTestObject('Object Forgot Password/btn_OK_Change_Password'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('Object Login/input_Username_Login'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Object Login/input_Password_Login'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Object Login/input_Captcha_Your_Answer_Login'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Object Login/btn_login'), 0)
 
 WebUI.delay(3)
 

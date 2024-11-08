@@ -39,9 +39,9 @@ WebUI.delay(3)
 
 WebUI.refresh()
 
-WebUI.setText(findTestObject('Object Login/input_Username_Login'), GlobalVariable.invalidUsername)
+WebUI.setText(findTestObject('Object Login/input_Username_Login'), GlobalVariable.usernameInvalid)
 
-WebUI.setText(findTestObject('Object Login/input_Password_Login'), GlobalVariable.invalidPassword)
+WebUI.setText(findTestObject('Object Login/input_Password_Login'), GlobalVariable.passwordInvalid)
 
 WebUI.comment('function captcha your answer')
 
@@ -81,9 +81,9 @@ WebUI.delay(3)
 
 WebUI.refresh()
 
-WebUI.setText(findTestObject('Object Login/input_Username_Login'), GlobalVariable.invalidUsername)
+WebUI.setText(findTestObject('Object Login/input_Username_Login'), GlobalVariable.usernameInvalid)
 
-WebUI.setText(findTestObject('Object Login/input_Password_Login'), GlobalVariable.invalidPassword)
+WebUI.setText(findTestObject('Object Login/input_Password_Login'), GlobalVariable.passwordInvalid)
 
 WebUI.comment('function captcha your answer')
 

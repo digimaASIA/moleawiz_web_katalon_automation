@@ -21,7 +21,7 @@ WebUI.openBrowser(GlobalVariable.base_url_staging)
 
 WebUI.click(findTestObject('Object Forgot Password/btn_text_Forgot_Your_Password'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Forgot Password/input_Username_Forgot_Password'), GlobalVariable.invalidUsername)
+WebUI.setText(findTestObject('Object Forgot Password/input_Username_Forgot_Password'), GlobalVariable.usernameInvalid)
 
 WebUI.click(findTestObject('Object Forgot Password/btn_Request_Verification_Code_Forgot_Password'))
 

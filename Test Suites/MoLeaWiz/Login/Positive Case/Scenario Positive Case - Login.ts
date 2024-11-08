@@ -12,7 +12,7 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>76027814-5474-462c-83ea-77212c50649b</testSuiteGuid>
    <testCaseLink>
-      <guid>e04822e9-87ec-49dc-a165-84e58f9a5ba2</guid>
+      <guid>2723c767-7254-4531-8469-28c0584f43ce</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/MoLeaWiz/Login/Positive Case/TCML - Positive Case Login</testCaseId>
