@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'The password doesn’t match. Please review your input.' or . = 'The password doesn’t match. Please review your input.')]</value>
+         <value>//*[(text() = 'The password doesn’t match.Please review your input.' or . = 'The password doesn’t match.Please review your input.')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>The password doesn’t match. Please review your input.</value>
-      <webElementGuid>77c1457c-e250-4e11-a13d-af91d55a6d06</webElementGuid>
+      <value>The password doesn’t match.Please review your input.</value>
+      <webElementGuid>17d6ae40-34c7-4081-96e1-7f5091ae7964</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

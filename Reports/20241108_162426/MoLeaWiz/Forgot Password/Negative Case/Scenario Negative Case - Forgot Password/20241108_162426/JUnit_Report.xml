@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Scenario Negative Case - Forgot Password" time="120.55" tests="1" failures="0" errors="0">
+   <testsuite name="Scenario Negative Case - Forgot Password" tests="1" failures="0" errors="0" time="120.55" skipped="0" timestamp="08-11-2024T16:24:42" hostname="Digimasia - DESKTOP-9D92447" id="Test Suites/MoLeaWiz/Forgot Password/Negative Case/Scenario Negative Case - Forgot Password">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\User\\git\\moleawiz_web_katalon_automation\\Reports\\20241108_162426\\MoLeaWiz\\Forgot Password\\Negative Case\\Scenario Negative Case - Forgot Password\\20241108_162426"/>
+         <property name="logFiles" value="C:\\Users\\User\\git\\moleawiz_web_katalon_automation\\Reports\\20241108_162426\\MoLeaWiz\\Forgot Password\\Negative Case\\Scenario Negative Case - Forgot Password\\20241108_162426\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Digimasia - DESKTOP-9D92447"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.0.0.223"/>
+         <property name="browser" value="Chrome 130.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.22"/>
+         <property name="sessionId" value="44bef7b24ef3c582f00ba5cadef48832"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/MoLeaWiz/Forgot Password/Negative Case/TCFP - Negative case Forgot Password" time="119.767" classname="Test Cases/MoLeaWiz/Forgot Password/Negative Case/TCFP - Negative case Forgot Password" status="PASSED">
+         <system-out><![CDATA[08-11-2024T16:24:43 - [TEST_CASE][PASSED] - Test Cases/MoLeaWiz/Forgot Password/Negative Case/TCFP - Negative case Forgot Password: Test Cases/MoLeaWiz/Forgot Password/Negative Case/TCFP - Negative case Forgot Password
+
+08-11-2024T16:24:44 - [TEST_STEP][PASSED] - openBrowser(base_url_staging): Browser is opened with url: 'https://moleawiz-web-staging.digimasia.com/'
+
+08-11-2024T16:24:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-11-2024T16:24:46 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1366,768]']
+
+08-11-2024T16:24:46 - [MESSAGE][INFO] - Action delay is set to 50 milliseconds
+
+08-11-2024T16:25:00 - [MESSAGE][PASSED] - Browser is opened with url: 'https://moleawiz-web-staging.digimasia.com/'
+
+08-11-2024T16:25:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Forgot Password/btn_text_Forgot_Your_Password"), STOP_ON_FAILURE): Object: 'Object Repository/Object Forgot Password/btn_text_Forgot_Your_Password' is clicked on
+
+08-11-2024T16:25:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Forgot Password/btn_text_Forgot_Your_Password' is clicked on
+
+08-11-2024T16:25:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Forgot Password/btn_Request_Verification_Code_Forgot_Password")): Object: 'Object Repository/Object Forgot Password/btn_Request_Verification_Code_Forgot_Password' is clicked on
+
+08-11-2024T16:25:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Forgot Password/btn_Request_Verification_Code_Forgot_Password' is clicked on
+
+08-11-2024T16:25:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Forgot Password/verify_Unsuccessfully_Change_Password - Invalid username Please try again"), STOP_ON_FAILURE): Object 'Object Repository/Object Forgot Password/verify_Unsuccessfully_Change_Password - Invalid username Please try again' is visible
+
+08-11-2024T16:25:04 - [MESSAGE][PASSED] - Object 'Object Repository/Object Forgot Password/verify_Unsuccessfully_Change_Password - Invalid username Please try again' is visible
+
+08-11-2024T16:25:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+08-11-2024T16:25:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+08-11-2024T16:25:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Forgot Password/btn_Back_Forgot_Password")): Object: 'Object Repository/Object Forgot Password/btn_Back_Forgot_Password' is clicked on
+
+08-11-2024T16:25:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Forgot Password/btn_Back_Forgot_Password' is clicked on
+
+08-11-2024T16:25:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Forgot Password/btn_text_Forgot_Your_Password"), STOP_ON_FAILURE): Object: 'Object Repository/Object Forgot Password/btn_text_Forgot_Your_Password' is clicked on
+
+08-11-2024T16:25:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Forgot Password/btn_text_Forgot_Your_Password' is clicked on
+
+08-11-2024T16:25:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Forgot Password/input_Username_Forgot_Password"), usernameInvalid): Text 'test123' is set on object 'Object Repository/Object Forgot Password/input_Username_Forgot_Password'
+
+08-11-2024T16:25:10 - [MESSAGE][PASSED] - Text 'test123' is set on object 'Object Repository/Object Forgot Password/input_Username_Forgot_Password'
+
+08-11-2024T16:25:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Forgot Password/btn_Request_Verification_Code_Forgot_Password")): Object: 'Object Repository/Object Forgot Password/btn_Request_Verification_Code_Forgot_Password' is clicked on
+
+08-11-2024T16:25:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Forgot Password/btn_Request_Verification_Code_Forgot_Password' is clicked on
+
+08-11-2024T16:25:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Forgot Password/verify_Unsuccessfully_Change_Password - Invalid username Please try again"), STOP_ON_FAILURE): Object 'Object Repository/Object Forgot Password/verify_Unsuccessfully_Change_Password - Invalid username Please try again' is visible
+
+08-11-2024T16:25:15 - [MESSAGE][PASSED] - Object 'Object Repository/Object Forgot Password/verify_Unsuccessfully_Change_Password - Invalid username Please try again' is visible
+
+08-11-2024T16:25:15 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+08-11-2024T16:25:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+08-11-2024T16:25:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Forgot Password/btn_Back_Forgot_Password")): Object: 'Object Repository/Object Forgot Password/btn_Back_Forgot_Password' is clicked on
+
+08-11-2024T16:25:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Forgot Password/btn_Back_Forgot_Password' is clicked on
+
+08-11-2024T16:25:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Forgot Password/btn_text_Forgot_Your_Password"), STOP_ON_FAILURE): Object: 'Object Repository/Object Forgot Password/btn_text_Forgot_Your_Password' is clicked on
+
+08-11-2024T16:25:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Forgot Password/btn_text_Forgot_Your_Password' is clicked on
+
+08-11-2024T16:25:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Forgot Password/btn_Icon_Back_Forgot_Password")): Object: 'Object Repository/Object Forgot Password/btn_Icon_Back_Forgot_Password' is clicked on
+
+08-11-2024T16:25:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Forgot Password/btn_Icon_Back_Forgot_Password' is clicked on
+
+08-11-2024T16:25:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Forgot Password/btn_text_Forgot_Your_Password"), STOP_ON_FAILURE): Object: 'Object Repository/Object Forgot Password/btn_text_Forgot_Your_Password' is clicked on
+
+08-11-2024T16:25:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Forgot Password/btn_text_Forgot_Your_Password' is clicked on
+
+08-11-2024T16:25:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Forgot Password/input_Username_Forgot_Password"), usernameGeneral): Text 'testingdigima@digimasia.com' is set on object 'Object Repository/Object Forgot Password/input_Username_Forgot_Password'
+
+08-11-2024T16:25:23 - [MESSAGE][PASSED] - Text 'testingdigima@digimasia.com' is set on object 'Object Repository/Object Forgot Password/input_Username_Forgot_Password'
+
+08-11-2024T16:25:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Forgot Password/btn_Request_Verification_Code_Forgot_Password")): Object: 'Object Repository/Object Forgot Password/btn_Request_Verification_Code_Forgot_Password' is clicked on
+
+08-11-2024T16:25:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Forgot Password/btn_Request_Verification_Code_Forgot_Password' is clicked on
+
+08-11-2024T16:25:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Forgot Password/btn_Verify_Forgot_Password")): Object: 'Object Repository/Object Forgot Password/btn_Verify_Forgot_Password' is clicked on
+
+08-11-2024T16:25:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Forgot Password/btn_Verify_Forgot_Password' is clicked on
+
+08-11-2024T16:25:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Forgot Password/verify_Unsuccessfully_Change_Password - The verification code you entered is incorrect"), STOP_ON_FAILURE): Object 'Object Repository/Object Forgot Password/verify_Unsuccessfully_Change_Password - The verification code you entered is incorrect' is visible
+
+08-11-2024T16:25:28 - [MESSAGE][PASSED] - Object 'Object Repository/Object Forgot Password/verify_Unsuccessfully_Change_Password - The verification code you entered is incorrect' is visible
+
+08-11-2024T16:25:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+08-11-2024T16:25:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+08-11-2024T16:25:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Forgot Password/btn_Back_Forgot_Password")): Object: 'Object Repository/Object Forgot Password/btn_Back_Forgot_Password' is clicked on
+
+08-11-2024T16:25:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Forgot Password/btn_Back_Forgot_Password' is clicked on
+
+08-11-2024T16:25:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Forgot Password/btn_Back_Forgot_Password")): Object: 'Object Repository/Object Forgot Password/btn_Back_Forgot_Password' is clicked on
+
+08-11-2024T16:25:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Forgot Password/btn_Back_Forgot_Password' is clicked on
+
+08-11-2024T16:25:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Forgot Password/btn_text_Forgot_Your_Password"), STOP_ON_FAILURE): Object: 'Object Repository/Object Forgot Password/btn_text_Forgot_Your_Password' is clicked on
+
+08-11-2024T16:25:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Forgot Password/btn_text_Forgot_Your_Password' is clicked on
+
+08-11-2024T16:25:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Forgot Password/btn_Icon_Back_Forgot_Password")): Object: 'Object Repository/Object Forgot Password/btn_Icon_Back_Forgot_Password' is clicked on
+
+08-11-2024T16:25:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Forgot Password/btn_Icon_Back_Forgot_Password' is clicked on
+
+08-11-2024T16:25:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Forgot Password/btn_text_Forgot_Your_Password"), STOP_ON_FAILURE): Object: 'Object Repository/Object Forgot Password/btn_text_Forgot_Your_Password' is clicked on
+
+08-11-2024T16:25:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Forgot Password/btn_text_Forgot_Your_Password' is clicked on
+
+08-11-2024T16:25:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Forgot Password/input_Username_Forgot_Password"), usernameDummy2): Text 'hafizh@digimasia.com' is set on object 'Object Repository/Object Forgot Password/input_Username_Forgot_Password'
+
+08-11-2024T16:25:37 - [MESSAGE][PASSED] - Text 'hafizh@digimasia.com' is set on object 'Object Repository/Object Forgot Password/input_Username_Forgot_Password'
+
+08-11-2024T16:25:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Forgot Password/btn_Request_Verification_Code_Forgot_Password")): Object: 'Object Repository/Object Forgot Password/btn_Request_Verification_Code_Forgot_Password' is clicked on
+
+08-11-2024T16:25:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Forgot Password/btn_Request_Verification_Code_Forgot_Password' is clicked on
+
+08-11-2024T16:25:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Forgot Password/input_Verification_Code_Forgot_Password"), "12345"): Text '12345' is set on object 'Object Repository/Object Forgot Password/input_Verification_Code_Forgot_Password'
+
+08-11-2024T16:25:42 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Object Forgot Password/input_Verification_Code_Forgot_Password'
+
+08-11-2024T16:25:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Forgot Password/btn_Verify_Forgot_Password")): Object: 'Object Repository/Object Forgot Password/btn_Verify_Forgot_Password' is clicked on
+
+08-11-2024T16:25:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Forgot Password/btn_Verify_Forgot_Password' is clicked on
+
+08-11-2024T16:25:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Forgot Password/input_Verification_Code_Forgot_Password"), STOP_ON_FAILURE): Object: 'Object Repository/Object Forgot Password/input_Verification_Code_Forgot_Password' is clicked on
+
+08-11-2024T16:25:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Forgot Password/input_Verification_Code_Forgot_Password' is clicked on
+
+08-11-2024T16:25:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Forgot Password/input_Verification_Code_Forgot_Password"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Object Forgot Password/input_Verification_Code_Forgot_Password'
+
+08-11-2024T16:25:46 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Object Forgot Password/input_Verification_Code_Forgot_Password'
+
+08-11-2024T16:25:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Forgot Password/input_Verification_Code_Forgot_Password"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Object Forgot Password/input_Verification_Code_Forgot_Password'
+
+08-11-2024T16:25:46 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Object Forgot Password/input_Verification_Code_Forgot_Password'
+
+08-11-2024T16:25:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Forgot Password/input_Verification_Code_Forgot_Password"), "12345"): Text '12345' is set on object 'Object Repository/Object Forgot Password/input_Verification_Code_Forgot_Password'
+
+08-11-2024T16:25:47 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Object Forgot Password/input_Verification_Code_Forgot_Password'
+
+08-11-2024T16:25:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Forgot Password/btn_Verify_Forgot_Password")): Object: 'Object Repository/Object Forgot Password/btn_Verify_Forgot_Password' is clicked on
+
+08-11-2024T16:25:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Forgot Password/btn_Verify_Forgot_Password' is clicked on
+
+08-11-2024T16:25:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Forgot Password/input_Verification_Code_Forgot_Password"), STOP_ON_FAILURE): Object: 'Object Repository/Object Forgot Password/input_Verification_Code_Forgot_Password' is clicked on
+
+08-11-2024T16:25:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Forgot Password/input_Verification_Code_Forgot_Password' is clicked on
+
+08-11-2024T16:25:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Forgot Password/input_Verification_Code_Forgot_Password"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Object Forgot Password/input_Verification_Code_Forgot_Password'
+
+08-11-2024T16:25:50 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Object Forgot Password/input_Verification_Code_Forgot_Password'
+
+08-11-2024T16:25:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Forgot Password/input_Verification_Code_Forgot_Password"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Object Forgot Password/input_Verification_Code_Forgot_Password'
+
+08-11-2024T16:25:50 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Object Forgot Password/input_Verification_Code_Forgot_Password'
+
+08-11-2024T16:25:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Forgot Password/input_Verification_Code_Forgot_Password"), "12345"): Text '12345' is set on object 'Object Repository/Object Forgot Password/input_Verification_Code_Forgot_Password'
+
+08-11-2024T16:25:51 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Object Forgot Password/input_Verification_Code_Forgot_Password'
+
+08-11-2024T16:25:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Forgot Password/btn_Verify_Forgot_Password")): Object: 'Object Repository/Object Forgot Password/btn_Verify_Forgot_Password' is clicked on
+
+08-11-2024T16:25:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Forgot Password/btn_Verify_Forgot_Password' is clicked on
+
+08-11-2024T16:25:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Forgot Password/verify_Unsuccessfully_Change_Password - Too many failed verify attempts"), STOP_ON_FAILURE): Object 'Object Repository/Object Forgot Password/verify_Unsuccessfully_Change_Password - Too many failed verify attempts' is visible
+
+08-11-2024T16:25:53 - [MESSAGE][PASSED] - Object 'Object Repository/Object Forgot Password/verify_Unsuccessfully_Change_Password - Too many failed verify attempts' is visible
+
+08-11-2024T16:25:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+08-11-2024T16:25:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+08-11-2024T16:25:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Forgot Password/btn_Back_Forgot_Password")): Object: 'Object Repository/Object Forgot Password/btn_Back_Forgot_Password' is clicked on
+
+08-11-2024T16:25:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Forgot Password/btn_Back_Forgot_Password' is clicked on
+
+08-11-2024T16:25:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Forgot Password/btn_Back_Forgot_Password")): Object: 'Object Repository/Object Forgot Password/btn_Back_Forgot_Password' is clicked on
+
+08-11-2024T16:25:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Forgot Password/btn_Back_Forgot_Password' is clicked on
+
+08-11-2024T16:25:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Forgot Password/btn_text_Forgot_Your_Password"), STOP_ON_FAILURE): Object: 'Object Repository/Object Forgot Password/btn_text_Forgot_Your_Password' is clicked on
+
+08-11-2024T16:25:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Forgot Password/btn_text_Forgot_Your_Password' is clicked on
+
+08-11-2024T16:25:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Forgot Password/btn_Icon_Back_Forgot_Password")): Object: 'Object Repository/Object Forgot Password/btn_Icon_Back_Forgot_Password' is clicked on
+
+08-11-2024T16:25:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Forgot Password/btn_Icon_Back_Forgot_Password' is clicked on
+
+08-11-2024T16:25:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Forgot Password/btn_text_Forgot_Your_Password"), STOP_ON_FAILURE): Object: 'Object Repository/Object Forgot Password/btn_text_Forgot_Your_Password' is clicked on
+
+08-11-2024T16:26:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Forgot Password/btn_text_Forgot_Your_Password' is clicked on
+
+08-11-2024T16:26:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Forgot Password/input_Username_Forgot_Password"), usernameDummy2): Text 'hafizh@digimasia.com' is set on object 'Object Repository/Object Forgot Password/input_Username_Forgot_Password'
+
+08-11-2024T16:26:02 - [MESSAGE][PASSED] - Text 'hafizh@digimasia.com' is set on object 'Object Repository/Object Forgot Password/input_Username_Forgot_Password'
+
+08-11-2024T16:26:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Forgot Password/btn_Request_Verification_Code_Forgot_Password")): Object: 'Object Repository/Object Forgot Password/btn_Request_Verification_Code_Forgot_Password' is clicked on
+
+08-11-2024T16:26:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Forgot Password/btn_Request_Verification_Code_Forgot_Password' is clicked on
+
+08-11-2024T16:26:02 - [TEST_STEP][PASSED] - comment("Delay for input verification code by manually"): Delay for input verification code by manually
+
+08-11-2024T16:26:02 - [MESSAGE][INFO] - Delay for input verification code by manually
+
+08-11-2024T16:26:02 - [TEST_STEP][PASSED] - delay(30, STOP_ON_FAILURE): Delayed 30 second(s)
+
+08-11-2024T16:26:32 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+08-11-2024T16:26:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Forgot Password/btn_Verify_Forgot_Password")): Object: 'Object Repository/Object Forgot Password/btn_Verify_Forgot_Password' is clicked on
+
+08-11-2024T16:26:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Forgot Password/btn_Verify_Forgot_Password' is clicked on
+
+08-11-2024T16:26:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Forgot Password/input_New_Password_Change_Password"), "12345"): Text '12345' is set on object 'Object Repository/Object Forgot Password/input_New_Password_Change_Password'
+
+08-11-2024T16:26:35 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Object Forgot Password/input_New_Password_Change_Password'
+
+08-11-2024T16:26:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Forgot Password/btn_Hide_Change_Password")): Object: 'Object Repository/Object Forgot Password/btn_Hide_Change_Password' is clicked on
+
+08-11-2024T16:26:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Forgot Password/btn_Hide_Change_Password' is clicked on
+
+08-11-2024T16:26:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Forgot Password/input_Confirm_New_Password_Change_Password"), "123456"): Text '123456' is set on object 'Object Repository/Object Forgot Password/input_Confirm_New_Password_Change_Password'
+
+08-11-2024T16:26:37 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Object Forgot Password/input_Confirm_New_Password_Change_Password'
+
+08-11-2024T16:26:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Forgot Password/btn_Change_Password"), STOP_ON_FAILURE): Object: 'Object Repository/Object Forgot Password/btn_Change_Password' is clicked on
+
+08-11-2024T16:26:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Forgot Password/btn_Change_Password' is clicked on
+
+08-11-2024T16:26:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Forgot Password/verify_Unsuccessfully_Change_Password - The password doesnt match Please review your input"), STOP_ON_FAILURE): Object 'Object Repository/Object Forgot Password/verify_Unsuccessfully_Change_Password - The password doesnt match Please review your input' is visible
+
+08-11-2024T16:26:38 - [MESSAGE][PASSED] - Object 'Object Repository/Object Forgot Password/verify_Unsuccessfully_Change_Password - The password doesnt match Please review your input' is visible
+
+08-11-2024T16:26:38 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+08-11-2024T16:26:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+08-11-2024T16:26:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-11-2024T16:26:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[08-11-2024T16:24:42 - [TEST_SUITE][PASSED] - Scenario Negative Case - Forgot Password: Test Cases/MoLeaWiz/Forgot Password/Negative Case/TCFP - Negative case Forgot Password]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

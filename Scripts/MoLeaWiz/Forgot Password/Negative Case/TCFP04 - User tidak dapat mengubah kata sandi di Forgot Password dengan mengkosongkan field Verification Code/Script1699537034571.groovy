@@ -25,13 +25,14 @@ WebUI.click(findTestObject('Object Forgot Password/btn_Icon_Back_Forgot_Password
 
 WebUI.click(findTestObject('Object Forgot Password/btn_text_Forgot_Your_Password'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Forgot Password/input_Username_Forgot_Password'), GlobalVariable.usernameDummy1)
+WebUI.setText(findTestObject('Object Forgot Password/input_Username_Forgot_Password'), GlobalVariable.usernameGeneral)
 
 WebUI.click(findTestObject('Object Forgot Password/btn_Request_Verification_Code_Forgot_Password'))
 
-WebUI.click(findTestObject('Object Forgot Password/input_Verification_Code_Forgot_Password'))
+WebUI.click(findTestObject('Object Forgot Password/btn_Verify_Forgot_Password'))
 
-WebUI.verifyElementVisible(findTestObject('Object Forgot Password/btn_Verify_Forgot_Password'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('Object Forgot Password/verify_Unsuccessfully_Change_Password - The verification code you entered is incorrect'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 
