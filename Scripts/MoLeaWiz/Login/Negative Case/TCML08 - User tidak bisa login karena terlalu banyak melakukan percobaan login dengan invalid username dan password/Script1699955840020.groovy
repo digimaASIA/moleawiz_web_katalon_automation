@@ -43,12 +43,6 @@ WebUI.click(findTestObject('Object Login/btn_login'))
 
 WebUI.delay(2)
 
-CustomKeywords.'keyword_FunctionLogin.CapchaLogin.automationCaptcha'()
-
-WebUI.click(findTestObject('Object Login/btn_login'))
-
-WebUI.delay(2)
-
 WebUI.verifyElementVisible(findTestObject('Object Login/verify_Unsuccessfully_Login - Too many failed login attempts Please try again in 1 minutes'), 
     FailureHandling.STOP_ON_FAILURE)
 
