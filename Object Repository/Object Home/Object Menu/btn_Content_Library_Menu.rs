@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_Content_Library_Menu</name>
+   <tag></tag>
+   <elementGuidId>3cdda68e-0681-4cf1-b6e8-6cda62abfa0f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>btn-content-library-menu</value>
+      <webElementGuid>fed74ee4-bd46-46ae-bda5-f05ee6733416</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

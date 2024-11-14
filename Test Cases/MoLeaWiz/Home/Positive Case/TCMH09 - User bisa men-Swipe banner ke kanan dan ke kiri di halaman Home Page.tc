@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMH09 - User bisa men-Swipe banner ke kanan dan ke kiri di halaman Home Page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>31e9045a-8676-4881-8f1a-69593bafdbf8</testCaseGuid>
+</TestCaseEntity>

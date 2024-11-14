@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMH24 - User bisa men-scroll list Program pada section Upcoming Event di halaman Home page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d23bce90-e4b6-493a-ab6d-4189f4208a95</testCaseGuid>
+</TestCaseEntity>

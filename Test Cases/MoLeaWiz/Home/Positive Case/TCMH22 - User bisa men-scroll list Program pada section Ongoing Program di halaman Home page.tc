@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMH22 - User bisa men-scroll list Program pada section Ongoing Program di halaman Home page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f91183b7-37e2-4196-b187-0e43c15dc4af</testCaseGuid>
+</TestCaseEntity>

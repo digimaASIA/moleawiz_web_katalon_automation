@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Menu/btn_Home_Menu'))
+WebUI.click(findTestObject('Object Home/Object Menu/btn_Home_Menu'))
 
 WebUI.scrollToElement(findTestObject('Object Home/btn_Start_New_Program_Home'), 0)
 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMH16 - User bisa membuka Menu Team Monitoring dengan kondisi Menu ter-Expand</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ff504ba7-e2af-430c-962f-dca6c15dc0d9</testCaseGuid>
+</TestCaseEntity>

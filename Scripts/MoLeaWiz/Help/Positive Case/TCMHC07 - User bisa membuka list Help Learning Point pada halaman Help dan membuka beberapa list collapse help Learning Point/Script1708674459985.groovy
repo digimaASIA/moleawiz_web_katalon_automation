@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Menu/btn_Help_Menu'))
+WebUI.click(findTestObject('Object Home/Object Menu/btn_Help_Menu'))
 
 WebUI.click(findTestObject('Object Help/list_learning_point_help'))
 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMH11 - User bisa men-Swipe New Program di halaman Home Page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4a0af468-8aff-4f31-be20-8984478a6265</testCaseGuid>
+</TestCaseEntity>

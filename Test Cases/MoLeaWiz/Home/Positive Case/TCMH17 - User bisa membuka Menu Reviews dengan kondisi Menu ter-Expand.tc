@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMH17 - User bisa membuka Menu Reviews dengan kondisi Menu ter-Expand</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ecc1a37e-a912-4e6d-8cfa-7957733f24e7</testCaseGuid>
+</TestCaseEntity>

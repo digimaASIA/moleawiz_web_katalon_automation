@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMH20 - User bisa mengganti Banner selanjutnya dengan klik button Carousel di halaman Home Page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>17adcddb-020f-4e9d-a057-c578551967d7</testCaseGuid>
+</TestCaseEntity>

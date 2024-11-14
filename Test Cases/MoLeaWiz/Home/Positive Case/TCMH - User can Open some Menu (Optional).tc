@@ -4,5 +4,6 @@
    <name>TCMH - User can Open some Menu (Optional)</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>ec4d872b-8b81-440b-ac6c-55af3d1bece4</testCaseGuid>
 </TestCaseEntity>

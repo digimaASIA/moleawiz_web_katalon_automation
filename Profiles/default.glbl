@@ -51,6 +51,16 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'candra@digimasia.com'</initValue>
+      <name>usernameDummy3</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'digima'</initValue>
+      <name>passwordDummy3</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'C:\\Digimasia App\\photoprofile.png'</initValue>
       <name>uploadPhoto</name>
    </GlobalVariableEntity>

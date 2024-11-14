@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMH21 - User bisa klik dan tahan lalu Swipe Cart Ongoing Course di halaman Home Page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>308f552f-996a-4b1a-912a-3b35f3625aa7</testCaseGuid>
+</TestCaseEntity>
