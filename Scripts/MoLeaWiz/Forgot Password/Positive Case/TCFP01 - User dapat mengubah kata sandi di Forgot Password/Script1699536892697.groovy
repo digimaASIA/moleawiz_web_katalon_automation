@@ -21,7 +21,7 @@ WebUI.openBrowser(GlobalVariable.base_url_staging)
 
 WebUI.click(findTestObject('Object Forgot Password/btn_text_Forgot_Your_Password'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Forgot Password/btn_Back_Forgot_Password'))
+WebUI.click(findTestObject('Object Forgot Password/verify_Successfully_Open_Leaderboards - Dropdown Program'))
 
 WebUI.click(findTestObject('Object Forgot Password/btn_text_Forgot_Your_Password'), FailureHandling.STOP_ON_FAILURE)
 

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>verify_Successfully_Open_Content Library_Menu - Tab Collection</name>
+   <tag></tag>
+   <elementGuidId>df416c55-7d84-47ae-aa0c-0bd412ad5169</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'tab-content-library-content-library' and (text() = 'Content Library' or . = 'Content Library')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='rc-tabs-0-tab-collection']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#rc-tabs-0-tab-collection</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>tab-content-library-content-library</value>
+      <webElementGuid>612f4a8b-5bef-47bf-8d67-91bc1d073f63</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Content Library</value>
+      <webElementGuid>aa33a756-657b-43ce-8552-e433eaeb1432</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='rc-tabs-0-tab-collection']</value>
+      <webElementGuid>6a6fe5ee-5916-4543-b3ae-e20399b2e4e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='content-main']/div/div/div/div/div/div[2]/div</value>
+      <webElementGuid>9e30907b-85cc-4df5-9c54-d3659a8d9e5b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Content Library'])[2]/following::div[2]</value>
+      <webElementGuid>b644d6aa-d289-466a-8de2-3ee1f99d56c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Help Center'])[1]/following::div[10]</value>
+      <webElementGuid>471017c0-880d-4bed-a0f4-a4ddcba7bf93</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='QC MLW 5.0'])[1]/preceding::div[6]</value>
+      <webElementGuid>7cfd0564-1b3e-48de-9ba9-e894a374aa26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter'])[1]/preceding::div[17]</value>
+      <webElementGuid>addb45b2-bcbb-4c84-896b-df76852a4496</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Collection']/parent::*</value>
+      <webElementGuid>4e83b8f6-8520-459f-9d43-4e44a4edd692</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main/div/div/div/div/div/div[2]/div</value>
+      <webElementGuid>16192798-1aa0-421b-8b17-d31b9618de00</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'rc-tabs-0-tab-collection' and (text() = 'Collection' or . = 'Collection')]</value>
+      <webElementGuid>39aa10d0-9cb8-49b5-a233-76033bd1b170</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

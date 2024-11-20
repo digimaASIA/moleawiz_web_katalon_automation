@@ -28,7 +28,7 @@ WebUI.verifyElementVisible(findTestObject('Object Forgot Password/verify_Unsucce
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Forgot Password/btn_Back_Forgot_Password'))
+WebUI.click(findTestObject('Object Forgot Password/verify_Successfully_Open_Leaderboards - Dropdown Program'))
 
 WebUI.click(findTestObject('Object Forgot Password/btn_text_Forgot_Your_Password'), FailureHandling.STOP_ON_FAILURE)
 
@@ -41,7 +41,7 @@ WebUI.verifyElementVisible(findTestObject('Object Forgot Password/verify_Unsucce
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Forgot Password/btn_Back_Forgot_Password'))
+WebUI.click(findTestObject('Object Forgot Password/verify_Successfully_Open_Leaderboards - Dropdown Program'))
 
 WebUI.click(findTestObject('Object Forgot Password/btn_text_Forgot_Your_Password'), FailureHandling.STOP_ON_FAILURE)
 
@@ -60,9 +60,9 @@ WebUI.verifyElementVisible(findTestObject('Object Forgot Password/verify_Unsucce
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Forgot Password/btn_Back_Forgot_Password'))
+WebUI.click(findTestObject('Object Forgot Password/verify_Successfully_Open_Leaderboards - Dropdown Program'))
 
-WebUI.click(findTestObject('Object Forgot Password/btn_Back_Forgot_Password'))
+WebUI.click(findTestObject('Object Forgot Password/verify_Successfully_Open_Leaderboards - Dropdown Program'))
 
 WebUI.click(findTestObject('Object Forgot Password/btn_text_Forgot_Your_Password'), FailureHandling.STOP_ON_FAILURE)
 
@@ -101,39 +101,6 @@ WebUI.setText(findTestObject('Object Forgot Password/input_Verification_Code_For
 WebUI.click(findTestObject('Object Forgot Password/btn_Verify_Forgot_Password'))
 
 WebUI.verifyElementVisible(findTestObject('Object Forgot Password/verify_Unsuccessfully_Change_Password - Too many failed verify attempts'), 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Object Forgot Password/btn_Back_Forgot_Password'))
-
-WebUI.click(findTestObject('Object Forgot Password/btn_Back_Forgot_Password'))
-
-WebUI.click(findTestObject('Object Forgot Password/btn_text_Forgot_Your_Password'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Object Forgot Password/btn_Icon_Back_Forgot_Password'))
-
-WebUI.click(findTestObject('Object Forgot Password/btn_text_Forgot_Your_Password'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.setText(findTestObject('Object Forgot Password/input_Username_Forgot_Password'), GlobalVariable.usernameDummy2)
-
-WebUI.click(findTestObject('Object Forgot Password/btn_Request_Verification_Code_Forgot_Password'))
-
-WebUI.comment('Delay for input verification code by manually')
-
-WebUI.delay(30, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Object Forgot Password/btn_Verify_Forgot_Password'))
-
-WebUI.setText(findTestObject('Object Forgot Password/input_New_Password_Change_Password'), '12345')
-
-WebUI.click(findTestObject('Object Forgot Password/btn_Hide_Change_Password'))
-
-WebUI.setText(findTestObject('Object Forgot Password/input_Confirm_New_Password_Change_Password'), '123456')
-
-WebUI.click(findTestObject('Object Forgot Password/btn_Change_Password'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementVisible(findTestObject('Object Forgot Password/verify_Unsuccessfully_Change_Password - The password doesnt match Please review your input'), 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)

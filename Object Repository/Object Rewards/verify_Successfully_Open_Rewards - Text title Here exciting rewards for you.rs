@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>verify_Successfully_Open_Rewards - Text title Here exciting rewards for you</name>
+   <tag></tag>
+   <elementGuidId>0f9cbd16-2b14-4ea1-a230-8b2d64c5a6b4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='content-main']/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ant-col.ant-col-12.css-1dq8hl5</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>19e7efc4-5e1a-42fd-add2-996d84b53eeb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text-title</name>
+      <type>Main</type>
+      <value>text-title-rewards</value>
+      <webElementGuid>4ccd3fb9-9c22-420f-b75f-61f3f2da0fbd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-col ant-col-12 css-1dq8hl5</value>
+      <webElementGuid>b61f488d-5b56-4bc3-ad2e-f50e5432bbc5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Here exciting rewards for you!</value>
+      <webElementGuid>8cbf05b7-a5e2-4f37-b210-5372a2191d41</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content-main&quot;)/div[1]/div[@class=&quot;ant-row ant-row-top row-header-rewards css-1dq8hl5&quot;]/div[@class=&quot;ant-col ant-col-12 css-1dq8hl5&quot;]</value>
+      <webElementGuid>96a93a8f-6cc5-4ca1-95e8-77ad5ceaee7c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='content-main']/div/div/div</value>
+      <webElementGuid>bf95c298-2dc7-44dd-9670-5ac615a5839e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Help Center'])[1]/following::div[4]</value>
+      <webElementGuid>34085851-1e05-41c7-9eaf-aa0bdd91d4bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rewards'])[1]/following::div[5]</value>
+      <webElementGuid>3d07e16d-31e6-4f94-978a-bd4e6a0cd77a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Current Balance'])[1]/preceding::div[1]</value>
+      <webElementGuid>a3a315fc-11bf-4822-a2a9-05b58142e596</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Redeem History'])[1]/preceding::div[4]</value>
+      <webElementGuid>010b43f0-7645-46ca-a2ac-4131bd4d3b9d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Here exciting rewards for you!']/parent::*</value>
+      <webElementGuid>5a25f9b8-0a7a-49e8-a821-d0665ea1a856</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main/div/div/div</value>
+      <webElementGuid>dc3b95c0-276d-45a4-ab88-c68f416ec2cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Here exciting rewards for you!' or . = 'Here exciting rewards for you!')]</value>
+      <webElementGuid>b9194a71-0f80-496b-9f08-d2d09f874de5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

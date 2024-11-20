@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>verify_Successfully_Open_Team_Monitoring - Text title Team Monitoring</name>
+   <tag></tag>
+   <elementGuidId>64954a04-fc22-4634-9706-eb1a77fca0f7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='content-main']/div/div/div/div/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.general-title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>be07754b-1c01-4f10-afd2-7718b28ece71</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>general-title</value>
+      <webElementGuid>5c4adda6-39a5-494d-b8c0-be0a9ab21adb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text-title</name>
+      <type>Main</type>
+      <value>text-title-team-monitoring</value>
+      <webElementGuid>2ac3c383-4e40-4375-ab41-50a005520d74</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Team Monitoring</value>
+      <webElementGuid>52a568ae-0434-42f5-b2cf-d733ceca7b48</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content-main&quot;)/div[1]/div[@class=&quot;ant-row h-100 css-1eeazh9&quot;]/div[@class=&quot;ant-col ant-col-17 h-100 css-1eeazh9&quot;]/div[@class=&quot;ant-row ant-row-top css-1eeazh9&quot;]/div[@class=&quot;ant-col ant-col-14 css-1eeazh9&quot;]/div[@class=&quot;ant-col ant-col-18 css-1eeazh9&quot;]/div[@class=&quot;general-title&quot;]</value>
+      <webElementGuid>1c3999de-fc4a-4237-a03b-400c9db2780d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='content-main']/div/div/div/div/div/div/div</value>
+      <webElementGuid>f092f05b-e498-424d-8f4d-9e290c3bda65</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Help Center'])[1]/following::div[8]</value>
+      <webElementGuid>cac50363-cedc-4362-9510-017d92c29348</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reviews'])[1]/following::div[9]</value>
+      <webElementGuid>591811c3-f971-4fbd-b021-6451007ea502</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show Team Profile'])[1]/preceding::div[7]</value>
+      <webElementGuid>0d09d0bf-55ee-468f-ae0a-4589bbbd8833</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main/div/div/div/div/div/div/div</value>
+      <webElementGuid>eab3f48c-ced9-43dc-bae7-d8f3674fad48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Team Monitoring' or . = 'Team Monitoring')]</value>
+      <webElementGuid>7031e3c7-952a-493d-bad5-20acec3aace7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

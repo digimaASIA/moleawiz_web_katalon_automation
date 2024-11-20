@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>verify_Successfully_Open_Leaderboards - Text title</name>
+   <tag></tag>
+   <elementGuidId>c72d2f9d-4e76-43af-89f1-77ace30d7585</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@text-title = 'text-title-leaderboards' and (text() = 'Leaderboards' or . = 'Leaderboards')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='content-main']/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ant-col.ant-col-10.css-1dq8hl5</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d8198184-dc94-4e82-806d-2466693729e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text-title</name>
+      <type>Main</type>
+      <value>text-title-leaderboards</value>
+      <webElementGuid>c25a767b-0537-4614-a675-5457e01ca806</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-col ant-col-10 css-1dq8hl5</value>
+      <webElementGuid>e13b2a17-a1d2-4659-8bd5-34a3bfadd6e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Leaderboards</value>
+      <webElementGuid>f814a15b-9c32-4eb1-ab3e-4755731b2a41</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content-main&quot;)/div[1]/div[@class=&quot;ant-row ant-row-top row-header-leaderboards css-1dq8hl5&quot;]/div[@class=&quot;ant-col ant-col-10 css-1dq8hl5&quot;]</value>
+      <webElementGuid>aa0dc7a3-b5ed-4fd2-872c-56a6c51cad3a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='content-main']/div/div/div</value>
+      <webElementGuid>a97b9194-b4e9-451d-990e-b1c00325875f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Help Center'])[1]/following::div[4]</value>
+      <webElementGuid>2d970502-b9e7-4efd-8279-213168acd1c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rewards'])[1]/following::div[5]</value>
+      <webElementGuid>265b4ddc-1d04-4643-8397-64a482444ef2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='QC Intikom'])[1]/preceding::div[1]</value>
+      <webElementGuid>482920c3-e578-4dd5-9b53-9c0d59ad347f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main/div/div/div</value>
+      <webElementGuid>3cd31449-fe46-43d2-9454-e2c7c3ae49cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Leaderboards' or . = 'Leaderboards')]</value>
+      <webElementGuid>6d2143c7-6dc4-41ff-a832-646901904cba</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

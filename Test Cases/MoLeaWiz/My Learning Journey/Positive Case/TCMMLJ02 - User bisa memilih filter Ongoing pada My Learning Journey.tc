@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMMLJ02 - User bisa memilih filter Ongoing pada My Learning Journey</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4283ae87-ca0a-4fb6-b7a7-c517c1d37056</testCaseGuid>
+</TestCaseEntity>

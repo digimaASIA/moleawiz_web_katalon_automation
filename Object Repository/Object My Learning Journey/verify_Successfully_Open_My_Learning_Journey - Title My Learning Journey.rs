@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>verify_Successfully_Open_My_Learning_Journey - Title My Learning Journey</name>
+   <tag></tag>
+   <elementGuidId>cadffd8b-4888-45a8-b8ae-e64819a64296</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@text-title = 'text-title-my-learning-journey' and (text() = 'My Learning Journey' or . = 'My Learning Journey')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='content-main']/div/div/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.home-title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>57ab23d2-3881-41fc-b4e2-28f2c115c274</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text-title</name>
+      <type>Main</type>
+      <value>text-title-my-learning-journey</value>
+      <webElementGuid>6456829c-418e-4387-b5af-f7fa0d841846</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>My Learning Journey</value>
+      <webElementGuid>2ea6bb6a-534d-4fa0-a1ca-2032429ca9cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content-main&quot;)/div[1]/div[@class=&quot;ant-row ant-row-top css-1eo2d7c&quot;]/div[@class=&quot;ant-col ant-col-12 css-1eo2d7c&quot;]/div[@class=&quot;ant-col ant-col-18 css-1eo2d7c&quot;]/div[@class=&quot;home-title&quot;]</value>
+      <webElementGuid>50a9bd25-c7c9-4f73-9de6-eb69ec49f91b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='content-main']/div/div/div/div/div</value>
+      <webElementGuid>e49b96ee-3c06-4b23-a6c0-57bf84d92d41</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Help Center'])[1]/following::div[6]</value>
+      <webElementGuid>a31531d6-103e-4b43-82fc-f143ce55a271</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reviews'])[1]/following::div[7]</value>
+      <webElementGuid>a8ba8b35-fcdd-4264-b13e-2ad172fb14e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/preceding::div[2]</value>
+      <webElementGuid>966977d7-40f0-4305-b6e4-e5e0b3dc78b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All'])[1]/preceding::div[2]</value>
+      <webElementGuid>5379cdac-9acc-40a7-8092-c51facd0f61d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main/div/div/div/div/div</value>
+      <webElementGuid>77254e52-7028-46bc-91b1-121ab6cf1cd5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'My Learning Journey' or . = 'My Learning Journey')]</value>
+      <webElementGuid>317cf303-0e14-459c-a134-93dd204d15f4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>verify_Successfully_Open_Team_Monitoring - Button Show Team Profile</name>
+   <tag></tag>
+   <elementGuidId>299d817b-0741-4ad4-864f-4680b3f050a9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[5]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.ant-btn.css-1eeazh9.ant-btn-default.btn-showteamprofile-teammonitoring</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>784d0c81-6dfb-4e49-b498-670c79c99d0a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>fad65c33-923a-4582-bd57-c70dbf17bc9f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-btn css-1eeazh9 ant-btn-default btn-showteamprofile-teammonitoring</value>
+      <webElementGuid>0081ac63-91ca-428d-b5d6-179f488ef18a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Show Team Profile</value>
+      <webElementGuid>66c92b2a-b463-44e2-bb64-f28ee7f6c3ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content-main&quot;)/div[1]/div[@class=&quot;ant-row h-100 css-1eeazh9&quot;]/div[@class=&quot;ant-col ant-col-17 h-100 css-1eeazh9&quot;]/div[@class=&quot;ant-row ant-row-top css-1eeazh9&quot;]/div[@class=&quot;ant-col ant-col-10 css-1eeazh9&quot;]/div[@class=&quot;ant-row css-1eeazh9&quot;]/div[@class=&quot;btn-link-showteamprofile-team-monitoring&quot;]/a[1]/button[@class=&quot;ant-btn css-1eeazh9 ant-btn-default btn-showteamprofile-teammonitoring&quot;]</value>
+      <webElementGuid>38f6aa7f-11ff-4f54-b26a-f456bd515208</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[5]</value>
+      <webElementGuid>96e715b2-860a-4977-9f98-49034db5225f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='content-main']/div/div/div/div/div[2]/div/div[2]/a/button</value>
+      <webElementGuid>01b65c9f-e3bb-4f22-a07e-3c56d7ad7a94</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Team Monitoring'])[2]/following::button[1]</value>
+      <webElementGuid>93a35edd-d903-4368-ad71-bff8af008859</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Help Center'])[1]/following::button[1]</value>
+      <webElementGuid>b24250d6-e207-45fe-b50f-dc7c70c94606</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/button</value>
+      <webElementGuid>65e3a7e0-363c-4e3c-b34f-b0251d0c60cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Show Team Profile' or . = 'Show Team Profile')]</value>
+      <webElementGuid>74eecebc-51de-45ba-8db5-6b5fcfbc3e51</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
