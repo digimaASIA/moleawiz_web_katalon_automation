@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TCMH - Positive Case Menu</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>ec4d872b-8b81-440b-ac6c-55af3d1bece4</testCaseGuid>
-</TestCaseEntity>

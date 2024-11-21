@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.base_url_staging)
 
-CustomKeywords.'keyword_FunctionLogin.AutomationLogin.loginWithGlobalVariables'()
+CustomKeywords.'keyword_FunctionLogin.AutomationLogin.loginWithUserDummy2'()
 
 WebUI.click(findTestObject('Object My Learning Journey/btn_My_Learning_Journey_Menu'))
 
@@ -47,11 +47,15 @@ WebUI.scrollToElement(findTestObject('Object My Learning Journey/btn_Cart_Contin
 
 WebUI.click(findTestObject('Object My Learning Journey/btn_Cart_Continue_My_Learning_Journey'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(5)
+
 WebUI.back()
 
 WebUI.scrollToElement(findTestObject('Object My Learning Journey/btn_Cart_Start_My_Learning_Journey'), 0)
 
 WebUI.click(findTestObject('Object My Learning Journey/btn_Cart_Start_My_Learning_Journey'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(5)
 
 WebUI.back()
 
@@ -59,5 +63,11 @@ WebUI.scrollToElement(findTestObject('Object My Learning Journey/btn_Cart_Restar
 
 WebUI.click(findTestObject('Object My Learning Journey/btn_Cart_Restart_My_Learning_Journey'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(5)
+
+WebUI.back()
+
 WebUI.delay(2)
+
+WebUI.closeBrowser()
 

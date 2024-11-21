@@ -15,7 +15,7 @@
       <guid>2fd26f99-994a-414f-a48e-f9c0b8b141dd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/MoLeaWiz/Forgot Password/Negative Case/TCFP - Negative case Forgot Password</testCaseId>
+      <testCaseId>Test Cases/MoLeaWiz/Forgot Password/Negative Case/TCFP - Negative Case Forgot Password</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -63,51 +63,5 @@ class CapchaLogin {
 
 		WebUI.sendKeys(findTestObject('Object Login/input_Captcha_Your_Answer_Login'), yourAnswer.toString())
 	}
-	/**
-	 * Function automation login
-	 */
-	@Keyword
-	def automationLogin() {
-		WebUI.openBrowser(GlobalVariable.base_url_staging)
-		WebUI.setText(findTestObject('Object Login/input_Username_Login'), GlobalVariable.usernameMoLeaWiz)
-		WebUI.setText(findTestObject('Object Login/input_Password_Login'), GlobalVariable.passwordGeneral)
-		WebUI.comment('function captcha your answer')
-		def captcha1 = WebUI.getText(findTestObject('Object Login/captcha_Num1_Login'))
-		def intCaptcha1 = captcha1.toInteger()
-
-		def captcha2 = WebUI.getText(findTestObject('Object Login/captcha_Num2_Login'))
-		def intCaptcha2 = captcha2.toInteger()
-		def yourAnswer = intCaptcha1 + intCaptcha2
-
-		WebUI.sendKeys(findTestObject('Object Login/input_Captcha_Your_Answer_Login'), yourAnswer.toString())
-
-		WebUI.click(findTestObject('Object Login/checkbox_Remember_Me_Login'))
-		WebUI.click(findTestObject('Object Login/btn_login'))
-		WebUI.delay(3)
-		WebUI.click(findTestObject('Object Login/dropdown_User_Profile'))
-		WebUI.click(findTestObject('Object Home/btn_logout_User_Profile'))
-		WebUI.verifyElementPresent(findTestObject('Object Login/input_Username_Login'), 0)
-		WebUI.verifyElementPresent(findTestObject('Object Login/input_Password_Login'), 0)
-		WebUI.verifyElementPresent(findTestObject('Object Login/btn_login'), 0)
-	}
-	/**
-	 * Click element
-	 * @param to Katalon test object
-	 */
-	@Keyword
-	def automationLogin(TestObject to) {
-	}
-
-	/**
-	 * Get all rows of HTML table
-	 * @param table Katalon test object represent for HTML table
-	 * @param outerTagName outer tag name of TR tag, usually is TBODY
-	 * @return All rows inside HTML table
-	 */
-	@Keyword
-	def List<WebElement> getHtmlTableRows(TestObject table, String outerTagName) {
-		WebElement mailList = WebUiBuiltInKeywords.findWebElement(table)
-		List<WebElement> selectedRows = mailList.findElements(By.xpath("./" + outerTagName + "/tr"))
-		return selectedRows
-	}
+	
 }

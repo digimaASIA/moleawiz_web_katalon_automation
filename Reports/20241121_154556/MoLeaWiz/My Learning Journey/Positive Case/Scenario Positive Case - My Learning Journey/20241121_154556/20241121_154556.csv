@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Scenario Positive Case - My Learning Journey,Chrome 131.0.0.0,,,21-11-2024 15:45:59,21-11-2024 15:46:46,47.087s,PASSED
+,,,,,,,
+Test Cases/MoLeaWiz/My Learning Journey/Positive Case/TCMMLJ - Positive Case My Learning Journey,Chrome 131.0.0.0,,,21-11-2024 15:45:59,21-11-2024 15:46:46,46.912s,PASSED
+openBrowser(base_url_staging),Chrome 131.0.0.0,,,21-11-2024 15:46:00,21-11-2024 15:46:03,3.751s,PASSED
+keyword_FunctionLogin.AutomationLogin.loginWithUserDummy2(),Chrome 131.0.0.0,,,21-11-2024 15:46:03,21-11-2024 15:46:06,2.956s,PASSED
+"click(findTestObject(""Object My Learning Journey/btn_My_Learning_Journey_Menu""))",Chrome 131.0.0.0,,,21-11-2024 15:46:06,21-11-2024 15:46:21,14.404s,PASSED
+"verifyElementVisible(findTestObject(""Object My Learning Journey/verify_Successfully_Open_My_Learning_Journey - Title My Learning Journey""))",Chrome 131.0.0.0,,,21-11-2024 15:46:21,21-11-2024 15:46:22,0.820s,PASSED
+"verifyElementVisible(findTestObject(""Object My Learning Journey/verify_Successfully_Open_My_Learning_Journey - Text Filter""))",Chrome 131.0.0.0,,,21-11-2024 15:46:22,21-11-2024 15:46:22,0.265s,PASSED
+"verifyElementVisible(findTestObject(""Object My Learning Journey/verify_Successfully_Open_My_Learning_Journey - Radio button All""))",Chrome 131.0.0.0,,,21-11-2024 15:46:22,21-11-2024 15:46:22,0.259s,PASSED
+"verifyElementVisible(findTestObject(""Object My Learning Journey/verify_Successfully_Open_My_Learning_Journey - Radio button Ongoing""))",Chrome 131.0.0.0,,,21-11-2024 15:46:22,21-11-2024 15:46:22,0.258s,PASSED
+"verifyElementVisible(findTestObject(""Object My Learning Journey/verify_Successfully_Open_My_Learning_Journey - Radio button New""))",Chrome 131.0.0.0,,,21-11-2024 15:46:22,21-11-2024 15:46:23,0.276s,PASSED
+"verifyElementVisible(findTestObject(""Object My Learning Journey/verify_Successfully_Open_My_Learning_Journey - Radio button Completed""))",Chrome 131.0.0.0,,,21-11-2024 15:46:23,21-11-2024 15:46:23,0.252s,PASSED
+"click(findTestObject(""Object My Learning Journey/btn_Filter_Ongoing_My_Learning_Journey""))",Chrome 131.0.0.0,,,21-11-2024 15:46:23,21-11-2024 15:46:23,0.391s,PASSED
+"click(findTestObject(""Object My Learning Journey/btn_Filter_New_My_Learning_Journey""))",Chrome 131.0.0.0,,,21-11-2024 15:46:23,21-11-2024 15:46:24,0.588s,PASSED
+"click(findTestObject(""Object My Learning Journey/btn_Filter_Completed_My_Learning_Journey""))",Chrome 131.0.0.0,,,21-11-2024 15:46:24,21-11-2024 15:46:24,0.559s,PASSED
+"click(findTestObject(""Object My Learning Journey/btn_Filter_All_My_Learning_Journey""))",Chrome 131.0.0.0,,,21-11-2024 15:46:24,21-11-2024 15:46:25,0.755s,PASSED
+"scrollToElement(findTestObject(""Object My Learning Journey/btn_Cart_Continue_My_Learning_Journey""), 0)",Chrome 131.0.0.0,,,21-11-2024 15:46:25,21-11-2024 15:46:26,0.568s,PASSED
+"click(findTestObject(""Object My Learning Journey/btn_Cart_Continue_My_Learning_Journey""), STOP_ON_FAILURE)",Chrome 131.0.0.0,,,21-11-2024 15:46:26,21-11-2024 15:46:26,0.518s,PASSED
+delay(5),Chrome 131.0.0.0,,,21-11-2024 15:46:26,21-11-2024 15:46:31,5.039s,PASSED
+back(),Chrome 131.0.0.0,,,21-11-2024 15:46:31,21-11-2024 15:46:31,0.124s,PASSED
+"scrollToElement(findTestObject(""Object My Learning Journey/btn_Cart_Start_My_Learning_Journey""), 0)",Chrome 131.0.0.0,,,21-11-2024 15:46:31,21-11-2024 15:46:32,0.774s,PASSED
+"click(findTestObject(""Object My Learning Journey/btn_Cart_Start_My_Learning_Journey""), STOP_ON_FAILURE)",Chrome 131.0.0.0,,,21-11-2024 15:46:32,21-11-2024 15:46:33,0.462s,PASSED
+delay(5),Chrome 131.0.0.0,,,21-11-2024 15:46:33,21-11-2024 15:46:38,5.004s,PASSED
+back(),Chrome 131.0.0.0,,,21-11-2024 15:46:38,21-11-2024 15:46:38,0.105s,PASSED
+"scrollToElement(findTestObject(""Object My Learning Journey/btn_Cart_Restart_My_Learning_Journey""), 0)",Chrome 131.0.0.0,,,21-11-2024 15:46:38,21-11-2024 15:46:38,0.745s,PASSED
+"click(findTestObject(""Object My Learning Journey/btn_Cart_Restart_My_Learning_Journey""), STOP_ON_FAILURE)",Chrome 131.0.0.0,,,21-11-2024 15:46:38,21-11-2024 15:46:39,0.420s,PASSED
+delay(5),Chrome 131.0.0.0,,,21-11-2024 15:46:39,21-11-2024 15:46:44,5.010s,PASSED
+back(),Chrome 131.0.0.0,,,21-11-2024 15:46:44,21-11-2024 15:46:44,0.107s,PASSED
+delay(2),Chrome 131.0.0.0,,,21-11-2024 15:46:44,21-11-2024 15:46:46,2.008s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,21-11-2024 15:46:46,21-11-2024 15:46:46,0.174s,PASSED
