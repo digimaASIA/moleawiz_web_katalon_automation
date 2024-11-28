@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMMLJ04 - User bisa memilih filter Completed pada My Learning Journey</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4d09fc47-f5d0-44d7-a66b-78585aa542f9</testCaseGuid>
+</TestCaseEntity>

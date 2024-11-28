@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>verify_Successfully_Open_Team_Monitoring - Icon Member</name>
+   <tag></tag>
+   <elementGuidId>5d99f366-6c6a-4589-bfa4-99ef302d1f15</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='content-main']/div/div/div/div/div[2]/div/div/div/div/div/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img.ant-image-img.css-1eeazh9</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>4d07d15d-4eb3-47c9-b341-7e51fe4ce0be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-image-img css-1eeazh9</value>
+      <webElementGuid>51c073b9-ce59-4baf-9137-d6d9549e3963</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/assets/ic_team_teammonitoring-8d16a690.svg</value>
+      <webElementGuid>0a273481-51c4-4700-a0ac-1f7dc19cc1a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>32</value>
+      <webElementGuid>a3803269-e043-47bc-9962-26580d456dba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content-main&quot;)/div[1]/div[@class=&quot;ant-row h-100 css-1eeazh9&quot;]/div[@class=&quot;ant-col ant-col-17 h-100 css-1eeazh9&quot;]/div[@class=&quot;ant-row ant-row-top css-1eeazh9&quot;]/div[@class=&quot;ant-col ant-col-10 css-1eeazh9&quot;]/div[@class=&quot;ant-row css-1eeazh9&quot;]/div[1]/div[1]/div[1]/div[@class=&quot;ant-image css-1eeazh9&quot;]/img[@class=&quot;ant-image-img css-1eeazh9&quot;]</value>
+      <webElementGuid>45c60278-2889-44bf-a6dc-f0a959bf2b9c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='content-main']/div/div/div/div/div[2]/div/div/div/div/div/img</value>
+      <webElementGuid>0f5f28b4-0435-4c31-8c03-84141602612a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div/img</value>
+      <webElementGuid>3653dc80-f658-47d4-9a3d-3201baeaca72</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/assets/ic_team_teammonitoring-8d16a690.svg']</value>
+      <webElementGuid>3309e672-6437-461a-9ad8-2144afc7a2cc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

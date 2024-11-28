@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMH14 - User bisa membuka Menu Rewards dengan kondisi Menu ter-Expand</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9ed7e29e-d1bf-4bf2-bc4c-eec6bc4753af</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>verify_Successfully_Open_My_Learning_Journey - Text Filter</name>
+   <tag></tag>
+   <elementGuidId>77321a58-8b2a-4f6e-99b0-d0d969931c37</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='content-main']/div/div/div[2]/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ant-col.ant-col-12.css-1eo2d7c > div > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>0d4c626a-01ef-4588-8051-d3db6230d28f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Filter</value>
+      <webElementGuid>f1196555-63b9-4229-a8be-64c9136ef76e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content-main&quot;)/div[1]/div[@class=&quot;ant-row ant-row-top css-1eo2d7c&quot;]/div[@class=&quot;ant-col ant-col-12 css-1eo2d7c&quot;]/div[1]/span[1]</value>
+      <webElementGuid>2d90cbf3-7d5d-4663-8c12-69b7eff1819a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='content-main']/div/div/div[2]/div/span</value>
+      <webElementGuid>5c4e1a83-f0a7-46b3-81e1-e78d5795c26f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Learning Journey'])[2]/following::span[1]</value>
+      <webElementGuid>57287e18-641d-4520-98df-3b58a1aa9e63</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Help Center'])[1]/following::span[1]</value>
+      <webElementGuid>3fede53d-7427-45a2-b971-7e3dcc2725d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All'])[1]/preceding::span[3]</value>
+      <webElementGuid>f070b5e1-8509-4436-9e1c-026e1e97afa1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ongoing'])[1]/preceding::span[7]</value>
+      <webElementGuid>757c778f-4c9c-4619-8461-0ac2eefe7dcc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Filter']/parent::*</value>
+      <webElementGuid>817b4de0-4309-4192-aebf-bbbcc11f6044</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/span</value>
+      <webElementGuid>e9f3fbb8-4cbe-4381-b4d9-a6aa1b9a6533</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Filter' or . = 'Filter')]</value>
+      <webElementGuid>c10a515f-4fbd-4618-990f-30b9fb0131ac</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

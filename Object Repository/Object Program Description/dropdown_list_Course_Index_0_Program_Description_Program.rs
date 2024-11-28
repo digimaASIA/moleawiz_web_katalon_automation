@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdown_list_Course_Index_0_Program_Description_Program</name>
+   <tag></tag>
+   <elementGuidId>e75eb1e9-054d-4b78-9285-664ff98f5c38</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'dropdown-list-course-program' and @data-index = '0']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>dropdown-list-course-program</value>
+      <webElementGuid>b83a6188-8b78-4de2-8fd1-ed35a305c1d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-index</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>e55cf150-1c65-4514-9b10-847970d5087b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

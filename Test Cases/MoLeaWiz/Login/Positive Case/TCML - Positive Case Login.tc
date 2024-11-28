@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCML - Positive Case Login</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8dd66b0d-a628-42bf-a5c1-3f4ee9a33724</testCaseGuid>
+</TestCaseEntity>

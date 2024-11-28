@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMMLJ06 - User bisa membuka Cart Continue pada halaman My Learning Journey</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ce076324-9814-40d2-8b47-078c306c4b42</testCaseGuid>
+</TestCaseEntity>

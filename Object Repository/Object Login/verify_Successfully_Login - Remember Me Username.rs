@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>verify_Successfully_Login - Remember Me Username</name>
+   <tag></tag>
+   <elementGuidId>22c25165-aa37-48c7-b07f-f736d6951c6a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'id-username-login' and @value = 'testingdigima@digimasia.com']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>id-username-login</value>
+      <webElementGuid>0fd7b9ce-5e90-48e6-a74d-6ee1b9780f97</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>testingdigima@digimasia.com</value>
+      <webElementGuid>889428ef-e2ce-47ff-a496-3e3f52767410</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

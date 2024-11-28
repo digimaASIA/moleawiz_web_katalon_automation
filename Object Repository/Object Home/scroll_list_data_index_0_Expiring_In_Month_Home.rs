@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>scroll_list_data_index_0_Expiring_In_Month_Home</name>
+   <tag></tag>
+   <elementGuidId>705f6f08-3a4b-4e87-b571-debbcbb7820c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'list-data-expiring-in-month-home' and @data-id = '0']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>list-data-expiring-in-month-home</value>
+      <webElementGuid>6beb2bda-de38-4ddf-a2f7-f2320d3f5708</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-id</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>9d60b1a2-c95a-4849-9635-ff0d6c01d350</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

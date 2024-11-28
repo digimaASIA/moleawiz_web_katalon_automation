@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMMLJ01 - User bisa membuka Menu My Learning Journey</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8847bd0c-ed97-48bb-a5b9-ca2cd97b237c</testCaseGuid>
+</TestCaseEntity>

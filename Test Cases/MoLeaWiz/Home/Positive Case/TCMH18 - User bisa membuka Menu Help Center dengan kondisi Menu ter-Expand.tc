@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMH18 - User bisa membuka Menu Help Center dengan kondisi Menu ter-Expand</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3352cbd0-ec37-4215-8ad5-a2eb3cb0bd27</testCaseGuid>
+</TestCaseEntity>

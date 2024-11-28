@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMPD05 - User bisa membuka New Program Description dan membuka beberapa list Course lewat halaman Home</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bad07c28-fa12-4511-8dfa-7d5826199cc3</testCaseGuid>
+</TestCaseEntity>

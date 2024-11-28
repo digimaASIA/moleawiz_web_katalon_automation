@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "0C0A8B2FFE4B69092936B40BF4D1B310",
+  "keywordClasses": [
+    {
+      "name": "keyword_FunctionLogin.CapchaLogin",
+      "keywordMethods": [
+        {
+          "name": "automationCaptcha",
+          "parameters": [],
+          "javadoc": "/**\r\n\t * Function automation captcha\r\n\t */"
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

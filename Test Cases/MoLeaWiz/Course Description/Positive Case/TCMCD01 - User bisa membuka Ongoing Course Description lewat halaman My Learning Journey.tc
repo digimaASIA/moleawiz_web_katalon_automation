@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMCD01 - User bisa membuka Ongoing Course Description lewat halaman My Learning Journey</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>31d0d1e0-74df-463f-946f-91cd6caf6b06</testCaseGuid>
+</TestCaseEntity>

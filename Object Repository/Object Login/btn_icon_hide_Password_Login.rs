@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_icon_hide_Password_Login</name>
+   <tag></tag>
+   <elementGuidId>4e8ca606-8d54-43bb-97a7-926e40906fb9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>btn-hide-password-login</value>
+      <webElementGuid>30e95809-1858-49cd-8ea6-5c9b5af9d9c2</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

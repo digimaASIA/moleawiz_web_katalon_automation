@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Scenario Positive Case - My Learning Journey" time="47.087" tests="1" failures="0" errors="0">
+   <testsuite name="Scenario Positive Case - My Learning Journey" tests="1" failures="0" errors="0" time="47.087" skipped="0" timestamp="21-11-2024T15:45:59" hostname="Hafizh Abdillah - DESKTOP-JE6N759" id="Test Suites/MoLeaWiz/My Learning Journey/Positive Case/Scenario Positive Case - My Learning Journey">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Hafizh Abdillah\\git\\moleawiz_web_katalon_automation\\Reports\\20241121_154556\\MoLeaWiz\\My Learning Journey\\Positive Case\\Scenario Positive Case - My Learning Journey\\20241121_154556"/>
+         <property name="logFiles" value="C:\\Users\\Hafizh Abdillah\\git\\moleawiz_web_katalon_automation\\Reports\\20241121_154556\\MoLeaWiz\\My Learning Journey\\Positive Case\\Scenario Positive Case - My Learning Journey\\20241121_154556\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Hafizh Abdillah - DESKTOP-JE6N759"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.0.0.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="7ada21285f81704b9d56d85f4aaa164b"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/MoLeaWiz/My Learning Journey/Positive Case/TCMMLJ - Positive Case My Learning Journey" time="46.912" classname="Test Cases/MoLeaWiz/My Learning Journey/Positive Case/TCMMLJ - Positive Case My Learning Journey" status="PASSED">
+         <system-out><![CDATA[21-11-2024T15:45:59 - [TEST_CASE][PASSED] - Test Cases/MoLeaWiz/My Learning Journey/Positive Case/TCMMLJ - Positive Case My Learning Journey: Test Cases/MoLeaWiz/My Learning Journey/Positive Case/TCMMLJ - Positive Case My Learning Journey
+
+21-11-2024T15:46:00 - [TEST_STEP][PASSED] - openBrowser(base_url_staging): Browser is opened with url: 'https://moleawiz-web-staging.digimasia.com/'
+
+21-11-2024T15:46:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-11-2024T15:46:00 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1366,768]']
+
+21-11-2024T15:46:00 - [MESSAGE][INFO] - Action delay is set to 50 milliseconds
+
+21-11-2024T15:46:03 - [MESSAGE][PASSED] - Browser is opened with url: 'https://moleawiz-web-staging.digimasia.com/'
+
+21-11-2024T15:46:03 - [TEST_STEP][PASSED] - keyword_FunctionLogin.AutomationLogin.loginWithUserDummy2(): keyword_FunctionLogin.AutomationLogin.loginWithUserDummy2 is PASSED
+
+21-11-2024T15:46:04 - [MESSAGE][PASSED] - Text 'hafizh@digimasia.com' is set on object 'Object Repository/Object Login/input_Username_Login'
+
+21-11-2024T15:46:05 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Object Login/input_Password_Login'
+
+21-11-2024T15:46:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Object Login/captcha_Num1_Login' is: '14'
+
+21-11-2024T15:46:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/Object Login/captcha_Num2_Login' is: '5'
+
+21-11-2024T15:46:06 - [MESSAGE][PASSED] - Keys '19' sent to object: 'Object Repository/Object Login/input_Captcha_Your_Answer_Login'
+
+21-11-2024T15:46:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Login/btn_Login' is clicked on
+
+21-11-2024T15:46:06 - [MESSAGE][PASSED] - keyword_FunctionLogin.AutomationLogin.loginWithUserDummy2 is PASSED
+
+21-11-2024T15:46:06 - [TEST_STEP][PASSED] - click(findTestObject("Object My Learning Journey/btn_My_Learning_Journey_Menu")): Object: 'Object Repository/Object My Learning Journey/btn_My_Learning_Journey_Menu' is clicked on
+
+21-11-2024T15:46:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Object My Learning Journey/btn_My_Learning_Journey_Menu' is clicked on
+
+21-11-2024T15:46:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object My Learning Journey/verify_Successfully_Open_My_Learning_Journey - Title My Learning Journey")): Object 'Object Repository/Object My Learning Journey/verify_Successfully_Open_My_Learning_Journey - Title My Learning Journey' is visible
+
+21-11-2024T15:46:22 - [MESSAGE][PASSED] - Object 'Object Repository/Object My Learning Journey/verify_Successfully_Open_My_Learning_Journey - Title My Learning Journey' is visible
+
+21-11-2024T15:46:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object My Learning Journey/verify_Successfully_Open_My_Learning_Journey - Text Filter")): Object 'Object Repository/Object My Learning Journey/verify_Successfully_Open_My_Learning_Journey - Text Filter' is visible
+
+21-11-2024T15:46:22 - [MESSAGE][PASSED] - Object 'Object Repository/Object My Learning Journey/verify_Successfully_Open_My_Learning_Journey - Text Filter' is visible
+
+21-11-2024T15:46:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object My Learning Journey/verify_Successfully_Open_My_Learning_Journey - Radio button All")): Object 'Object Repository/Object My Learning Journey/verify_Successfully_Open_My_Learning_Journey - Radio button All' is visible
+
+21-11-2024T15:46:22 - [MESSAGE][PASSED] - Object 'Object Repository/Object My Learning Journey/verify_Successfully_Open_My_Learning_Journey - Radio button All' is visible
+
+21-11-2024T15:46:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object My Learning Journey/verify_Successfully_Open_My_Learning_Journey - Radio button Ongoing")): Object 'Object Repository/Object My Learning Journey/verify_Successfully_Open_My_Learning_Journey - Radio button Ongoing' is visible
+
+21-11-2024T15:46:22 - [MESSAGE][PASSED] - Object 'Object Repository/Object My Learning Journey/verify_Successfully_Open_My_Learning_Journey - Radio button Ongoing' is visible
+
+21-11-2024T15:46:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object My Learning Journey/verify_Successfully_Open_My_Learning_Journey - Radio button New")): Object 'Object Repository/Object My Learning Journey/verify_Successfully_Open_My_Learning_Journey - Radio button New' is visible
+
+21-11-2024T15:46:23 - [MESSAGE][PASSED] - Object 'Object Repository/Object My Learning Journey/verify_Successfully_Open_My_Learning_Journey - Radio button New' is visible
+
+21-11-2024T15:46:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object My Learning Journey/verify_Successfully_Open_My_Learning_Journey - Radio button Completed")): Object 'Object Repository/Object My Learning Journey/verify_Successfully_Open_My_Learning_Journey - Radio button Completed' is visible
+
+21-11-2024T15:46:23 - [MESSAGE][PASSED] - Object 'Object Repository/Object My Learning Journey/verify_Successfully_Open_My_Learning_Journey - Radio button Completed' is visible
+
+21-11-2024T15:46:23 - [TEST_STEP][PASSED] - click(findTestObject("Object My Learning Journey/btn_Filter_Ongoing_My_Learning_Journey")): Object: 'Object Repository/Object My Learning Journey/btn_Filter_Ongoing_My_Learning_Journey' is clicked on
+
+21-11-2024T15:46:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Object My Learning Journey/btn_Filter_Ongoing_My_Learning_Journey' is clicked on
+
+21-11-2024T15:46:23 - [TEST_STEP][PASSED] - click(findTestObject("Object My Learning Journey/btn_Filter_New_My_Learning_Journey")): Object: 'Object Repository/Object My Learning Journey/btn_Filter_New_My_Learning_Journey' is clicked on
+
+21-11-2024T15:46:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Object My Learning Journey/btn_Filter_New_My_Learning_Journey' is clicked on
+
+21-11-2024T15:46:24 - [TEST_STEP][PASSED] - click(findTestObject("Object My Learning Journey/btn_Filter_Completed_My_Learning_Journey")): Object: 'Object Repository/Object My Learning Journey/btn_Filter_Completed_My_Learning_Journey' is clicked on
+
+21-11-2024T15:46:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Object My Learning Journey/btn_Filter_Completed_My_Learning_Journey' is clicked on
+
+21-11-2024T15:46:24 - [TEST_STEP][PASSED] - click(findTestObject("Object My Learning Journey/btn_Filter_All_My_Learning_Journey")): Object: 'Object Repository/Object My Learning Journey/btn_Filter_All_My_Learning_Journey' is clicked on
+
+21-11-2024T15:46:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Object My Learning Journey/btn_Filter_All_My_Learning_Journey' is clicked on
+
+21-11-2024T15:46:25 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object My Learning Journey/btn_Cart_Continue_My_Learning_Journey"), 0): Scroll to object 'Object Repository/Object My Learning Journey/btn_Cart_Continue_My_Learning_Journey' successfully
+
+21-11-2024T15:46:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+21-11-2024T15:46:26 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Object My Learning Journey/btn_Cart_Continue_My_Learning_Journey' successfully
+
+21-11-2024T15:46:26 - [TEST_STEP][PASSED] - click(findTestObject("Object My Learning Journey/btn_Cart_Continue_My_Learning_Journey"), STOP_ON_FAILURE): Object: 'Object Repository/Object My Learning Journey/btn_Cart_Continue_My_Learning_Journey' is clicked on
+
+21-11-2024T15:46:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Object My Learning Journey/btn_Cart_Continue_My_Learning_Journey' is clicked on
+
+21-11-2024T15:46:26 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-11-2024T15:46:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-11-2024T15:46:31 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+21-11-2024T15:46:31 - [MESSAGE][PASSED] - Navigate back successfully
+
+21-11-2024T15:46:31 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object My Learning Journey/btn_Cart_Start_My_Learning_Journey"), 0): Scroll to object 'Object Repository/Object My Learning Journey/btn_Cart_Start_My_Learning_Journey' successfully
+
+21-11-2024T15:46:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+21-11-2024T15:46:32 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Object My Learning Journey/btn_Cart_Start_My_Learning_Journey' successfully
+
+21-11-2024T15:46:32 - [TEST_STEP][PASSED] - click(findTestObject("Object My Learning Journey/btn_Cart_Start_My_Learning_Journey"), STOP_ON_FAILURE): Object: 'Object Repository/Object My Learning Journey/btn_Cart_Start_My_Learning_Journey' is clicked on
+
+21-11-2024T15:46:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Object My Learning Journey/btn_Cart_Start_My_Learning_Journey' is clicked on
+
+21-11-2024T15:46:33 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-11-2024T15:46:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-11-2024T15:46:38 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+21-11-2024T15:46:38 - [MESSAGE][PASSED] - Navigate back successfully
+
+21-11-2024T15:46:38 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object My Learning Journey/btn_Cart_Restart_My_Learning_Journey"), 0): Scroll to object 'Object Repository/Object My Learning Journey/btn_Cart_Restart_My_Learning_Journey' successfully
+
+21-11-2024T15:46:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+21-11-2024T15:46:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Object My Learning Journey/btn_Cart_Restart_My_Learning_Journey' successfully
+
+21-11-2024T15:46:38 - [TEST_STEP][PASSED] - click(findTestObject("Object My Learning Journey/btn_Cart_Restart_My_Learning_Journey"), STOP_ON_FAILURE): Object: 'Object Repository/Object My Learning Journey/btn_Cart_Restart_My_Learning_Journey' is clicked on
+
+21-11-2024T15:46:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Object My Learning Journey/btn_Cart_Restart_My_Learning_Journey' is clicked on
+
+21-11-2024T15:46:39 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-11-2024T15:46:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-11-2024T15:46:44 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+21-11-2024T15:46:44 - [MESSAGE][PASSED] - Navigate back successfully
+
+21-11-2024T15:46:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-11-2024T15:46:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-11-2024T15:46:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-11-2024T15:46:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-11-2024T15:45:59 - [TEST_SUITE][PASSED] - Scenario Positive Case - My Learning Journey: Test Cases/MoLeaWiz/My Learning Journey/Positive Case/TCMMLJ - Positive Case My Learning Journey]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

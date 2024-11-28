@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>list_collapse_help_index_5</name>
+   <tag></tag>
+   <elementGuidId>77733e5c-e201-4dfa-a6cf-909d6583eefa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'list-collapse-help' and @index = '5']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>list-collapse-help</value>
+      <webElementGuid>747fc14b-48f8-4bec-8062-e8868b1735a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>index</name>
+      <type>Main</type>
+      <value>5</value>
+      <webElementGuid>ae55c2ab-5ca8-43b2-b184-8be7885a27f7</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

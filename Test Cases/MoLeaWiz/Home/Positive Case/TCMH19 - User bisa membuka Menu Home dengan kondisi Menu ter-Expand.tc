@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMH19 - User bisa membuka Menu Home dengan kondisi Menu ter-Expand</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c15f7e0a-2fba-4e77-af69-3980abd4165b</testCaseGuid>
+</TestCaseEntity>

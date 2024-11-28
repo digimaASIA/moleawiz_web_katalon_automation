@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>verify_Successfully_Open_My_Learning_Journey - Radio button All</name>
+   <tag></tag>
+   <elementGuidId>8f042581-40e4-4665-b8e4-414db458ce52</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='content-main']/div/div/div[2]/div/div/label/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>label.ant-radio-button-wrapper:nth-child(1)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>3804d8b9-47b5-4c16-8710-d9cd917d31a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-radio-button ant-radio-button-checked</value>
+      <webElementGuid>036356c4-3bcf-494e-a8b4-581e8716c97c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content-main&quot;)/div[1]/div[@class=&quot;ant-row ant-row-top css-1eo2d7c&quot;]/div[@class=&quot;ant-col ant-col-12 css-1eo2d7c&quot;]/div[1]/div[@class=&quot;ant-radio-group ant-radio-group-outline ant-radio-group-middle radio-button-my-learning-journey css-1eo2d7c&quot;]/label[@class=&quot;ant-radio-button-wrapper ant-radio-button-wrapper-checked css-1eo2d7c&quot;]/span[@class=&quot;ant-radio-button ant-radio-button-checked&quot;]</value>
+      <webElementGuid>fc7eed4e-a3c7-4e77-b224-acffe9149164</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='content-main']/div/div/div[2]/div/div/label/span</value>
+      <webElementGuid>d6d05e10-ebe6-49c1-916a-5ac79cb0572b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/following::span[1]</value>
+      <webElementGuid>f9e64b19-adfb-43dc-a181-44c078b4e8af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Learning Journey'])[2]/following::span[2]</value>
+      <webElementGuid>7bdaa8e3-ebd0-4ba2-aa57-daa8cb10932e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All'])[1]/preceding::span[2]</value>
+      <webElementGuid>d4b9086d-2ede-4dca-9573-32f07ebba10d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ongoing'])[1]/preceding::span[6]</value>
+      <webElementGuid>9977dd76-9fd5-4bea-86cd-dab7f7df8d18</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label/span</value>
+      <webElementGuid>b52e1669-387f-47c4-a75c-2629718da491</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

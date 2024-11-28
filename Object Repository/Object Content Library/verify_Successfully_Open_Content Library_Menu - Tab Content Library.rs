@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>verify_Successfully_Open_Content Library_Menu - Tab Content Library</name>
+   <tag></tag>
+   <elementGuidId>ef3fc45f-4b30-4767-83d0-507b9608ebaa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'tab-collection-content-library' and (text() = 'Collection' or . = 'Collection')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='rc-tabs-0-tab-contentlibrary']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#rc-tabs-0-tab-contentlibrary</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>tab-collection-content-library</value>
+      <webElementGuid>6d6cb508-b4e9-4ce5-9d68-426ae134ead9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Collection</value>
+      <webElementGuid>52dc5ee1-03d9-4130-9f15-d3920e61c41f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='rc-tabs-0-tab-contentlibrary']</value>
+      <webElementGuid>ef466492-67a2-4168-bb8b-5dd136417a5b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='content-main']/div/div/div/div/div/div/div</value>
+      <webElementGuid>07276af5-1778-4d94-b6d2-1a736a36912e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Help Center'])[1]/following::div[8]</value>
+      <webElementGuid>f705939a-7cb2-4862-bcaf-d756e863588b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reviews'])[1]/following::div[9]</value>
+      <webElementGuid>eead54ae-c0ab-4fc8-896a-12d94293b855</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Collection'])[1]/preceding::div[1]</value>
+      <webElementGuid>d536e1fb-1b6c-47c2-9989-f5f746971f33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='QC MLW 5.0'])[1]/preceding::div[8]</value>
+      <webElementGuid>1fb25a2c-79ee-4a19-90b3-6c67e9ff9b3c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main/div/div/div/div/div/div/div</value>
+      <webElementGuid>554c6bcf-759f-4502-87b5-f0de92e81be9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'rc-tabs-0-tab-contentlibrary' and (text() = 'Content Library' or . = 'Content Library')]</value>
+      <webElementGuid>fa6b28e5-b9ae-4a8d-bcae-e2acb52143e2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

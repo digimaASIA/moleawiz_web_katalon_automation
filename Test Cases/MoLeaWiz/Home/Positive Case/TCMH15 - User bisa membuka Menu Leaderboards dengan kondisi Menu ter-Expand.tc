@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMH15 - User bisa membuka Menu Leaderboards dengan kondisi Menu ter-Expand</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>54e66c30-edcd-4d51-8785-7aa8952b5c4e</testCaseGuid>
+</TestCaseEntity>

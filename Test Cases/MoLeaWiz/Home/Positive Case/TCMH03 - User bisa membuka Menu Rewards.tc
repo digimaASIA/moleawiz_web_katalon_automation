@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMH03 - User bisa membuka Menu Rewards</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9bb88c1d-34f5-47c1-a442-98787693810b</testCaseGuid>
+</TestCaseEntity>

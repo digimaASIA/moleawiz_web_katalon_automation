@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_Profile_User_Profile</name>
+   <tag></tag>
+   <elementGuidId>85ab7c67-24b8-4a7e-a2a2-72ee749c7cc9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'btn-profile-user-profile' and @role = 'menuitem']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>btn-profile-user-profile</value>
+      <webElementGuid>bd374768-39d7-41b8-992f-52af05276316</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>menuitem</value>
+      <webElementGuid>4b19b1e8-f4fc-4e87-966b-71546e83e9a0</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

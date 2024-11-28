@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMPD02 - User bisa membuka New Program Description dan membuka beberapa list Course lewat halaman My Learning Journey</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f86e0cb3-2618-4f8e-ac9a-0fe8fddea746</testCaseGuid>
+</TestCaseEntity>

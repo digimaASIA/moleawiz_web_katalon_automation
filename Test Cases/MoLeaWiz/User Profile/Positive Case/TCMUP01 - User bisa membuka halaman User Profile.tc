@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMUP01 - User bisa membuka halaman User Profile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f0b0a557-e3f4-4d27-ab2a-f6811e3991eb</testCaseGuid>
+</TestCaseEntity>

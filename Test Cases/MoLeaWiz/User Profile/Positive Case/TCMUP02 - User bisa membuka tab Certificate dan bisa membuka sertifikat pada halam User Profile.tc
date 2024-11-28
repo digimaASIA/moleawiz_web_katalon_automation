@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMUP02 - User bisa membuka tab Certificate dan bisa membuka sertifikat pada halam User Profile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cd4503ef-1959-4bf0-ace3-60e8fce0ca00</testCaseGuid>
+</TestCaseEntity>
