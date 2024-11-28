@@ -13,4 +13,5 @@ Step clone project langsung di katalon!!
 
 Note:
 1. New Token harus di perbarui setiap sebulan sekali
+2. Katalon API Key (8d6c6d1f-e471-439b-bf6e-3ba017af67d2)
 
