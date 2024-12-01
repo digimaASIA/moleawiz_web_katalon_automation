@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>verify_Succesfully_Add_Course_Collection_Content_Library - Text title cart COURSE</name>
+   <tag></tag>
+   <elementGuidId>8e6c007b-fee5-4764-a589-310ae817aec2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='rc-tabs-0-panel-collection']/div/div/div/div/div/div/div[2]/div/div/div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'collection-type' and (text() = 'COURSE' or . = 'COURSE')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.collection-type</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3684938e-ab28-486f-9311-4382888bdff4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>collection-type</value>
+      <webElementGuid>e239bd5f-a9f2-45b3-8257-eb5c143878d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>COURSE</value>
+      <webElementGuid>d779f2ea-8a95-40f0-a672-e6262cfeb226</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;rc-tabs-0-panel-collection&quot;)/div[1]/div[@class=&quot;ant-row row-tab-collection css-18snoy1&quot;]/div[@class=&quot;h-100 w-100 wrapper-collection ant-flex css-18snoy1 ant-flex-wrap-wrap&quot;]/div[@class=&quot;ant-card card-collection-content-library css-18snoy1&quot;]/div[@class=&quot;ant-card-body&quot;]/div[@class=&quot;ant-row css-18snoy1&quot;]/div[@class=&quot;ant-space css-18snoy1 ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small space-card-collection-content-library&quot;]/div[@class=&quot;ant-space-item&quot;]/div[1]/div[@class=&quot;collection-type&quot;]</value>
+      <webElementGuid>50923730-e309-42d0-86f0-78a0b53e3750</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='rc-tabs-0-panel-collection']/div/div/div/div/div/div/div[2]/div/div/div</value>
+      <webElementGuid>d4918045-9231-4673-a178-9f9e93c8273c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Completed'])[1]/following::div[5]</value>
+      <webElementGuid>6ecc0673-37ce-4def-8cce-2cead0e2fdc4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter'])[8]/following::div[15]</value>
+      <webElementGuid>4adff187-8edf-4bf0-b920-3a167f515872</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Check badge Program'])[1]/preceding::div[2]</value>
+      <webElementGuid>7ee55683-3018-49da-9c93-07f9e660086e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cek badge'])[1]/preceding::div[5]</value>
+      <webElementGuid>2c28411b-5a2c-477a-bd2c-35b8b364cefc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='PROGRAM']/parent::*</value>
+      <webElementGuid>d0a0b014-7a37-40f3-ae88-4be1408362aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div/div/div[2]/div/div/div</value>
+      <webElementGuid>37999d11-f2e1-42e0-89b1-41877504b398</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'PROGRAM' or . = 'PROGRAM')]</value>
+      <webElementGuid>ccc6b16b-edec-461d-8e20-4b76359c6eea</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

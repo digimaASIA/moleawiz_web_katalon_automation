@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>verify_Succesfully_Remove_Course_Collection_Content_Library - Toast Success Remove Course Collection</name>
+   <tag></tag>
+   <elementGuidId>6f73d81b-413a-421d-a92e-46b66b830a39</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>snackbar-general</value>
+      <webElementGuid>a2ba29fa-93c5-4e30-af77-ad4af82104f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>show</value>
+      <webElementGuid>a976245d-bbba-43eb-a972-c0415719bc35</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

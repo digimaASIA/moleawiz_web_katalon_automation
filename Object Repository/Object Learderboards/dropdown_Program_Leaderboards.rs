@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_Content_Library_Menu</name>
+   <name>dropdown_Program_Leaderboards</name>
    <tag></tag>
-   <elementGuidId>3cdda68e-0681-4cf1-b6e8-6cda62abfa0f</elementGuidId>
+   <elementGuidId>72f59ebf-f36f-44f5-b08f-122a9ebf87ae</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@name = 'btn-content-library-menu']</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value></value>
@@ -16,13 +12,13 @@
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
-   <useRalativeImagePath>false</useRalativeImagePath>
+   <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>dpd-name</name>
       <type>Main</type>
-      <value>btn-content-library-menu</value>
-      <webElementGuid>e5d696d5-885c-4b37-a3ae-a37cac9df90a</webElementGuid>
+      <value>dpd-program-leaderboards</value>
+      <webElementGuid>0fd651b6-66f5-4119-a8bf-f32bb15f9383</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

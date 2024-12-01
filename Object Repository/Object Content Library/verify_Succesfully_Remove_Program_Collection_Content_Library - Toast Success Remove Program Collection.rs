@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>verify_Succesfully_Remove_Program_Collection_Content_Library - Toast Success Remove Program Collection</name>
+   <tag></tag>
+   <elementGuidId>93f1bbdf-9ff1-4c60-bf78-3c879e286574</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>snackbar-general</value>
+      <webElementGuid>417f85a0-18a1-4ed4-9bdf-e0a700a5b3a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>show</value>
+      <webElementGuid>0faa991b-dc27-4f74-b259-b7784a9bb5d2</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

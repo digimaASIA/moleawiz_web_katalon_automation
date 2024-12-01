@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_Content_Library_Menu</name>
+   <name>btn_Close_Notif_Content_Library</name>
    <tag></tag>
-   <elementGuidId>3cdda68e-0681-4cf1-b6e8-6cda62abfa0f</elementGuidId>
+   <elementGuidId>9e3bd9d5-b056-48cf-b40a-96243c25c7cd</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@name = 'btn-content-library-menu']</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value></value>
@@ -16,13 +12,13 @@
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
-   <useRalativeImagePath>false</useRalativeImagePath>
+   <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>id</name>
       <type>Main</type>
-      <value>btn-content-library-menu</value>
-      <webElementGuid>e5d696d5-885c-4b37-a3ae-a37cac9df90a</webElementGuid>
+      <value>btn-modal-close-notif-content-library</value>
+      <webElementGuid>3a49c257-f5ef-4fd7-87e9-068b55e67579</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

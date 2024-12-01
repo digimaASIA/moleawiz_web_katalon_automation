@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>verify_Successfully_Open_Module_Collection_Content_Library - Text title MODULE</name>
+   <tag></tag>
+   <elementGuidId>ffcef6ab-c4d2-424b-9684-0e5749d69b89</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='content-main']/div/div/main/div/main/div/div/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.w-100.m-auto > div.w-100</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e9215857-edfb-4428-a62c-42bb6f0969da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-100</value>
+      <webElementGuid>dea034e7-8ccb-4cb2-9be8-34ba0fff4487</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>MODULE 1</value>
+      <webElementGuid>5db2a678-99b6-4eff-b01c-041bab99ed26</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content-main&quot;)/div[@class=&quot;ant-layout css-mkw4qa&quot;]/div[@class=&quot;ant-layout ant-layout-has-sider css-mkw4qa&quot;]/main[@class=&quot;ant-layout-content mh-100 css-mkw4qa&quot;]/div[@class=&quot;ant-layout css-mkw4qa&quot;]/main[@class=&quot;ant-layout-content css-mkw4qa&quot;]/div[1]/div[@class=&quot;ant-row css-mkw4qa&quot;]/div[@class=&quot;ant-col ant-col-18 css-mkw4qa&quot;]/div[@class=&quot;w-100 m-auto&quot;]/div[@class=&quot;w-100&quot;]</value>
+      <webElementGuid>fb775d71-a4bd-4bfb-a142-768b76f3c9dc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='content-main']/div/div/main/div/main/div/div/div/div/div</value>
+      <webElementGuid>daa353e6-18d9-4351-93df-d4aa7127dfd4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Module Badges 3'])[1]/following::div[7]</value>
+      <webElementGuid>42be5e91-a921-4baa-b81f-d5529bb1ca74</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Module 3'])[1]/following::div[7]</value>
+      <webElementGuid>29071524-9754-4a33-8fc9-c7fa466982f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Module Badges 1'])[2]/preceding::div[1]</value>
+      <webElementGuid>a3738672-d94e-4a3e-961a-a18ae987fe96</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Module Type'])[1]/preceding::div[6]</value>
+      <webElementGuid>910a0a73-042e-4a37-bbfd-233460a4b768</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='MODULE']/parent::*</value>
+      <webElementGuid>a16e2159-ce24-4b6b-bf78-9fb8c668459b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main/div/div/div/div/div</value>
+      <webElementGuid>b1191d56-c830-4349-bfd7-8f30733d6ea3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'MODULE 1' or . = 'MODULE 1')]</value>
+      <webElementGuid>cf3c8c9c-0ffe-423e-9fb7-4725ba5cfc4d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_Enter_Cart_Library_Content_Library</name>
+   <tag></tag>
+   <elementGuidId>14be1e90-e899-4d7e-9a71-a1ba174e0dcf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='rc-tabs-0-panel-contentlibrary']/div/div/div/div[5]/div/div/div/div[2]/div/div[4]/div/a/button/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-index</name>
+      <type>Main</type>
+      <value>7</value>
+      <webElementGuid>8b17a7b0-0c3e-4855-a7e2-90ddcc128044</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>btn-enter-library</value>
+      <webElementGuid>c7f658bd-147b-4b62-a53f-9ecdb8796a9d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='rc-tabs-0-panel-contentlibrary']/div/div/div/div[5]/div/div/div/div[2]/div/div[4]/div/a/button/span</value>
+      <webElementGuid>f8760098-fd17-4eb2-afa5-f553a3522f13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Content Library Moleawiz Web Tester 3'])[1]/following::span[2]</value>
+      <webElementGuid>aa078e3f-7cd8-4a1a-a376-431fe5075c28</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter'])[4]/following::span[2]</value>
+      <webElementGuid>884795fc-439b-4629-a029-f705ef39704d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Content Library Moleawiz Web Tester 2'])[1]/preceding::span[1]</value>
+      <webElementGuid>4811c7d2-ee32-4dd6-a783-be00353e4647</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter'])[6]/preceding::span[2]</value>
+      <webElementGuid>9bd43694-b87c-472a-a992-76fd514fbd42</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/div/div[2]/div/div[4]/div/a/button/span</value>
+      <webElementGuid>45d59bcf-e800-474a-91c1-5c2be903bc35</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Enter' or . = 'Enter')]</value>
+      <webElementGuid>b74b46f0-c359-46ad-9972-a955ac549028</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

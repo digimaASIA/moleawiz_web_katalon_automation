@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>verify_Succesfully_Add_Course_Collection_Content_Library - Toast Success Add Course Collection</name>
+   <tag></tag>
+   <elementGuidId>d1885e69-1d62-4df9-9ed0-0d25af1356fe</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>snackbar-general</value>
+      <webElementGuid>0db00b34-918f-467b-8a0f-b9f773d36314</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>show</value>
+      <webElementGuid>576294cc-7d2d-4330-8eac-34d0fe7d1f46</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

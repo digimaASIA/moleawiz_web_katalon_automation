@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMLB03 - User bisa memilih Organization Level pada halaman Leaderboards</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>43160e98-3a94-48af-8e61-e8b802c81d8b</testCaseGuid>
+</TestCaseEntity>

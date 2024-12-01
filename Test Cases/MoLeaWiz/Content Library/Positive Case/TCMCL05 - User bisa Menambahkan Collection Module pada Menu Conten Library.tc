@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMCL05 - User bisa Menambahkan Collection Module pada Menu Conten Library</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>786cb1da-03f7-4a00-b2f6-717b705c8f55</testCaseGuid>
+</TestCaseEntity>

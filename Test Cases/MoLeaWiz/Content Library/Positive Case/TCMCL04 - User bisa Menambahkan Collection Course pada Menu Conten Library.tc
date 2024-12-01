@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMCL04 - User bisa Menambahkan Collection Course pada Menu Conten Library</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>79ef14d7-05b2-4088-bf71-7390f1a68d4f</testCaseGuid>
+</TestCaseEntity>

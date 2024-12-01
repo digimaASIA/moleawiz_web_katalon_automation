@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>verify_Successfully_Open_COURSE_Collection_Content_Library - Text title COURSE</name>
+   <tag></tag>
+   <elementGuidId>8988f243-6baa-4c0c-86a0-6b487345599d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='content-main']/div/div/main/div/div/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ant-flex.css-mkw4qa > div.w-100 > div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d16aa6df-072f-447e-95ec-bb2dce96a396</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>COURSE</value>
+      <webElementGuid>7791c9ac-8986-4e8a-9960-03e17a4543f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content-main&quot;)/div[@class=&quot;ant-layout css-mkw4qa&quot;]/div[@class=&quot;ant-layout ant-layout-has-sider css-mkw4qa&quot;]/main[@class=&quot;ant-layout-content mh-100 css-mkw4qa&quot;]/div[1]/div[@class=&quot;ant-flex css-mkw4qa ant-flex-align-stretch ant-flex-vertical&quot;]/div[@class=&quot;ant-flex css-mkw4qa&quot;]/div[@class=&quot;w-100&quot;]/div[1]</value>
+      <webElementGuid>98577bd2-d752-4fbb-9b6c-2ca236ff293f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='content-main']/div/div/main/div/div/div/div/div</value>
+      <webElementGuid>e11b8507-6dc7-4cb8-a812-5d114394e454</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='course cek badge'])[1]/following::div[6]</value>
+      <webElementGuid>20796fc3-be71-4933-950c-ec4a182f6904</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Help Center'])[1]/following::div[20]</value>
+      <webElementGuid>d9592ccb-25f0-4b0e-b746-ec3f31a48f86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='course cek badge'])[2]/preceding::div[1]</value>
+      <webElementGuid>cee308b4-afb6-4d86-8f8e-b5d11049bfc8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to Collection'])[1]/preceding::div[5]</value>
+      <webElementGuid>7d3a73a0-5bef-4b2f-aa84-4c7fc632d846</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='COURSE']/parent::*</value>
+      <webElementGuid>c4548db3-156a-431d-becb-976ec912f88e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main/div/div/div/div/div</value>
+      <webElementGuid>c3b63240-a4f1-4065-a553-30446b7f1a3a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'COURSE' or . = 'COURSE')]</value>
+      <webElementGuid>1f6090b3-33b9-41b0-8be6-7b23ef27bd0e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

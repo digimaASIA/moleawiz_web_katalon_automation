@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMCL03 - User bisa Menambahkan Collection Program pada Menu Content Library</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c6853b3b-4ff4-45cf-b9a7-6fba8e58b60f</testCaseGuid>
+</TestCaseEntity>

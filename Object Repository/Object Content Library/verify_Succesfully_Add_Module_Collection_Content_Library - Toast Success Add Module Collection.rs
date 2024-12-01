@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>verify_Succesfully_Add_Module_Collection_Content_Library - Toast Success Add Module Collection</name>
+   <tag></tag>
+   <elementGuidId>8bc9d358-32e5-4815-9f87-d558ad40f660</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>snackbar-general</value>
+      <webElementGuid>287bd804-2585-4851-a929-4fac802b1188</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>show</value>
+      <webElementGuid>8e541f9c-a7f9-45b5-be9a-68bef8c88d91</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>verify_Successfully_Open_Program_Collection_Content_Library - Text title PROGRAM</name>
+   <tag></tag>
+   <elementGuidId>c1b3b8bd-c8f3-4257-881e-2ddbf2ccf0f5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='content-main']/div/div/main/div/div/div[2]/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.p-program</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>27873737-d6ba-4460-b6ea-8319aee6d71f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-program</value>
+      <webElementGuid>5526c606-0ad8-4ea4-9d34-c0d6d87aab14</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>PROGRAM</value>
+      <webElementGuid>cb62de5d-c83c-4097-a76c-7c3bb1046203</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content-main&quot;)/div[@class=&quot;ant-layout css-mkw4qa&quot;]/div[@class=&quot;ant-layout ant-layout-has-sider css-mkw4qa&quot;]/main[@class=&quot;ant-layout-content mh-100 css-mkw4qa&quot;]/div[1]/div[@class=&quot;ant-flex css-mkw4qa&quot;]/div[@class=&quot;div-right&quot;]/p[@class=&quot;p-program&quot;]</value>
+      <webElementGuid>9dd1c734-9661-45bc-a457-7d4a8c91add1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='content-main']/div/div/main/div/div/div[2]/p</value>
+      <webElementGuid>233ade35-c66b-4990-a19b-ab407988332a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='course cek badge'])[1]/following::p[1]</value>
+      <webElementGuid>1b81e2d8-e8e7-49d5-8c0e-af26063485cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Help Center'])[1]/following::p[1]</value>
+      <webElementGuid>3e43b8ab-7d27-47fa-a0b7-b34ebc8da5b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Check badge Program'])[1]/preceding::p[1]</value>
+      <webElementGuid>ebf88818-682f-43a4-a974-1e6ec9923aa2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to Collection'])[1]/preceding::p[1]</value>
+      <webElementGuid>2b786f86-367b-461e-88ac-e4ff702a3e73</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='PROGRAM']/parent::*</value>
+      <webElementGuid>610d8a5e-caf2-4350-a52d-e72fa26f08f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p</value>
+      <webElementGuid>93b16892-87a8-46b1-b13f-f687a6a04e5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'PROGRAM' or . = 'PROGRAM')]</value>
+      <webElementGuid>bd7a35fa-9322-4955-a8aa-39924efc4003</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMCL01 - User bisa membuka Menu Content Library</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a374931e-d6c8-4768-84b5-2e0fbf6b20cd</testCaseGuid>
+</TestCaseEntity>

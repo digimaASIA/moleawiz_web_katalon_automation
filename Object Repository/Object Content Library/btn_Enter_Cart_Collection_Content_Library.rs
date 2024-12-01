@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_Enter_Cart_Collection_Content_Library</name>
+   <tag></tag>
+   <elementGuidId>905e6ed5-fbdb-48fd-b6ad-f83ce40a4ea0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='rc-tabs-0-panel-contentlibrary']/div/div/div/div[5]/div/div/div/div[2]/div/div[4]/div/a/button/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-index = '0' and @name = 'btn-enter-collection']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-index</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>e04953b0-14cf-4dea-b15a-6bf58fbbc54f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>btn-enter-collection</value>
+      <webElementGuid>058944c7-6558-4e74-b0ad-da721c1df99b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='rc-tabs-0-panel-contentlibrary']/div/div/div/div[5]/div/div/div/div[2]/div/div[4]/div/a/button/span</value>
+      <webElementGuid>d2ab5ee6-f64e-41a5-9c90-7887df56f0e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Content Library Moleawiz Web Tester 3'])[1]/following::span[2]</value>
+      <webElementGuid>4ca43ecf-9f3b-45bb-8014-72b2a66c0f44</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter'])[4]/following::span[2]</value>
+      <webElementGuid>bb0b2edb-4eaa-4770-ab49-4a131034d336</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Content Library Moleawiz Web Tester 2'])[1]/preceding::span[1]</value>
+      <webElementGuid>6da8f516-ba96-4b21-a597-0d383a3480cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter'])[6]/preceding::span[2]</value>
+      <webElementGuid>f87d0464-7896-479a-a4e2-d4bcd3640497</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/div/div[2]/div/div[4]/div/a/button/span</value>
+      <webElementGuid>b771fea2-70c1-485c-839a-ebf51fbf06f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Enter' or . = 'Enter')]</value>
+      <webElementGuid>7b568254-971b-47bf-a69c-be3c4f5544a3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

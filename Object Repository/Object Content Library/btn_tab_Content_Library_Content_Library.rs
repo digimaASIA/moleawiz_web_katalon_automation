@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_tab_Content_Library_Content_Library</name>
+   <tag></tag>
+   <elementGuidId>73286bd9-61d4-4906-96e3-65c9bcc7bc9a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'tab-content-library-content-library']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='rc-tabs-0-tab-contentlibrary']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#rc-tabs-0-tab-contentlibrary</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>tab-content-library-content-library</value>
+      <webElementGuid>7ebe9ac9-0dd9-477b-89d6-5957c961ee15</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='rc-tabs-0-tab-contentlibrary']</value>
+      <webElementGuid>a939c45a-66cd-419b-82cc-61c6e50c9d4e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='content-main']/div/div/div/div/div/div/div</value>
+      <webElementGuid>85ea2c19-5bfb-4181-b9ec-a117da17c10f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Help Center'])[1]/following::div[8]</value>
+      <webElementGuid>7aba330b-93d2-461d-a91f-678f7cc37893</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reviews'])[1]/following::div[9]</value>
+      <webElementGuid>53933ca0-4dda-47c6-8b7f-846eca1d1bba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Collection'])[1]/preceding::div[1]</value>
+      <webElementGuid>14621923-a795-42c9-b241-dc401a7d8f91</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='QC MLW 5.0'])[1]/preceding::div[8]</value>
+      <webElementGuid>ae45e5ce-ee96-4c87-9ac1-2cea13461ed3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main/div/div/div/div/div/div/div</value>
+      <webElementGuid>6f2b9d41-4f80-46d3-afcb-e5817b0a97e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'rc-tabs-0-tab-contentlibrary' and (text() = 'Content Library' or . = 'Content Library')]</value>
+      <webElementGuid>065bbb29-c30b-4124-bf60-c697d49afa2e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

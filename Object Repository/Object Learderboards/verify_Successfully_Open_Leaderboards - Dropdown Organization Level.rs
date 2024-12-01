@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_Content_Library_Menu</name>
+   <name>verify_Successfully_Open_Leaderboards - Dropdown Organization Level</name>
    <tag></tag>
-   <elementGuidId>3cdda68e-0681-4cf1-b6e8-6cda62abfa0f</elementGuidId>
+   <elementGuidId>88376755-283e-485e-aa54-adb139b19128</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@name = 'btn-content-library-menu']</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
+         <value>//*[@dpd-name = 'dpd-organization-leaderboards']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,9 +16,9 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>dpd-name</name>
       <type>Main</type>
-      <value>btn-content-library-menu</value>
-      <webElementGuid>e5d696d5-885c-4b37-a3ae-a37cac9df90a</webElementGuid>
+      <value>dpd-organization-leaderboards</value>
+      <webElementGuid>196e983a-26c7-430e-b4f4-19094ab93554</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

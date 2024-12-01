@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_Content_Library_Menu</name>
+   <name>select_Organization_Level_Leaderboards</name>
    <tag></tag>
-   <elementGuidId>3cdda68e-0681-4cf1-b6e8-6cda62abfa0f</elementGuidId>
+   <elementGuidId>ab76ecae-5366-489d-a855-7e3aab63b096</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@name = 'btn-content-library-menu']</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value></value>
@@ -16,13 +12,13 @@
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
-   <useRalativeImagePath>false</useRalativeImagePath>
+   <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>data-index</name>
       <type>Main</type>
-      <value>btn-content-library-menu</value>
-      <webElementGuid>e5d696d5-885c-4b37-a3ae-a37cac9df90a</webElementGuid>
+      <value>1</value>
+      <webElementGuid>40e5d691-5867-403c-9248-904476483fa1</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

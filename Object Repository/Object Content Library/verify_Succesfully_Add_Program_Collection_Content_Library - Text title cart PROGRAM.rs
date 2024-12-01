@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>verify_Succesfully_Add_Program_Collection_Content_Library - Text title cart PROGRAM</name>
+   <tag></tag>
+   <elementGuidId>4b7a9f6b-c3f6-40d2-810f-8b9e33dc7639</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='rc-tabs-0-panel-collection']/div/div/div/div/div/div/div[2]/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.collection-type</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f29f3e85-e89f-4674-b32c-dbb499567fbe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>collection-type</value>
+      <webElementGuid>99e05244-c6de-492f-9deb-958576c56ecd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>PROGRAM</value>
+      <webElementGuid>1544ad66-0b35-496f-9aed-091ccf465af9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;rc-tabs-0-panel-collection&quot;)/div[1]/div[@class=&quot;ant-row row-tab-collection css-18snoy1&quot;]/div[@class=&quot;h-100 w-100 wrapper-collection ant-flex css-18snoy1 ant-flex-wrap-wrap&quot;]/div[@class=&quot;ant-card card-collection-content-library css-18snoy1&quot;]/div[@class=&quot;ant-card-body&quot;]/div[@class=&quot;ant-row css-18snoy1&quot;]/div[@class=&quot;ant-space css-18snoy1 ant-space-vertical ant-space-gap-row-small ant-space-gap-col-small space-card-collection-content-library&quot;]/div[@class=&quot;ant-space-item&quot;]/div[1]/div[@class=&quot;collection-type&quot;]</value>
+      <webElementGuid>d9194711-54d1-48a2-92d4-c0825b211d9d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='rc-tabs-0-panel-collection']/div/div/div/div/div/div/div[2]/div/div/div</value>
+      <webElementGuid>5cbe880f-835e-4e97-9654-60674e951bba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Completed'])[1]/following::div[5]</value>
+      <webElementGuid>9182c4c6-cfd3-42e4-a38c-59055d21a0ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter'])[8]/following::div[15]</value>
+      <webElementGuid>1ef6637f-2a85-4f23-99c5-13eeedd22f41</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Check badge Program'])[1]/preceding::div[2]</value>
+      <webElementGuid>da5b70f9-f9ad-464f-b683-a76f6852404b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cek badge'])[1]/preceding::div[5]</value>
+      <webElementGuid>9037c956-12b5-4e52-b432-1d643e0ad9bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='PROGRAM']/parent::*</value>
+      <webElementGuid>d1b47b38-8953-4afe-8492-f0fafd1fc682</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div/div/div[2]/div/div/div</value>
+      <webElementGuid>6c7dac86-83d5-42d3-bad9-62c020a92e35</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'PROGRAM' or . = 'PROGRAM')]</value>
+      <webElementGuid>39a73880-a01b-4a2a-b1d1-3a1254c8ce56</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMCL02 - User bisa membuka Tab Content Library dan Collection Pada Menu Content Library</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f678e2a6-bf8c-4c2f-a594-273ce56d90e4</testCaseGuid>
+</TestCaseEntity>

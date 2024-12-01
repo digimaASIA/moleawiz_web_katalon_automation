@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Scenario Positive Case - Leaderboards,Chrome 131.0.0.0,,,01-12-2024 20:30:33,01-12-2024 20:31:03,29.549s,PASSED
+,,,,,,,
+Test Cases/MoLeaWiz/Leaderboards/Positive Case/TCMLB - Positive Case Leaderboards,Chrome 131.0.0.0,,,01-12-2024 20:30:34,01-12-2024 20:31:03,29.394s,PASSED
+openBrowser(base_url_staging),Chrome 131.0.0.0,,,01-12-2024 20:30:34,01-12-2024 20:30:37,3.438s,PASSED
+keyword_FunctionLogin.AutomationLogin.loginWithUserDummy2(),Chrome 131.0.0.0,,,01-12-2024 20:30:37,01-12-2024 20:30:40,2.865s,PASSED
+"click(findTestObject(""Object Learderboards/btn_Leaderboards_Menu""))",Chrome 131.0.0.0,,,01-12-2024 20:30:40,01-12-2024 20:30:55,15.380s,PASSED
+"click(findTestObject(""Object Learderboards/dropdown_Program_Leaderboards""))",Chrome 131.0.0.0,,,01-12-2024 20:30:55,01-12-2024 20:30:58,2.665s,PASSED
+"setText(findTestObject(""Object Learderboards/input_Search_Program_Leaderboards""), ""cots"")",Chrome 131.0.0.0,,,01-12-2024 20:30:58,01-12-2024 20:30:59,1.025s,PASSED
+"click(findTestObject(""Object Learderboards/select_Program_Leaderboards""))",Chrome 131.0.0.0,,,01-12-2024 20:30:59,01-12-2024 20:31:00,0.586s,PASSED
+delay(3),Chrome 131.0.0.0,,,01-12-2024 20:31:00,01-12-2024 20:31:03,3.041s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,01-12-2024 20:31:03,01-12-2024 20:31:03,0.158s,PASSED
