@@ -1,8 +1,5 @@
 # moleawiz_web_katalon_automation
 
-Develop Only!!
-
-
 Step clone project langsung di katalon!!
 
 1. Buka katalon
@@ -16,3 +13,4 @@ Step clone project langsung di katalon!!
 
 Note:
 1. New Token harus di perbarui setiap sebulan sekali
+
