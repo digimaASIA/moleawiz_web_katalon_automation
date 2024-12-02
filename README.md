@@ -7,10 +7,11 @@ Step clone project langsung di katalon!!
 3. Masukkan kebutuhan url git,
    - URL        : https://github.com/digimaASIA/moleawiz_web_katalon_automation.git
    - User       : DigimaHafizh (bisa disesuaikan dengan akun github sendiri)
-   - Token      : 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
+   - Token      : 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 ( The token will expire on Wed, Jan 1 2025 )
 4. Save Auth di ceklis
 5. Klik finish
 
 Note:
 1. Katalon API Key (8d6c6d1f-e471-439b-bf6e-3ba017af67d2)
+2. Token Github di perbarui setiap 1 bulan sekali
 
