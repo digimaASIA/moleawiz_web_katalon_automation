@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMR03 - User bisa me-Redeem Rewards lalu cek History Redeem pada halaman Rewards</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6908f6c9-c6ba-4df5-adad-2d7070fb6d4c</testCaseGuid>
+</TestCaseEntity>

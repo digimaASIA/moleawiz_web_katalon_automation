@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMR02 - User bisa me-Redeem Rewards pada halaman Rewards</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>af34e714-f286-408e-a046-edf1c648e1d4</testCaseGuid>
+</TestCaseEntity>

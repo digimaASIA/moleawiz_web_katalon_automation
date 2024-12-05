@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMR04 - User salah memasukkan Verification Code saat Redeem pada halaman Rewards</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5112e348-5047-4445-a21e-9a348f713e8c</testCaseGuid>
+</TestCaseEntity>

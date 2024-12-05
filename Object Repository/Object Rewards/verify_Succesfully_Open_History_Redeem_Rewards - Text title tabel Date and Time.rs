@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>verify_Succesfully_Open_History_Redeem_Rewards - Text title tabel Date and Time</name>
+   <tag></tag>
+   <elementGuidId>8d37f37a-ccfe-4edb-ad68-d70a8068091f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='content-main']/div/div[2]/div/div/div/div/div/div/div/div/div/table/thead/tr/th</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>th.ant-table-cell</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>th</value>
+      <webElementGuid>f344035f-9ee5-40d1-bd99-8dfe1ade59ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-table-cell</value>
+      <webElementGuid>1ae06dc3-ba9d-4ba7-aa84-805a0f36ea3f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>scope</name>
+      <type>Main</type>
+      <value>col</value>
+      <webElementGuid>4a909089-0191-4b25-a28d-645b069b514f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Date &amp; Time</value>
+      <webElementGuid>b7b656c6-5aa3-41e1-8291-9abaa7bed9b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content-main&quot;)/div[1]/div[@class=&quot;ant-row css-1xq4qb&quot;]/div[@class=&quot;ant-col ant-col-24 css-1xq4qb&quot;]/div[@class=&quot;ant-card ant-card-bordered css-1xq4qb&quot;]/div[@class=&quot;ant-card-body&quot;]/div[@class=&quot;ant-table-wrapper table-history-reward css-1xq4qb&quot;]/div[@class=&quot;ant-spin-nested-loading css-1xq4qb&quot;]/div[@class=&quot;ant-spin-container&quot;]/div[@class=&quot;ant-table ant-table-fixed-header&quot;]/div[@class=&quot;ant-table-container&quot;]/div[@class=&quot;ant-table-header&quot;]/table[1]/thead[@class=&quot;ant-table-thead&quot;]/tr[1]/th[@class=&quot;ant-table-cell&quot;]</value>
+      <webElementGuid>dddf1889-08de-4ea1-9eae-67ff190ad6f6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='content-main']/div/div[2]/div/div/div/div/div/div/div/div/div/table/thead/tr/th</value>
+      <webElementGuid>02140140-d9fb-40fc-93d2-8ca87bf3ec2e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Redeem History'])[1]/following::th[1]</value>
+      <webElementGuid>823ee8eb-77bc-414d-8b32-283549869128</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Help Center'])[1]/following::th[1]</value>
+      <webElementGuid>cf95c7fe-22b1-4bee-82dc-7c87399f7479</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Product'])[1]/preceding::th[1]</value>
+      <webElementGuid>786f528b-1bc0-4ec7-b96c-76dedb195171</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Points'])[1]/preceding::th[2]</value>
+      <webElementGuid>db261af3-5800-4222-9752-fce65e717abd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Date &amp; Time']/parent::*</value>
+      <webElementGuid>333f0c76-e221-40ae-98a8-03ff3f5bebcb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//th</value>
+      <webElementGuid>08f002e4-c3e6-4558-bfb0-a537387b9ca5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//th[(text() = 'Date &amp; Time' or . = 'Date &amp; Time')]</value>
+      <webElementGuid>e3ac3433-c14b-4bbf-bf5a-fa11b6d66670</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

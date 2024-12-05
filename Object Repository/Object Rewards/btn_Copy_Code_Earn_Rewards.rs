@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_Copy_Code_Earn_Rewards</name>
+   <tag></tag>
+   <elementGuidId>d57c748a-639d-48cf-b34f-c688a0027131</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>btn-copy-code-rewards</value>
+      <webElementGuid>f6ac623b-2bc2-4086-93cd-2542fa661fde</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
