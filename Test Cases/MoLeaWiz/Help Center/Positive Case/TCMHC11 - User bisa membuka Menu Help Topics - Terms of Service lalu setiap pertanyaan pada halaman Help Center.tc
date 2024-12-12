@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMHC11 - User bisa membuka Menu Help Topics - Terms of Service lalu setiap pertanyaan pada halaman Help Center</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4ca38685-3683-4961-b53f-9c06a3ded696</testCaseGuid>
+</TestCaseEntity>

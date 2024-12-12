@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMHC09 - User bisa membuka Menu Help Topics - Account Data Security lalu klik setiap pertanyaan pada halaman Help Center</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7e645493-794c-4616-ba49-f1fda87e62dd</testCaseGuid>
+</TestCaseEntity>

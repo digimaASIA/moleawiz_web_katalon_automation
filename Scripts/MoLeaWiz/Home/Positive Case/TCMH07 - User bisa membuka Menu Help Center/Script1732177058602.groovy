@@ -19,5 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Object Help Center/btn_Help_Center_Menu'))
 
-WebUI.verifyElementPresent(findTestObject('Object Reviews/verify_Successfully_Open_Reviews_Menu'), 0)
+WebUI.verifyElementVisible(findTestObject('Object Help Center/verify_Successfully_Open_Help_Center - Text title Help Topics'))
+
+WebUI.verifyElementVisible(findTestObject('Object Help Center/verify_Successfully_Open_Help_Center - Text title Is there anything we can help you'))
 

@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Home/Object Menu/btn_Collapse_Menu'))
-
 WebUI.click(findTestObject('Object Help Center/btn_Help_Center_Menu'))
 
-WebUI.click(findTestObject('Object Home/Object Menu/btn_Collapse_Menu'))
+WebUI.click(findTestObject('Object Help Center/link_help_moleawiz'))
 
-WebUI.verifyElementPresent(findTestObject('Object Help Center/verify_Successfully_Open_Help_Center - Title Help Center'), 0)
+WebUI.click(findTestObject('Object Help Center/list_collapse_help_Index_0'))
+
+WebUI.click(findTestObject('Object Help Center/list_collapse_help_index_1'))
 

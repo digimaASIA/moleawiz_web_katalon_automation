@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMHC04 - User bisa membuka Menu Help Topics - Profile lalu klik setiap pertanyaan pada halaman Help Center</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>777bebd7-c241-40b9-930d-30b119a17f18</testCaseGuid>
+</TestCaseEntity>

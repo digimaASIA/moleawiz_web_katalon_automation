@@ -17,11 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Home/Object Menu/btn_Collapse_Menu'))
+WebUI.openBrowser(GlobalVariable.base_url_staging)
+
+CustomKeywords.'keyword_FunctionLogin.AutomationLogin.loginWithUserDummy2'()
 
 WebUI.click(findTestObject('Object Help Center/btn_Help_Center_Menu'))
 
-WebUI.click(findTestObject('Object Home/Object Menu/btn_Collapse_Menu'))
-
 WebUI.verifyElementPresent(findTestObject('Object Help Center/verify_Successfully_Open_Help_Center - Title Help Center'), 0)
+
+WebUI.verifyElementVisible(findTestObject('Object Help Center/verify_Successfully_Open_Help_Center - Text title Help Topics'))
+
+WebUI.verifyElementVisible(findTestObject('Object Help Center/verify_Successfully_Open_Help_Center - Text title Is there anything we can help you'))
+
+WebUI.closeBrowser()
 

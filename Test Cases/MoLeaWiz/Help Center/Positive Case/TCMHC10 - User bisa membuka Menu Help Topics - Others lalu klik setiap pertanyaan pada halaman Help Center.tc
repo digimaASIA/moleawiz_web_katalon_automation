@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMHC10 - User bisa membuka Menu Help Topics - Others lalu klik setiap pertanyaan pada halaman Help Center</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>728945d9-4a04-4b1e-ad4f-fc17711e6c81</testCaseGuid>
+</TestCaseEntity>

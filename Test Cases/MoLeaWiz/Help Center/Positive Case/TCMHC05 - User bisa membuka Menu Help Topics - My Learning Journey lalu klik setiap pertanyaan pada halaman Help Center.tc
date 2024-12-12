@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMHC05 - User bisa membuka Menu Help Topics - My Learning Journey lalu klik setiap pertanyaan pada halaman Help Center</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8bec43c0-0f5c-483e-bf81-73f6b15c94af</testCaseGuid>
+</TestCaseEntity>

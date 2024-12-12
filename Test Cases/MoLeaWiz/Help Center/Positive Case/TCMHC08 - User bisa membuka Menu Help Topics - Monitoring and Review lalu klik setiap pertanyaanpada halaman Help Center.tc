@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMHC08 - User bisa membuka Menu Help Topics - Monitoring and Review lalu klik setiap pertanyaanpada halaman Help Center</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4723360b-59fa-4e48-8880-589548304782</testCaseGuid>
+</TestCaseEntity>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TCMHC09 - User bisa membuka list Help Account Data dan Security pada halaman Help dan membuka beberapa list collapse help Account Data dan Security</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>bbcdfbce-fe17-483c-a838-6b55fc8f3f88</testCaseGuid>
-</TestCaseEntity>

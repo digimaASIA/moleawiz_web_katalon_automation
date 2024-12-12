@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMHC07 - User bisa membuka Menu Help Topics - Learning Ponits lalu klik setiap pertanyaan pada halaman Help Center</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>98b0c355-5ed4-4d71-b332-db1973e81d47</testCaseGuid>
+</TestCaseEntity>

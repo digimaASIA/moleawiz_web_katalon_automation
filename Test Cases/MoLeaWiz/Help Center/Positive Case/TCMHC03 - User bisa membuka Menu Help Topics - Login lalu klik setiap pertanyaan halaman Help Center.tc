@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMHC03 - User bisa membuka Menu Help Topics - Login lalu klik setiap pertanyaan halaman Help Center</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ee7c3245-5a70-40c8-bce4-9a579a6843b9</testCaseGuid>
+</TestCaseEntity>
