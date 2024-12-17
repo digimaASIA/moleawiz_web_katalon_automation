@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMTM02 - User bisa menggunakan fitur search untuk pencarian anggota tim di halaman Team Profile setelah membuka menu Team Monitoring</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5911bafc-a8da-4a02-9949-53f206c3df63</testCaseGuid>
+</TestCaseEntity>

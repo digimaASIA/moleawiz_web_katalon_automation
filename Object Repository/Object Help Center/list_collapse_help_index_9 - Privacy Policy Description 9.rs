@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_Content_Library_Menu</name>
+   <name>list_collapse_help_index_9 - Privacy Policy Description 9</name>
    <tag></tag>
-   <elementGuidId>3cdda68e-0681-4cf1-b6e8-6cda62abfa0f</elementGuidId>
+   <elementGuidId>e99b2f4b-f2d9-4ee1-90a4-586fffd4cc98</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@data-index = '38' and @name = 'btn-view-ongoing-team-team-monitoring']</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
+         <value>//*[@id = 'list-collapse-help' and @index = '9']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,17 +16,17 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>id</name>
       <type>Main</type>
-      <value>btn-view-ongoing-team-team-monitoring</value>
-      <webElementGuid>3a801929-f12a-4caa-8014-fe727d5bd7d5</webElementGuid>
+      <value>list-collapse-help</value>
+      <webElementGuid>5a9023fd-b686-427f-96b6-0f27cec3aafc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-index</name>
+      <name>index</name>
       <type>Main</type>
-      <value>38</value>
-      <webElementGuid>5f3d476f-0495-4587-a84f-f587bfc5048b</webElementGuid>
+      <value>9</value>
+      <webElementGuid>3bfc4306-66ce-4d33-9ce3-e343191201a4</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMHC12 - User bisa membuka Menu Help Topics - Privacy Policy lalu klik setiap pertanyaan pada halaman Help Center</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d8c1e8fc-32d9-481b-8a3c-043f7557b53c</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMTM04 - User bisa melihat Profile anggoita tim pada halaman Team Profile</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d3163b9a-aaa2-47f5-90f2-39cf8939a09d</testCaseGuid>
+</TestCaseEntity>

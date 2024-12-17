@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMTM05 - User bisa melihat Ongoing Program anggota tim pada halaman Team Profile</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fe15ca16-fa5d-4ae0-ab7a-2076b5419ca0</testCaseGuid>
+</TestCaseEntity>

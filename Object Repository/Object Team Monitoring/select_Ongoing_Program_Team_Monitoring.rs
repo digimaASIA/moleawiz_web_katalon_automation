@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_Content_Library_Menu</name>
+   <name>select_Ongoing_Program_Team_Monitoring</name>
    <tag></tag>
-   <elementGuidId>3cdda68e-0681-4cf1-b6e8-6cda62abfa0f</elementGuidId>
+   <elementGuidId>c3dca828-9afb-4202-89e4-e5970c043f78</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@data-index = '38' and @name = 'btn-view-ongoing-team-team-monitoring']</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value></value>
@@ -16,21 +12,21 @@
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
-   <useRalativeImagePath>false</useRalativeImagePath>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>btn-view-ongoing-team-team-monitoring</value>
-      <webElementGuid>3a801929-f12a-4caa-8014-fe727d5bd7d5</webElementGuid>
-   </webElementProperties>
+   <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-index</name>
       <type>Main</type>
-      <value>38</value>
-      <webElementGuid>5f3d476f-0495-4587-a84f-f587bfc5048b</webElementGuid>
+      <value>1</value>
+      <webElementGuid>188e754a-3c4b-4526-b8fd-8c3405975ffc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ongoing</value>
+      <webElementGuid>72244d46-93e3-4182-9323-b60fdd18da11</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

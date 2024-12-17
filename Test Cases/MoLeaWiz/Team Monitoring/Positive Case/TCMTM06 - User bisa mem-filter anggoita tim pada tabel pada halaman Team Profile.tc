@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMTM06 - User bisa mem-filter anggoita tim pada tabel pada halaman Team Profile</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a08da5b1-f859-4d91-a118-d62d585dd7f7</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdwon_Selected_Program_Team_Monitoring</name>
+   <tag></tag>
+   <elementGuidId>f1ca1cc9-7127-497b-9041-ac90e5526630</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>dropdown-filter-detail-program-team-monitoring</value>
+      <webElementGuid>607f6154-1bab-46b8-a553-4b8c463367dc</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

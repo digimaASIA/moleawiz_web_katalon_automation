@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMR02 - User bisa membuka Menu Help Topics - Frequently Asked Questions dan buka atau klik setiap pertanyaan perihal FAQ pada halaman Help Center</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>80451a46-fe2a-464a-95df-e304bcb7ce4b</testCaseGuid>
+</TestCaseEntity>

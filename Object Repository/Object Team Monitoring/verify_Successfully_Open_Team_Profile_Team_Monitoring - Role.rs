@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>verify_Successfully_Open_Team_Profile_Team_Monitoring - Role</name>
+   <tag></tag>
+   <elementGuidId>d2a7f5a1-73dc-4338-b158-ec85ffad50e8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.ant-col.css-17fzyon > div.ant-row.css-17fzyon > div.ant-col.css-17fzyon > div.ant-row.css-17fzyon > div.ant-col.css-17fzyon > div</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='content-main']/div/div/div/div/div/div[2]/div[2]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>9f441141-7585-435f-ac11-9db818167f72</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Role</value>
+      <webElementGuid>9acd7c2e-38ce-447d-bd20-95654129c563</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content-main&quot;)/div[1]/div[1]/div[@class=&quot;ant-row ant-row-space-between ant-row-middle css-17fzyon&quot;]/div[@class=&quot;ant-col css-17fzyon&quot;]/div[@class=&quot;ant-row css-17fzyon&quot;]/div[@class=&quot;ant-col css-17fzyon&quot;]/div[@class=&quot;ant-row css-17fzyon&quot;]/div[@class=&quot;ant-col css-17fzyon&quot;]/div[1]</value>
+      <webElementGuid>2db10ec9-177d-430a-a80d-97727e0d8bc0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='content-main']/div/div/div/div/div/div[2]/div[2]/div/div</value>
+      <webElementGuid>6d64b7f8-5689-4b8d-b5e2-6ea4580e053b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Muhammad Hafizh Abdillah'])[2]/following::div[3]</value>
+      <webElementGuid>de5386da-9444-411e-8a7a-5a0501f40a56</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='M'])[2]/following::div[5]</value>
+      <webElementGuid>b2da5649-5fa7-4eb0-a8a2-bd85e0b4a994</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[1]/preceding::div[1]</value>
+      <webElementGuid>26e2a30a-10a1-469f-8725-905feb1a8cd8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/preceding::div[3]</value>
+      <webElementGuid>63bea26d-9852-4f48-9284-dce1ed24f7a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Role']/parent::*</value>
+      <webElementGuid>38ccb650-f0f3-47a6-8b32-6c15a344dbc0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div</value>
+      <webElementGuid>8c303f48-4d94-4941-a2f0-398a39287237</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Role' or . = 'Role')]</value>
+      <webElementGuid>cb37fadd-3a9f-4e4e-b5c7-fa643224c582</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

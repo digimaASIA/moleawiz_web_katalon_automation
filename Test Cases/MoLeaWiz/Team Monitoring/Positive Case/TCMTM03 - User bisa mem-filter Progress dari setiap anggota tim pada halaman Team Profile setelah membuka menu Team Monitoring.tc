@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMTM03 - User bisa mem-filter Progress dari setiap anggota tim pada halaman Team Profile setelah membuka menu Team Monitoring</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fb02f6cf-47a9-420b-9426-a68588afb4f3</testCaseGuid>
+</TestCaseEntity>

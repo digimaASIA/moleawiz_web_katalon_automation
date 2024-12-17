@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMR01 - User bisa membuka Menu Help Center</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>45d138e3-03ff-4491-99aa-48a8e7665948</testCaseGuid>
+</TestCaseEntity>

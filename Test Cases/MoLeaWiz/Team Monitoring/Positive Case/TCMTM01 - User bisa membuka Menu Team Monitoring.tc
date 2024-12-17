@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMTM01 - User bisa membuka Menu Team Monitoring</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0150c861-2bbd-4922-b90d-74fcfcc1bf8d</testCaseGuid>
+</TestCaseEntity>

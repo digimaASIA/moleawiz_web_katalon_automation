@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>verify_Successfully_Open_Team_Profile_Team_Monitoring - Registered on</name>
+   <tag></tag>
+   <elementGuidId>7f4d4b96-6759-484b-8af2-3a67c73c1d66</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='content-main']/div/div/div/div/div/div[2]/div[2]/div[5]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8c46d317-c46e-45da-b662-5e2f6aabb8e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Registered on</value>
+      <webElementGuid>89bd1258-acd2-4146-9347-7853277c6199</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content-main&quot;)/div[1]/div[1]/div[@class=&quot;ant-row ant-row-space-between ant-row-middle css-17fzyon&quot;]/div[@class=&quot;ant-col css-17fzyon&quot;]/div[@class=&quot;ant-row css-17fzyon&quot;]/div[@class=&quot;ant-col css-17fzyon&quot;]/div[@class=&quot;ant-row css-17fzyon&quot;]/div[@class=&quot;ant-col css-17fzyon&quot;]/div[1]</value>
+      <webElementGuid>c857079e-46f4-4b5c-af0d-85c7ed4de0d3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='content-main']/div/div/div/div/div/div[2]/div[2]/div[5]/div</value>
+      <webElementGuid>50ff05b7-ccde-4e0b-97d2-a6f34c0757c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='hafizh@digimasia.com'])[1]/following::div[3]</value>
+      <webElementGuid>17c49987-1364-497c-b071-edfc9f98f8dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::div[4]</value>
+      <webElementGuid>0b4e79ab-5c40-49ea-9994-ced525393c12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Registered on']/parent::*</value>
+      <webElementGuid>fc2a9712-1950-4d80-9111-3a559d1a6f83</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[5]/div</value>
+      <webElementGuid>66468021-8d16-4818-a3c7-ef9c18eac191</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Registered on' or . = 'Registered on')]</value>
+      <webElementGuid>3e446aec-301d-424e-87ff-72957162defe</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
