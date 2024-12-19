@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TCMUP04 - User bisa membuka tab Program Completed dan user bisa membuka overview dari program yang sudah completed pada halam User Profile</name>
+   <name>TCMUP04 - User bisa membuka Tab Completed Program pada halam User Profile</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>a984aeb6-e637-4c4f-ab8f-eee3b4850032</testCaseGuid>
 </TestCaseEntity>

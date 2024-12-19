@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TCMUP03 - User bisa membuka tab Badges pada halam User Profile</name>
+   <name>TCMUP03 - User bisa membuka Tab Badges pada halam User Profile</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>cd8ff273-6d74-4987-891f-9c73d412b265</testCaseGuid>
 </TestCaseEntity>

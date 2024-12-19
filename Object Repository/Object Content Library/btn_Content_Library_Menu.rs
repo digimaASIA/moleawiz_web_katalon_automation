@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@data-index = '38' and @name = 'btn-view-ongoing-team-team-monitoring']</value>
+         <value>//*[@role = 'button' and @tabindex = '-1']</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -32,5 +32,21 @@
       <type>Main</type>
       <value>38</value>
       <webElementGuid>5f3d476f-0495-4587-a84f-f587bfc5048b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>3de6ad3f-e556-4ece-8dc9-400a56476b36</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>e926a973-64d0-4a4a-9362-11ecb5193350</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -23,13 +23,13 @@ WebUI.click(findTestObject('Object Login/dropdown_User_Profile'))
 
 WebUI.click(findTestObject('Object User Profile/btn_Profile_User_Profile'))
 
-WebUI.verifyElementPresent(findTestObject('Object User Profile/verify_Successfully_Open_User_Profile'), 0)
+WebUI.verifyElementPresent(findTestObject('Object User Profile/verify_Successfully_Open_User_Profile - Title Profile'), 0)
 
 WebUI.verifyElementPresent(findTestObject('Object User Profile/verify_Successfully_Open_User_Profile - Role'), 0)
 
 WebUI.verifyElementPresent(findTestObject('Object User Profile/verify_Successfully_Open_User_Profile - Username'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object User Profile/verify_Successfully_Open_User_Profile - Registration Date'), 
+WebUI.verifyElementPresent(findTestObject('Object User Profile/verify_Successfully_Open_User_Profile - Registered on'), 
     0)
 
 WebUI.uploadFile(findTestObject('Object User Profile/upload_photo_profile'), GlobalVariable.uploadPhoto)

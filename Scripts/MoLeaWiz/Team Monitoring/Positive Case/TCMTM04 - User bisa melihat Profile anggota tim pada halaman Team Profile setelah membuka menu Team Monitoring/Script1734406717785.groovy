@@ -29,6 +29,8 @@ WebUI.verifyElementVisible(findTestObject('Object Team Monitoring/verify_Success
 
 WebUI.verifyElementVisible(findTestObject('Object Team Monitoring/verify_Successfully_Open_Team_Monitoring - Button Show Team Profile'))
 
+WebUI.verifyElementVisible(findTestObject('Object Team Monitoring/verify_Successfully_Open_Team_Monitoring - Text Learning Status'))
+
 WebUI.verifyElementVisible(findTestObject('Object Team Monitoring/verify_Successfully_Open_Team_Monitoring - Button Show All Learning Status'))
 
 WebUI.click(findTestObject('Object Team Monitoring/btn_Show_Team_Profile_Team_Monitoring'))
@@ -39,11 +41,29 @@ WebUI.verifyElementVisible(findTestObject('Object Team Monitoring/input_Search_N
 
 WebUI.verifyElementVisible(findTestObject('Object Team Monitoring/verify_Successfully_Open_Team Profile_Team_Monitoring - Title Team Profile'))
 
-WebUI.click(findTestObject('Object Team Monitoring/icon_Info_Team_Profile_Team_Monitoring'))
+WebUI.click(findTestObject('Object Team Monitoring/btn_Name_Profile_Team_Monitoring'))
 
-WebUI.delay(2)
+WebUI.verifyElementVisible(findTestObject('Object Team Monitoring/verify_Successfully_Open_Team_Profile_Team_Monitoring - Role'))
 
-WebUI.click(findTestObject('Object Team Monitoring/btn_Close_Ongoing_Program_Team_Monitoring'))
+WebUI.verifyElementVisible(findTestObject('Object Team Monitoring/verify_Successfully_Open_Team_Profile_Team_Monitoring - Username'))
+
+WebUI.verifyElementVisible(findTestObject('Object Team Monitoring/verify_Successfully_Open_Team_Profile_Team_Monitoring - Registered on'))
+
+WebUI.verifyElementVisible(findTestObject('Object Team Monitoring/tab_Team_Profile_Certificates_Team_Monitoring'))
+
+WebUI.click(findTestObject('Object Team Monitoring/tab_Team_Profile_Certificates_Team_Monitoring'))
+
+WebUI.verifyElementVisible(findTestObject('Object Team Monitoring/tab_Team_Profile_Badges_Team_Monitoring'))
+
+WebUI.click(findTestObject('Object Team Monitoring/tab_Team_Profile_Badges_Team_Monitoring'))
+
+WebUI.verifyElementVisible(findTestObject('Object Team Monitoring/tab_Team_Profile_Completed_Program_Team_Monitoring'))
+
+WebUI.click(findTestObject('Object Team Monitoring/tab_Team_Profile_Completed_Program_Team_Monitoring'))
+
+WebUI.verifyElementVisible(findTestObject('Object Team Monitoring/tab_Team_Profile_Additional_Learning_Team_Monitoring'))
+
+WebUI.click(findTestObject('Object Team Monitoring/tab_Team_Profile_Additional_Learning_Team_Monitoring'))
 
 WebUI.closeBrowser()
 

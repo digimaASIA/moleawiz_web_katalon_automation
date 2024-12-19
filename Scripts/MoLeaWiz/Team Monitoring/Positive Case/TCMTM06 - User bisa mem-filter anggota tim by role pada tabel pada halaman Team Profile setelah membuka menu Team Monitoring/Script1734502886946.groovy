@@ -39,11 +39,35 @@ WebUI.verifyElementVisible(findTestObject('Object Team Monitoring/input_Search_N
 
 WebUI.verifyElementVisible(findTestObject('Object Team Monitoring/verify_Successfully_Open_Team Profile_Team_Monitoring - Title Team Profile'))
 
-WebUI.click(findTestObject('Object Team Monitoring/icon_Info_Team_Profile_Team_Monitoring'))
+WebUI.click(findTestObject('Object Team Monitoring/icon_Filter_Role_Team_Profile_Team_Monitoring'))
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Object Team Monitoring/filter_Team_Profile_Team_Monitoring - Directorate'))
 
-WebUI.click(findTestObject('Object Team Monitoring/btn_Close_Ongoing_Program_Team_Monitoring'))
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Team Monitoring/icon_Filter_Role_Team_Profile_Team_Monitoring'))
+
+WebUI.click(findTestObject('Object Team Monitoring/filter_Team_Profile_Team_Monitoring - Division'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Team Monitoring/icon_Filter_Role_Team_Profile_Team_Monitoring'))
+
+WebUI.click(findTestObject('Object Team Monitoring/filter_Team_Profile_Team_Monitoring - Departement'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Team Monitoring/icon_Filter_Role_Team_Profile_Team_Monitoring'))
+
+WebUI.click(findTestObject('Object Team Monitoring/filter_Team_Profile_Team_Monitoring - Group'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Team Monitoring/icon_Filter_Role_Team_Profile_Team_Monitoring'))
+
+WebUI.click(findTestObject('Object Team Monitoring/filter_Team_Profile_Team_Monitoring - Role'))
+
+WebUI.delay(1)
 
 WebUI.closeBrowser()
 

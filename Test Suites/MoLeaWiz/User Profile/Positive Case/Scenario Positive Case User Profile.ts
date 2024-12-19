@@ -22,35 +22,35 @@
       <guid>9230049d-89ce-4807-9a4f-4c2885c8e7cd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/MoLeaWiz/User Profile/Positive Case/TCMUP02 - User bisa membuka tab Certificate dan bisa membuka sertifikat pada halam User Profile</testCaseId>
+      <testCaseId>Test Cases/MoLeaWiz/User Profile/Positive Case/TCMUP02 - User bisa membuka Tab Certificate pada halam User Profile</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>028a0ba7-0583-4aca-a0d9-239025d32a80</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/MoLeaWiz/User Profile/Positive Case/TCMUP03 - User bisa membuka tab Badges pada halam User Profile</testCaseId>
+      <testCaseId>Test Cases/MoLeaWiz/User Profile/Positive Case/TCMUP03 - User bisa membuka Tab Badges pada halam User Profile</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>6203dc16-03a8-4e08-a330-239c03018b21</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/MoLeaWiz/User Profile/Positive Case/TCMUP04 - User bisa membuka tab Program Completed dan user bisa membuka overview dari program yang sudah completed pada halam User Profile</testCaseId>
+      <testCaseId>Test Cases/MoLeaWiz/User Profile/Positive Case/TCMUP04 - User bisa membuka Tab Completed Program pada halam User Profile</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>8f324788-6c35-4c23-a56a-e5da3c6c7560</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/MoLeaWiz/User Profile/Positive Case/TCMUP05 - User bisa meng-Export Profile pada halam User Profile</testCaseId>
+      <testCaseId>Test Cases/MoLeaWiz/User Profile/Positive Case/TCMUP06 - User bisa meng-Export Profile pada halam User Profile</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>1568121d-beaa-43a0-9f0e-4c558b570e2e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/MoLeaWiz/User Profile/Positive Case/TCMUP06 - User bisa merubah foto profile pada halaman User Profile</testCaseId>
+      <testCaseId>Test Cases/MoLeaWiz/User Profile/Positive Case/TCMUP07 - User bisa merubah foto profile pada halaman User Profile</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

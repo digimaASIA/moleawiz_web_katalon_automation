@@ -17,18 +17,37 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser(GlobalVariable.base_url_staging)
+
+CustomKeywords.'keyword_FunctionLogin.AutomationLogin.loginWithUserDummy2'()
+
 WebUI.click(findTestObject('Object Home/btn_Home_Menu'))
 
 WebUI.click(findTestObject('Object Login/dropdown_User_Profile'))
 
 WebUI.click(findTestObject('Object User Profile/btn_Profile_User_Profile'))
 
-WebUI.verifyElementPresent(findTestObject('Object User Profile/verify_Successfully_Open_User_Profile'), 0)
+WebUI.verifyElementPresent(findTestObject('Object User Profile/verify_Successfully_Open_User_Profile - Title Profile'), 
+    0)
 
 WebUI.verifyElementPresent(findTestObject('Object User Profile/verify_Successfully_Open_User_Profile - Role'), 0)
 
 WebUI.verifyElementPresent(findTestObject('Object User Profile/verify_Successfully_Open_User_Profile - Username'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object User Profile/verify_Successfully_Open_User_Profile - Registration Date'), 
+WebUI.verifyElementPresent(findTestObject('Object User Profile/verify_Successfully_Open_User_Profile - Registered on'), 
     0)
+
+WebUI.verifyElementPresent(findTestObject('Object User Profile/btn_export_profile_user_profile'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Object User Profile/upload_photo_profile'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Object User Profile/tab_certificates_user_profile'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Object User Profile/tab_badges_user_profile'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Object User Profile/tab_completed_program_user_profile'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Object User Profile/tab_Addtional_Program_User_Profile'), 0)
+
+WebUI.closeBrowser()
 

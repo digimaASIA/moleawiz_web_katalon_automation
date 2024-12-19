@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>verify_Successfully_Open_Team Profile_Team_Monitoring - Title Team Profile</name>
+   <tag></tag>
+   <elementGuidId>8981106c-a0b8-4db7-bd39-166905254b08</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='content-main']/div/div/div/div/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.general-title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d1c964f1-4394-43c7-a537-e95379c9a6ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>general-title</value>
+      <webElementGuid>49ec6f05-00f9-4c85-93e9-c4d08f90830e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text-title</name>
+      <type>Main</type>
+      <value>text-title-team-monitoring</value>
+      <webElementGuid>b7fa4b06-9143-4cac-8a39-926968ebaca2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Team Profile</value>
+      <webElementGuid>7f06e4ce-658b-493e-89a4-cb178bfd669c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content-main&quot;)/div[1]/div[@class=&quot;ant-row h-100 css-1eeazh9&quot;]/div[@class=&quot;ant-col ant-col-24 h-100 css-1eeazh9&quot;]/div[@class=&quot;ant-row ant-row-top css-1eeazh9&quot;]/div[@class=&quot;ant-col ant-col-24 css-1eeazh9&quot;]/div[@class=&quot;ant-col ant-col-18 css-1eeazh9&quot;]/div[@class=&quot;general-title&quot;]</value>
+      <webElementGuid>f0f2b099-e59b-4b9b-a5d4-4de3dee67518</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='content-main']/div/div/div/div/div/div/div</value>
+      <webElementGuid>cca214d1-c196-4c93-ba62-a13d33b30f6e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Help Center'])[1]/following::div[8]</value>
+      <webElementGuid>8da6be87-dc13-40df-a503-4a24581e6bb0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reviews'])[1]/following::div[9]</value>
+      <webElementGuid>edb9d374-0bd6-4220-95f7-0261984d0dd0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show Team Profile'])[1]/preceding::div[7]</value>
+      <webElementGuid>e24bae11-5cc8-4b40-b238-3be2d9548df7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All Progress'])[1]/preceding::div[11]</value>
+      <webElementGuid>26057fe6-0ba4-445a-8f12-1707db7c1cb7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Team Profile']/parent::*</value>
+      <webElementGuid>2bd0fad4-6efd-438a-9fe1-77d98eda1f23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main/div/div/div/div/div/div/div</value>
+      <webElementGuid>5eb4ce8d-fd38-46e7-9245-fe927c626d5f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Team Profile' or . = 'Team Profile')]</value>
+      <webElementGuid>ea3ed625-78ec-48bd-a327-9ad1148912a1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TCMUP01 - User bisa membuka halaman User Profile</name>
+   <name>TCMUP05 - User bisa membuka Tab Addtional Program pada halam User Profile</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>f0b0a557-e3f4-4d27-ab2a-f6811e3991eb</testCaseGuid>
+   <testCaseGuid>8c7b07c0-921b-4e98-aaeb-444fae5b4abe</testCaseGuid>
 </TestCaseEntity>

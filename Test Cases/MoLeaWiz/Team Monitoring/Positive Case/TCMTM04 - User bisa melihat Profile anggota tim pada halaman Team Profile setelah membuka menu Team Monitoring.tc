@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMTM04 - User bisa melihat Profile anggota tim pada halaman Team Profile setelah membuka menu Team Monitoring</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3ad3d308-7264-4f8c-9981-bcb89efd92f4</testCaseGuid>
+</TestCaseEntity>

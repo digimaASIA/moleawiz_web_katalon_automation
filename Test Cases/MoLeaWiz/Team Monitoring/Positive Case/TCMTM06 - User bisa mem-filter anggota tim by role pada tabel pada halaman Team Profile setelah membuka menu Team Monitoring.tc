@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TCMTM06 - User bisa mem-filter anggoita tim pada tabel pada halaman Team Profile</name>
+   <name>TCMTM06 - User bisa mem-filter anggota tim by role pada tabel pada halaman Team Profile setelah membuka menu Team Monitoring</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>

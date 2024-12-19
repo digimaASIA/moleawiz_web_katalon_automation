@@ -17,28 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Home/btn_Home_Menu'))
+WebUI.openBrowser(GlobalVariable.base_url_staging)
 
-WebUI.click(findTestObject('Object Login/dropdown_User_Profile'))
+CustomKeywords.'keyword_FunctionLogin.AutomationLogin.loginWithUserDummy2'()
 
-WebUI.click(findTestObject('Object User Profile/btn_Profile_User_Profile'))
+WebUI.click(findTestObject('Object Help Center/btn_Help_Center_Menu'))
 
-WebUI.verifyElementPresent(findTestObject('Object User Profile/verify_Successfully_Open_User_Profile'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Help Center/verify_Successfully_Open_Help_Center - Title Help Center'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object User Profile/verify_Successfully_Open_User_Profile - Role'), 0)
+WebUI.verifyElementVisible(findTestObject('Object Help Center/verify_Successfully_Open_Help_Center - Text title Help Topics'))
 
-WebUI.verifyElementPresent(findTestObject('Object User Profile/verify_Successfully_Open_User_Profile - Username'), 0)
+WebUI.verifyElementVisible(findTestObject('Object Help Center/verify_Successfully_Open_Help_Center - Text title Is there anything we can help you'))
 
-WebUI.verifyElementPresent(findTestObject('Object User Profile/verify_Successfully_Open_User_Profile - Registration Date'), 
-    0)
-
-WebUI.click(findTestObject('Object User Profile/tab_certificates_user_profile'))
-
-WebUI.click(findTestObject('Object User Profile/btn_view_certificates_user_profile'))
-
-WebUI.click(findTestObject('Object User Profile/btn_download_certificates_user_profile'))
-
-WebUI.click(findTestObject('Object User Profile/btn_view_close_certificates_user_profile'))
-
-WebUI.click(findTestObject('Object User Profile/btn_view_close_certificates_user_profile'))
+WebUI.closeBrowser()
 

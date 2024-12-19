@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>verify_Successfully_Open_User_Profile - Registration Date</name>
+   <name>verify_Successfully_Open_User_Profile - Title Profile</name>
    <tag></tag>
-   <elementGuidId>c06a7b85-2bc3-4126-8b60-675b591751b0</elementGuidId>
+   <elementGuidId>246a6b23-2e3c-4270-91e8-88fb71209298</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Registration Date' or . = 'Registration Date')]</value>
+         <value>//*[(text() = 'Profile' or . = 'Profile')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -15,13 +15,14 @@
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Registration Date</value>
-      <webElementGuid>67eb2aa4-646b-40e9-a117-d4da702eecb5</webElementGuid>
+      <value>Profile</value>
+      <webElementGuid>e968ade8-d5bd-4d41-8fe2-17321703ea21</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
