@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMR03 - User bisa membuka List User Review, Need Review, Approve, Declined, All</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>70ff87a4-0f99-4ff5-81ab-58f279a974ba</testCaseGuid>
+</TestCaseEntity>

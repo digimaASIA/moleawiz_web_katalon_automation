@@ -21,30 +21,19 @@ WebUI.openBrowser(GlobalVariable.base_url_staging)
 
 CustomKeywords.'keyword_FunctionLogin.AutomationLogin.loginWithUserDummy2'()
 
-WebUI.click(findTestObject('Object My Learning Journey/btn_My_Learning_Journey_Menu'))
+WebUI.click(findTestObject('Object Reviews/btn_Reviews_Menu'))
 
-WebUI.click(findTestObject('Object My Learning Journey/btn_Cart_Continue_My_Learning_Journey'))
+WebUI.verifyElementVisible(findTestObject('Object Reviews/verify_Successfully_Open_Reviews - Text title Review'))
 
-WebUI.verifyElementPresent(findTestObject('Object Program Description/verify_Successfully_Open_Program_Description'), 0)
+WebUI.verifyElementVisible(findTestObject('Object Reviews/verify_Successfully_Open_Reviews - Radio Button All'))
 
-WebUI.click(findTestObject('Object Program Description/dropdown_list_Course_Index_0_Program_Description_Program'))
+WebUI.verifyElementVisible(findTestObject('Object Reviews/verify_Successfully_Open_Reviews - Radio Button Need Review'))
 
-WebUI.click(findTestObject('Object Module Description/list_Module_Index_0_Module_Description'))
+WebUI.verifyElementVisible(findTestObject('Object Reviews/verify_Successfully_Open_Reviews - Radio Button Approved'))
 
-WebUI.verifyElementPresent(findTestObject('Object Module Description/verify_Successfully_Open_Module_Description - MODULE 1'), 
-    0)
+WebUI.verifyElementVisible(findTestObject('Object Reviews/verify_Successfully_Open_Reviews - Radio Button Declined'))
 
-WebUI.verifyElementPresent(findTestObject('Object Module Description/verify_Successfully_Open_Module_Description - Module Type'), 
-    0)
-
-WebUI.verifyElementPresent(findTestObject('Object Module Description/verify_Successfully_Open_Module_Description - Grading Method'), 
-    0)
-
-WebUI.verifyElementPresent(findTestObject('Object Module Description/verify_Successfully_Open_Module_Description - Number of Attempt'), 
-    0)
-
-WebUI.verifyElementPresent(findTestObject('Object Module Description/verify_Successfully_Open_Module_Description - Attempt Limit'), 
-    0)
+WebUI.click(findTestObject('Object Reviews/btn_Reviews_Menu'))
 
 WebUI.closeBrowser()
 

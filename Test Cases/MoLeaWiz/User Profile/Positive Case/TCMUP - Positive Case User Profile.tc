@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMUP - Positive Case User Profile</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>89b6ee83-bac7-4519-8182-8ecbb5bc1cbc</testCaseGuid>
+</TestCaseEntity>

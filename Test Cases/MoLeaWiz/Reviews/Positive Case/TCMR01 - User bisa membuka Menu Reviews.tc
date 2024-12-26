@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TCMR01 - User bisa membuka Menu Help Center</name>
+   <name>TCMR01 - User bisa membuka Menu Reviews</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
