@@ -7,7 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-index = '4']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +21,7 @@
       <matchCondition>equals</matchCondition>
       <name>data-index</name>
       <type>Main</type>
-      <value>1</value>
-      <webElementGuid>18b95b04-c2d7-48e9-be26-e97876408050</webElementGuid>
+      <value>4</value>
+      <webElementGuid>b4430f8a-7cb1-433a-bba8-3f66f09374bf</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

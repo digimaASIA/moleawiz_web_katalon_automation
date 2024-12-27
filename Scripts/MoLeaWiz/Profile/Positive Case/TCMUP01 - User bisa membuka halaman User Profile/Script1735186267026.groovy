@@ -49,21 +49,5 @@ WebUI.verifyElementPresent(findTestObject('Object User Profile/tab_completed_pro
 
 WebUI.verifyElementPresent(findTestObject('Object User Profile/tab_Addtional_Program_User_Profile'), 0)
 
-WebUI.click(findTestObject('Object User Profile/tab_certificates_user_profile'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object User Profile/tab_badges_user_profile'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object User Profile/tab_completed_program_user_profile'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object User Profile/tab_Addtional_Program_User_Profile'))
-
-WebUI.delay(2)
-
 WebUI.closeBrowser()
 

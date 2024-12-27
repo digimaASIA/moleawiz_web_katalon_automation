@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TCMHC01 - User bisa membuka Menu Help Center</name>
+   <name>Empty State - All Menu</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>023f9761-e8b7-4764-b8a9-9e369bca1476</testCaseGuid>
+   <testCaseGuid>ef192f56-c4b2-4e16-95f0-764d29bbcc79</testCaseGuid>
 </TestCaseEntity>

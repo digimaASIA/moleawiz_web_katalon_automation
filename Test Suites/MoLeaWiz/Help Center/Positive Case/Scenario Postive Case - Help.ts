@@ -15,7 +15,7 @@
       <guid>a9b901d0-ef5a-4bfa-ae10-3c08c57f5d28</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/MoLeaWiz/Help Center/Positive Case/TCMHC01 - User bisa membuka Menu Help Center</testCaseId>
+      <testCaseId>Test Cases/MoLeaWiz/Help Center/Positive Case/TCMHC - Positive Case Help Center</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

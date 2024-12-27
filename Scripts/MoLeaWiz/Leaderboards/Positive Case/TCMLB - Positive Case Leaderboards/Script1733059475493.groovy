@@ -31,5 +31,32 @@ WebUI.click(findTestObject('Object Learderboards/select_Program_Leaderboards'))
 
 WebUI.delay(3)
 
+WebUI.click(findTestObject('Object Learderboards/btn_Leaderboards_Menu'))
+
+WebUI.verifyElementPresent(findTestObject('Object Learderboards/verify_Successfully_Open_Leaderboards - Text title'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Object Learderboards/verify_Successfully_Open_Leaderboards - Dropdown Program'), 
+    0)
+
+WebUI.verifyElementPresent(findTestObject('Object Learderboards/verify_Successfully_Open_Leaderboards - Podium'), 0)
+
+WebUI.click(findTestObject('Object Learderboards/btn_Leaderboards_Menu'))
+
+WebUI.click(findTestObject('Object Learderboards/dropdown_Organization_Level_Leaderboards'))
+
+WebUI.scrollToElement(findTestObject('Object Learderboards/select_Organization_Level_Leaderboards'), 0)
+
+WebUI.click(findTestObject('Object Learderboards/select_Organization_Level_Leaderboards'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Object Learderboards/btn_Leaderboards_Menu'))
+
+WebUI.click(findTestObject('Object Learderboards/dropdown_Organization_Level_Leaderboards'))
+
+WebUI.click(findTestObject('Object Learderboards/select_Organization_Level_Leaderboards'))
+
+WebUI.delay(3)
+
 WebUI.closeBrowser()
 
