@@ -66,4 +66,28 @@ public class AutomationLogin {
 		// Klik tombol login
 		WebUI.click(findTestObject('Object Repository/Object Login/btn_Login'))
 	}
+
+
+	@Keyword
+	def loginWithUserDummy4() {
+
+		// Isi username
+		WebUI.setText(findTestObject('Object Repository/Object Login/input_Username_Login'), GlobalVariable.usernameDummy4)
+
+		// Isi password
+		WebUI.setText(findTestObject('Object Repository/Object Login/input_Password_Login'), GlobalVariable.passwordDummy4)
+
+		// Captcha
+		def captcha1 = WebUI.getText(findTestObject('Object Login/captcha_Num1_Login'))
+		def intCaptcha1 = captcha1.toInteger()
+
+		def captcha2 = WebUI.getText(findTestObject('Object Login/captcha_Num2_Login'))
+		def intCaptcha2 = captcha2.toInteger()
+		def yourAnswer = intCaptcha1 + intCaptcha2
+
+		WebUI.sendKeys(findTestObject('Object Login/input_Captcha_Your_Answer_Login'), yourAnswer.toString())
+
+		// Klik tombol login
+		WebUI.click(findTestObject('Object Repository/Object Login/btn_Login'))
+	}
 }

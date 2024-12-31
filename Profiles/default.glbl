@@ -64,4 +64,14 @@
       <initValue>'C:\\Digimasia App\\photoprofile.png'</initValue>
       <name>uploadPhoto</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'dian@digimasia.com'</initValue>
+      <name>usernameDummy4</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'12345'</initValue>
+      <name>passwordDummy4</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "2A1A5992AAA48049FB0ECF71FB88C00B",
+  "keywordFileContentHash": "FAE623D5E05697BB3648277ACEDFFA14",
   "keywordClasses": [
     {
       "name": "keyword_FunctionLogin.AutomationLogin",
@@ -10,6 +10,10 @@
         },
         {
           "name": "loginWithUserDummy3",
+          "parameters": []
+        },
+        {
+          "name": "loginWithUserDummy4",
           "parameters": []
         }
       ]
