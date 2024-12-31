@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMR - Positive Case Review (Empty State)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f58d576e-7a24-4040-b1b7-ae2908bb560f</testCaseGuid>
+</TestCaseEntity>

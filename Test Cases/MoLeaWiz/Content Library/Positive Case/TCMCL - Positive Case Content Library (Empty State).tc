@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMCL - Positive Case Content Library (Empty State)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>87b583da-18d4-4275-83db-e456bbd7585d</testCaseGuid>
+</TestCaseEntity>

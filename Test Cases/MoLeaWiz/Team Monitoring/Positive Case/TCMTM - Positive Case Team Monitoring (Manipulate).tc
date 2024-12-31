@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMTM - Positive Case Team Monitoring (Manipulate)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7e7724a1-5b8c-4bed-bc26-354e5ced0e97</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMTM - Positive Case Team Monitoring (Empty State)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fcd7fddb-f0b2-4343-bd08-96ad9e6fb124</testCaseGuid>
+</TestCaseEntity>

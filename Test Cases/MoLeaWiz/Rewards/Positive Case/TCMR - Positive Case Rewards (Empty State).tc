@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMR - Positive Case Rewards (Empty State)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d4118c6a-2c86-4c85-8963-63c5c28544a6</testCaseGuid>
+</TestCaseEntity>

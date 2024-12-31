@@ -33,7 +33,9 @@ WebUI.verifyElementVisible(findTestObject('Object Reviews/verify_Successfully_Op
 
 WebUI.verifyElementVisible(findTestObject('Object Reviews/verify_Successfully_Open_Reviews - Radio Button Declined'))
 
-WebUI.click(findTestObject('Object Reviews/btn_Reviews_Menu'))
+WebUI.click(findTestObject('Object Reviews/btn_Card_Module_Review_Reviews'))
+
+WebUI.delay(2)
 
 WebUI.closeBrowser()
 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMMLJ - Positive Case My Learning Journey (Empty State)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>856773ec-6d47-4448-bb94-5252dafc11e1</testCaseGuid>
+</TestCaseEntity>

@@ -21,33 +21,17 @@ WebUI.openBrowser(GlobalVariable.base_url_staging)
 
 CustomKeywords.'keyword_FunctionLogin.AutomationLogin.loginWithUserDummy2'()
 
-WebUI.click(findTestObject('Object Reviews/btn_Reviews_Menu'))
+WebUI.click(findTestObject('Object Team Monitoring/btn_Team_Monitoring_Menu'))
 
-WebUI.verifyElementVisible(findTestObject('Object Reviews/verify_Successfully_Open_Reviews - Text title Review'))
+WebUI.verifyElementVisible(findTestObject('Object Team Monitoring/verify_Successfully_Open_Team_Monitoring - Text title Team Monitoring'))
 
-WebUI.verifyElementVisible(findTestObject('Object Reviews/verify_Successfully_Open_Reviews - Radio Button All'))
+WebUI.verifyElementVisible(findTestObject('Object Team Monitoring/verify_Successfully_Open_Team_Monitoring - Icon Member'))
 
-WebUI.verifyElementVisible(findTestObject('Object Reviews/verify_Successfully_Open_Reviews - Radio Button Need Review'))
+WebUI.verifyElementVisible(findTestObject('Object Team Monitoring/verify_Successfully_Open_Team_Monitoring - Button Show Team Profile'))
 
-WebUI.verifyElementVisible(findTestObject('Object Reviews/verify_Successfully_Open_Reviews - Radio Button Approved'))
+WebUI.verifyElementVisible(findTestObject('Object Team Monitoring/verify_Successfully_Open_Team_Monitoring - Text Learning Status'))
 
-WebUI.verifyElementVisible(findTestObject('Object Reviews/verify_Successfully_Open_Reviews - Radio Button Declined'))
-
-WebUI.click(findTestObject('Object Reviews/radio_button_Filter_All_Reviews'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Reviews/radio_button_Filter_Approve_Reviews'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Reviews/radio_button_Filter_Declined_Reviews'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Reviews/radio_button_Filter_Need_Review-Reviews'))
-
-WebUI.delay(1)
+WebUI.verifyElementVisible(findTestObject('Object Team Monitoring/verify_Successfully_Open_Team_Monitoring - Button Show All Learning Status'))
 
 WebUI.closeBrowser()
 

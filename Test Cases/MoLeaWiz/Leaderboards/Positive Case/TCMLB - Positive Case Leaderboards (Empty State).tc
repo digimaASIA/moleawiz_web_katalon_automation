@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMLB - Positive Case Leaderboards (Empty State)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>95b2e5f9-3ab3-4735-8558-ad92fa1de0b7</testCaseGuid>
+</TestCaseEntity>

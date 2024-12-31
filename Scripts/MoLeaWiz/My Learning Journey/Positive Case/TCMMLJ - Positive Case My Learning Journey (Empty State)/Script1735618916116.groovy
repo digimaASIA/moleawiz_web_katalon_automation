@@ -21,33 +21,19 @@ WebUI.openBrowser(GlobalVariable.base_url_staging)
 
 CustomKeywords.'keyword_FunctionLogin.AutomationLogin.loginWithUserDummy2'()
 
-WebUI.click(findTestObject('Object Reviews/btn_Reviews_Menu'))
+WebUI.click(findTestObject('Object My Learning Journey/btn_My_Learning_Journey_Menu'))
 
-WebUI.verifyElementVisible(findTestObject('Object Reviews/verify_Successfully_Open_Reviews - Text title Review'))
+WebUI.verifyElementVisible(findTestObject('Object My Learning Journey/verify_Successfully_Open_My_Learning_Journey - Title My Learning Journey'))
 
-WebUI.verifyElementVisible(findTestObject('Object Reviews/verify_Successfully_Open_Reviews - Radio Button All'))
+WebUI.verifyElementVisible(findTestObject('Object My Learning Journey/verify_Successfully_Open_My_Learning_Journey - Text Filter'))
 
-WebUI.verifyElementVisible(findTestObject('Object Reviews/verify_Successfully_Open_Reviews - Radio Button Need Review'))
+WebUI.verifyElementVisible(findTestObject('Object My Learning Journey/verify_Successfully_Open_My_Learning_Journey - Radio button All'))
 
-WebUI.verifyElementVisible(findTestObject('Object Reviews/verify_Successfully_Open_Reviews - Radio Button Approved'))
+WebUI.verifyElementVisible(findTestObject('Object My Learning Journey/verify_Successfully_Open_My_Learning_Journey - Radio button Ongoing'))
 
-WebUI.verifyElementVisible(findTestObject('Object Reviews/verify_Successfully_Open_Reviews - Radio Button Declined'))
+WebUI.verifyElementVisible(findTestObject('Object My Learning Journey/verify_Successfully_Open_My_Learning_Journey - Radio button New'))
 
-WebUI.click(findTestObject('Object Reviews/radio_button_Filter_All_Reviews'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Reviews/radio_button_Filter_Approve_Reviews'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Reviews/radio_button_Filter_Declined_Reviews'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Reviews/radio_button_Filter_Need_Review-Reviews'))
-
-WebUI.delay(1)
+WebUI.verifyElementVisible(findTestObject('Object My Learning Journey/verify_Successfully_Open_My_Learning_Journey - Radio button Completed'))
 
 WebUI.closeBrowser()
 

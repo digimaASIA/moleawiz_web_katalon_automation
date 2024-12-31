@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCMLB - Positive Case Leaderboards (Manipulate)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7a29ae79-02ed-4eda-bbf2-119c8230f244</testCaseGuid>
+</TestCaseEntity>

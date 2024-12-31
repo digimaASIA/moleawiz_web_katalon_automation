@@ -21,33 +21,15 @@ WebUI.openBrowser(GlobalVariable.base_url_staging)
 
 CustomKeywords.'keyword_FunctionLogin.AutomationLogin.loginWithUserDummy2'()
 
-WebUI.click(findTestObject('Object Reviews/btn_Reviews_Menu'))
+WebUI.click(findTestObject('Object Rewards/btn_Rewards_Menu'))
 
-WebUI.verifyElementVisible(findTestObject('Object Reviews/verify_Successfully_Open_Reviews - Text title Review'))
+WebUI.verifyElementPresent(findTestObject('Object Rewards/verify_Successfully_Open_Rewards - Button Link Redeem History'), 
+    0)
 
-WebUI.verifyElementVisible(findTestObject('Object Reviews/verify_Successfully_Open_Reviews - Radio Button All'))
+WebUI.verifyElementPresent(findTestObject('Object Rewards/verify_Successfully_Open_Rewards - Current Balance'), 0)
 
-WebUI.verifyElementVisible(findTestObject('Object Reviews/verify_Successfully_Open_Reviews - Radio Button Need Review'))
-
-WebUI.verifyElementVisible(findTestObject('Object Reviews/verify_Successfully_Open_Reviews - Radio Button Approved'))
-
-WebUI.verifyElementVisible(findTestObject('Object Reviews/verify_Successfully_Open_Reviews - Radio Button Declined'))
-
-WebUI.click(findTestObject('Object Reviews/radio_button_Filter_All_Reviews'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Reviews/radio_button_Filter_Approve_Reviews'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Reviews/radio_button_Filter_Declined_Reviews'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Reviews/radio_button_Filter_Need_Review-Reviews'))
-
-WebUI.delay(1)
+WebUI.verifyElementPresent(findTestObject('Object Rewards/verify_Successfully_Open_Rewards - Text title Here exciting rewards for you'), 
+    0)
 
 WebUI.closeBrowser()
 

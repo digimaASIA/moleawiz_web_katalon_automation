@@ -19,35 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.base_url_staging)
 
-CustomKeywords.'keyword_FunctionLogin.AutomationLogin.loginWithUserDummy2'()
+CustomKeywords.'keyword_FunctionLogin.AutomationLogin.loginWithUserDummy4'()
 
-WebUI.click(findTestObject('Object Reviews/btn_Reviews_Menu'))
+WebUI.click(findTestObject('Object Content Library/btn_Content_Library_Menu'))
 
-WebUI.verifyElementVisible(findTestObject('Object Reviews/verify_Successfully_Open_Reviews - Text title Review'))
+WebUI.verifyElementVisible(findTestObject('Object Content Library/verify_Successfully_Open_Content Library_Menu - Tab Collection'))
 
-WebUI.verifyElementVisible(findTestObject('Object Reviews/verify_Successfully_Open_Reviews - Radio Button All'))
-
-WebUI.verifyElementVisible(findTestObject('Object Reviews/verify_Successfully_Open_Reviews - Radio Button Need Review'))
-
-WebUI.verifyElementVisible(findTestObject('Object Reviews/verify_Successfully_Open_Reviews - Radio Button Approved'))
-
-WebUI.verifyElementVisible(findTestObject('Object Reviews/verify_Successfully_Open_Reviews - Radio Button Declined'))
-
-WebUI.click(findTestObject('Object Reviews/radio_button_Filter_All_Reviews'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Reviews/radio_button_Filter_Approve_Reviews'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Reviews/radio_button_Filter_Declined_Reviews'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Reviews/radio_button_Filter_Need_Review-Reviews'))
-
-WebUI.delay(1)
+WebUI.verifyElementVisible(findTestObject('Object Content Library/verify_Successfully_Open_Content Library_Menu - Tab Content Library'))
 
 WebUI.closeBrowser()
 

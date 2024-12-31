@@ -33,19 +33,23 @@ WebUI.verifyElementVisible(findTestObject('Object Reviews/verify_Successfully_Op
 
 WebUI.verifyElementVisible(findTestObject('Object Reviews/verify_Successfully_Open_Reviews - Radio Button Declined'))
 
-WebUI.click(findTestObject('Object Reviews/radio_button_Filter_All_Reviews'))
+WebUI.click(findTestObject('Object Reviews/btn_Card_Module_Review_Reviews'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Reviews/radio_button_Filter_Approve_Reviews'))
+WebUI.click(findTestObject('Object Reviews/btn_Reviews_Menu'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Reviews/radio_button_Filter_Declined_Reviews'))
+WebUI.click(findTestObject('Object Reviews/verify_Successfully_Open_Reviews - Text title Review'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Reviews/radio_button_Filter_Need_Review-Reviews'))
+WebUI.click(findTestObject('Object Reviews/verify_Successfully_Open_Reviews - Radio Button All'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Reviews/verify_Successfully_Open_Reviews - Radio Button Need Review'))
 
 WebUI.delay(1)
 
