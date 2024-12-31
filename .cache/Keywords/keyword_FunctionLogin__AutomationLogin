@@ -6,18 +6,21 @@
       "keywordMethods": [
         {
           "name": "loginWithUserDummy2",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "loginWithUserDummy3",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "loginWithUserDummy4",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }
