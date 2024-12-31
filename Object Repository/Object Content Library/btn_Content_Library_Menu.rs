@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@role = 'button' and @tabindex = '-1']</value>
+         <value>//*[@name = 'btn-content-library-menu']</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -22,31 +21,7 @@
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>btn-view-ongoing-team-team-monitoring</value>
-      <webElementGuid>3a801929-f12a-4caa-8014-fe727d5bd7d5</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-index</name>
-      <type>Main</type>
-      <value>38</value>
-      <webElementGuid>5f3d476f-0495-4587-a84f-f587bfc5048b</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>role</name>
-      <type>Main</type>
-      <value>button</value>
-      <webElementGuid>3de6ad3f-e556-4ece-8dc9-400a56476b36</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
-      <type>Main</type>
-      <value>-1</value>
-      <webElementGuid>e926a973-64d0-4a4a-9362-11ecb5193350</webElementGuid>
+      <value>btn-content-library-menu</value>
+      <webElementGuid>9c11f453-4525-4b84-a310-355ddd5b4d63</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

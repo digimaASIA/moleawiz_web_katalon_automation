@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>C%%Users%Hafizh Abdillah%git%moleawiz_web_katalon_automation%moleawiz_web_katalon_automation.prj</name>
+	<name>C%%Users%User%git%moleawiz_web_katalon_automation%moleawiz_web_katalon_automation.prj</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -17,7 +17,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1735185998013</id>
+			<id>1735282749774</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -26,7 +26,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1735185998019</id>
+			<id>1735282749912</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -35,7 +35,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1735281999409</id>
+			<id>1735614104524</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -44,7 +44,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1735281999426</id>
+			<id>1735614104584</id>
 			<name></name>
 			<type>6</type>
 			<matcher>

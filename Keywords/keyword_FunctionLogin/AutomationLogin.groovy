@@ -43,7 +43,7 @@ public class AutomationLogin {
 		// Klik tombol login
 		WebUI.click(findTestObject('Object Repository/Object Login/btn_Login'))
 	}
-	
+
 	@Keyword
 	def loginWithUserDummy3() {
 
@@ -66,5 +66,4 @@ public class AutomationLogin {
 		// Klik tombol login
 		WebUI.click(findTestObject('Object Repository/Object Login/btn_Login'))
 	}
-	
 }

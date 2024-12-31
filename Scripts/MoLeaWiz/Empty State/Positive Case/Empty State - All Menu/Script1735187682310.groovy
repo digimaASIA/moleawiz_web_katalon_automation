@@ -17,37 +17,155 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.base_url_staging)
+WebUI.openBrowser('https://inabanklearninghub-staging.moleawiz.com/')
 
 CustomKeywords.'keyword_FunctionLogin.AutomationLogin.loginWithUserDummy2'()
 
+WebUI.click(findTestObject('Object My Learning Journey/btn_My_Learning_Journey_Menu'))
+
+WebUI.click(findTestObject('Object Home/Object Menu/btn_Collapse_Menu'))
+
+WebUI.click(findTestObject('Object My Learning Journey/btn_My_Learning_Journey_Menu'))
+
+WebUI.click(findTestObject('Object Home/Object Menu/btn_Collapse_Menu'))
+
+WebUI.click(findTestObject('Object My Learning Journey/btn_My_Learning_Journey_Menu'))
+
+WebUI.verifyElementVisible(findTestObject('Object My Learning Journey/verify_Successfully_Open_My_Learning_Journey - Title My Learning Journey'))
+
+WebUI.verifyElementVisible(findTestObject('Object My Learning Journey/verify_Successfully_Open_My_Learning_Journey - Text Filter'))
+
+WebUI.verifyElementVisible(findTestObject('Object My Learning Journey/verify_Successfully_Open_My_Learning_Journey - Radio button All'))
+
+WebUI.verifyElementVisible(findTestObject('Object My Learning Journey/verify_Successfully_Open_My_Learning_Journey - Radio button Ongoing'))
+
+WebUI.verifyElementVisible(findTestObject('Object My Learning Journey/verify_Successfully_Open_My_Learning_Journey - Radio button New'))
+
+WebUI.verifyElementVisible(findTestObject('Object My Learning Journey/verify_Successfully_Open_My_Learning_Journey - Radio button Completed'))
+
+WebUI.click(findTestObject('Object Content Library/btn_Content_Library_Menu'))
+
+WebUI.click(findTestObject('Object Content Library/btn-Modal-Close-Notif-Content-Library'))
+
+WebUI.click(findTestObject('Object Home/Object Menu/btn_Collapse_Menu'))
+
+WebUI.click(findTestObject('Object Content Library/btn_Content_Library_Menu'))
+
+WebUI.click(findTestObject('Object Home/Object Menu/btn_Collapse_Menu'))
+
+WebUI.click(findTestObject('Object Content Library/btn_Content_Library_Menu'))
+
+WebUI.verifyElementVisible(findTestObject('Object Content Library/verify_Successfully_Open_Content Library_Menu - Tab Collection'))
+
+WebUI.verifyElementVisible(findTestObject('Object Content Library/verify_Successfully_Open_Content Library_Menu - Tab Content Library'))
+
+WebUI.click(findTestObject('Object Learderboards/btn_Leaderboards_Menu'))
+
+WebUI.click(findTestObject('Object Home/Object Menu/btn_Collapse_Menu'))
+
+WebUI.click(findTestObject('Object Learderboards/btn_Leaderboards_Menu'))
+
+WebUI.click(findTestObject('Object Home/Object Menu/btn_Collapse_Menu'))
+
+WebUI.click(findTestObject('Object Learderboards/btn_Leaderboards_Menu'))
+
+WebUI.verifyElementVisible(findTestObject('Object Learderboards/verify_Successfully_Open_Leaderboards_Menu'))
+
+WebUI.verifyElementVisible(findTestObject('Object Learderboards/verify_Successfully_Open_Leaderboards - Text title'))
+
+WebUI.verifyElementVisible(findTestObject('Object Learderboards/verify_Successfully_Open_Leaderboards - Podium'))
+
+WebUI.verifyElementVisible(findTestObject('Object Learderboards/verify_Successfully_Open_Leaderboards - Dropdown Program'))
+
+WebUI.click(findTestObject('Object Rewards/btn_Rewards_Menu'))
+
+WebUI.click(findTestObject('Object Home/Object Menu/btn_Collapse_Menu'))
+
+WebUI.click(findTestObject('Object Rewards/btn_Rewards_Menu'))
+
+WebUI.click(findTestObject('Object Home/Object Menu/btn_Collapse_Menu'))
+
+WebUI.click(findTestObject('Object Rewards/btn_Rewards_Menu'))
+
+WebUI.verifyElementVisible(findTestObject('Object Rewards/verify_Successfully_Open_Rewards - Text title Here exciting rewards for you'))
+
+WebUI.verifyElementVisible(findTestObject('Object Rewards/verify_Successfully_Open_Rewards - Current Balance'))
+
+WebUI.verifyElementVisible(findTestObject('Object Rewards/verify_Successfully_Open_Rewards - Button Link Redeem History'))
+
+WebUI.click(findTestObject('Object Team Monitoring/btn_Team_Monitoring_Menu'))
+
+WebUI.click(findTestObject('Object Home/Object Menu/btn_Collapse_Menu'))
+
+WebUI.click(findTestObject('Object Team Monitoring/btn_Team_Monitoring_Menu'))
+
+WebUI.click(findTestObject('Object Home/Object Menu/btn_Collapse_Menu'))
+
+WebUI.click(findTestObject('Object Team Monitoring/btn_Team_Monitoring_Menu'))
+
+WebUI.verifyElementVisible(findTestObject('Object Team Monitoring/verify_Successfully_Open_Team_Monitoring - Text title Team Monitoring'))
+
+WebUI.verifyElementVisible(findTestObject('Object Team Monitoring/verify_Successfully_Open_Team_Monitoring - Icon Member'))
+
+WebUI.verifyElementVisible(findTestObject('Object Team Monitoring/verify_Successfully_Open_Team_Monitoring - Button Show Team Profile'))
+
+WebUI.verifyElementVisible(findTestObject('Object Team Monitoring/verify_Successfully_Open_Team_Monitoring - Text Learning Status'))
+
+WebUI.verifyElementVisible(findTestObject('Object Team Monitoring/verify_Successfully_Open_Team_Monitoring - Button Show All Learning Status'))
+
+WebUI.click(findTestObject('Object Reviews/btn_Reviews_Menu'))
+
+WebUI.click(findTestObject('Object Home/Object Menu/btn_Collapse_Menu'))
+
+WebUI.click(findTestObject('Object Reviews/btn_Reviews_Menu'))
+
+WebUI.click(findTestObject('Object Home/Object Menu/btn_Collapse_Menu'))
+
+WebUI.click(findTestObject('Object Reviews/btn_Reviews_Menu'))
+
+WebUI.verifyElementVisible(findTestObject('Object Reviews/verify_Successfully_Open_Reviews - Text title Review'))
+
+WebUI.verifyElementVisible(findTestObject('Object Reviews/verify_Successfully_Open_Reviews - Radio Button Need Review'))
+
+WebUI.verifyElementVisible(findTestObject('Object Reviews/verify_Successfully_Open_Reviews - Radio Button Declined'))
+
+WebUI.verifyElementVisible(findTestObject('Object Reviews/verify_Successfully_Open_Reviews - Radio Button Approved'))
+
+WebUI.verifyElementVisible(findTestObject('Object Reviews/verify_Successfully_Open_Reviews - Radio Button All'))
+
+WebUI.click(findTestObject('Object Help Center/btn_Help_Center_Menu'))
+
+WebUI.click(findTestObject('Object Home/Object Menu/btn_Collapse_Menu'))
+
+WebUI.click(findTestObject('Object Help Center/btn_Help_Center_Menu'))
+
+WebUI.click(findTestObject('Object Home/Object Menu/btn_Collapse_Menu'))
+
+WebUI.click(findTestObject('Object Help Center/btn_Help_Center_Menu'))
+
+WebUI.verifyElementVisible(findTestObject('Object Help Center/verify_Successfully_Open_Help_Center - Text title Help Topics'))
+
+WebUI.verifyElementVisible(findTestObject('Object Help Center/verify_Successfully_Open_Help_Center - Text title Is there anything we can help you'))
+
 WebUI.click(findTestObject('Object Home/btn_Home_Menu'))
 
-WebUI.click(findTestObject('Object Login/dropdown_User_Profile'))
+WebUI.click(findTestObject('Object Home/Object Menu/btn_Collapse_Menu'))
 
-WebUI.click(findTestObject('Object User Profile/btn_Profile_User_Profile'))
+WebUI.click(findTestObject('Object Home/btn_Home_Menu'))
 
-WebUI.verifyElementPresent(findTestObject('Object User Profile/verify_Successfully_Open_User_Profile - Title Profile'), 
-    0)
+WebUI.click(findTestObject('Object Home/Object Menu/btn_Collapse_Menu'))
 
-WebUI.verifyElementPresent(findTestObject('Object User Profile/verify_Successfully_Open_User_Profile - Role'), 0)
+WebUI.click(findTestObject('Object Home/btn_Home_Menu'))
 
-WebUI.verifyElementPresent(findTestObject('Object User Profile/verify_Successfully_Open_User_Profile - Username'), 0)
+WebUI.verifyElementVisible(findTestObject('Object Login/dropdown_User_Profile'))
 
-WebUI.verifyElementPresent(findTestObject('Object User Profile/verify_Successfully_Open_User_Profile - Registered on'), 
-    0)
+WebUI.click(findTestObject('Object Home/btn_Dots_Corousel_Banner_1_Home'))
 
-WebUI.verifyElementPresent(findTestObject('Object User Profile/btn_export_profile_user_profile'), 0)
+WebUI.click(findTestObject('Object Home/btn_Dots_Corousel_Banner_2_Home'))
 
-WebUI.verifyElementPresent(findTestObject('Object User Profile/upload_photo_profile'), 0)
+WebUI.click(findTestObject('Object Home/btn_Dots_Corousel_Banner_3_Home'))
 
-WebUI.verifyElementPresent(findTestObject('Object User Profile/tab_certificates_user_profile'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Object User Profile/tab_badges_user_profile'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Object User Profile/tab_completed_program_user_profile'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Object User Profile/tab_Addtional_Program_User_Profile'), 0)
+WebUI.delay(2)
 
 WebUI.closeBrowser()
 

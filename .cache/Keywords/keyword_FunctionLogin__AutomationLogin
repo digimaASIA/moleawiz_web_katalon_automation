@@ -1,21 +1,19 @@
 {
-  "keywordFileContentHash": "A7B2482256012B88424BDBD61C79CD4A",
+  "keywordFileContentHash": "2A1A5992AAA48049FB0ECF71FB88C00B",
   "keywordClasses": [
     {
       "name": "keyword_FunctionLogin.AutomationLogin",
       "keywordMethods": [
         {
           "name": "loginWithUserDummy2",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "loginWithUserDummy3",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }
