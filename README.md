@@ -1,6 +1,6 @@
 # moleawiz_web_katalon_automation
 
-Step clone project langsung di katalon!!
+**Step clone project langsung di katalon!!**
 
 1. Buka katalon
 2. Pada menu bagian kiri klik "Clone Project"
@@ -17,7 +17,14 @@ Note:
 
 
 ----------------------------------------
-Kebutuhan Testcase Deployment (CI/CD) !!
+**Kebutuhan Testcase Deployment (CI/CD) !!**
+
+**Manipulate**
+ - Automation yang dilakukan di MoLeaWiz Web yang sudah memiliki data atau yang sudah di manipulasi
+
+**Empty State**
+ - Automation yang dilakukan di MoLeaWiz Web yang tidak memiliki data atau kosongan
+----------------------------------------
 
 
 **Login**
