@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Scenario Positive Case - Rewards</name>
+   <name>Scenario Positive Case - Leaderboards (Empty State)</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,12 +10,12 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>a4907c28-c439-4f9e-926f-b77b5107f737</testSuiteGuid>
+   <testSuiteGuid>48a3d2c2-48d4-4bf7-8859-d3c3ca54a12c</testSuiteGuid>
    <testCaseLink>
-      <guid>554e5aec-a189-4542-906c-06fa595e3fc3</guid>
+      <guid>0fb21011-7a60-44a7-85db-12925a8866fa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/MoLeaWiz/Rewards/Positive Case/TCMR - Positive Case Rewards</testCaseId>
+      <testCaseId>Test Cases/MoLeaWiz/Leaderboards/Positive Case/TCMLB - Positive Case Leaderboards (Empty State)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

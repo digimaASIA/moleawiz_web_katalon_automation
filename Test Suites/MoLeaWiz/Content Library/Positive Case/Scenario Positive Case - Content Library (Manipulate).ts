@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Scenario Negative Case - Positive Case</name>
+   <name>Scenario Positive Case - Content Library (Manipulate)</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,12 +10,12 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>9def0cda-e3d9-43fb-9af9-e831f867e111</testSuiteGuid>
+   <testSuiteGuid>cd607d3c-4def-437c-bc9c-9fdad2d32409</testSuiteGuid>
    <testCaseLink>
-      <guid>c971091c-7d71-4568-97e4-c3479c58c7d3</guid>
+      <guid>d23ec162-9298-4d24-a4bf-c5e6d5fe44f7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/MoLeaWiz/Forgot Password/Positive Case/TCFP01 - User dapat mengubah kata sandi di Forgot Password</testCaseId>
+      <testCaseId>Test Cases/MoLeaWiz/Content Library/Positive Case/TCMCL - Positive Case Content Library (Manipulate)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

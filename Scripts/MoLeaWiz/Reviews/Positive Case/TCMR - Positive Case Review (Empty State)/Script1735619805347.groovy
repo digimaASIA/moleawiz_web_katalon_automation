@@ -19,19 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.base_url_staging)
 
-CustomKeywords.'keyword_FunctionLogin.AutomationLogin.loginWithUserDummy2'()
+CustomKeywords.'keyword_FunctionLogin.AutomationLogin.loginWithUserEmptyState'()
 
 WebUI.click(findTestObject('Object Reviews/btn_Reviews_Menu'))
 
 WebUI.verifyElementVisible(findTestObject('Object Reviews/verify_Successfully_Open_Reviews - Text title Review'))
-
-WebUI.verifyElementVisible(findTestObject('Object Reviews/verify_Successfully_Open_Reviews - Radio Button All'))
-
-WebUI.verifyElementVisible(findTestObject('Object Reviews/verify_Successfully_Open_Reviews - Radio Button Need Review'))
-
-WebUI.verifyElementVisible(findTestObject('Object Reviews/verify_Successfully_Open_Reviews - Radio Button Approved'))
-
-WebUI.verifyElementVisible(findTestObject('Object Reviews/verify_Successfully_Open_Reviews - Radio Button Declined'))
 
 WebUI.closeBrowser()
 

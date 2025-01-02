@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@dpd-name = 'dpd-program-leaderboards']</value>
+         <value>//*[@name = 'btn-back-forgot-password']</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -22,23 +21,7 @@
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>square-podium-1-leaderboards</value>
-      <webElementGuid>35998095-ccf4-458d-9043-40a3d2505f70</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>podium</value>
-      <webElementGuid>5773d428-81ef-4ddd-b89e-c9e7eb678536</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>dpd-name</name>
-      <type>Main</type>
-      <value>dpd-program-leaderboards</value>
-      <webElementGuid>ae0db8ca-78f5-4a03-b1f5-a5c3d7f42b71</webElementGuid>
+      <value>btn-back-forgot-password</value>
+      <webElementGuid>ca1ed560-bb54-437a-83e1-215b11bcb6b8</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

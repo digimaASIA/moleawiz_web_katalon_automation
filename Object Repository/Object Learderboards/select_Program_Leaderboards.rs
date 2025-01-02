@@ -6,11 +6,11 @@
    <elementGuidId>d1584402-ae7b-4ccf-963d-28cb10acac67</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
+         <key>BASIC</key>
+         <value>//*[@data-index = '0']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@data-index = '4']</value>
+         <key>XPATH</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,7 +21,7 @@
       <matchCondition>equals</matchCondition>
       <name>data-index</name>
       <type>Main</type>
-      <value>4</value>
-      <webElementGuid>b4430f8a-7cb1-433a-bba8-3f66f09374bf</webElementGuid>
+      <value>0</value>
+      <webElementGuid>7885eec1-e3d5-48b2-8939-33db498aaf09</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

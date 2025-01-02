@@ -25,8 +25,6 @@ WebUI.click(findTestObject('Object Learderboards/btn_Leaderboards_Menu'))
 
 WebUI.click(findTestObject('Object Learderboards/dropdown_Program_Leaderboards'))
 
-WebUI.setText(findTestObject('Object Learderboards/input_Search_Program_Leaderboards'), 'cots')
-
 WebUI.click(findTestObject('Object Learderboards/select_Program_Leaderboards'))
 
 WebUI.delay(3)

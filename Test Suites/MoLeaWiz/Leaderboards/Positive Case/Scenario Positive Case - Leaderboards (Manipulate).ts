@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Scenario Postive Case - Help</name>
+   <name>Scenario Positive Case - Leaderboards (Manipulate)</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,12 +10,12 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>467dee95-b218-4109-9996-3e5c4eb6b8c9</testSuiteGuid>
+   <testSuiteGuid>dbe13bf8-6778-4ec3-993c-4c44cbd10c90</testSuiteGuid>
    <testCaseLink>
-      <guid>a9b901d0-ef5a-4bfa-ae10-3c08c57f5d28</guid>
+      <guid>0fb21011-7a60-44a7-85db-12925a8866fa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/MoLeaWiz/Help Center/Positive Case/TCMHC - Positive Case Help Center</testCaseId>
+      <testCaseId>Test Cases/MoLeaWiz/Leaderboards/Positive Case/TCMLB - Positive Case Leaderboards (Manipulate)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

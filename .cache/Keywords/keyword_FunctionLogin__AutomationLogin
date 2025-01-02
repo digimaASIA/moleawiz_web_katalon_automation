@@ -1,26 +1,27 @@
 {
-  "keywordFileContentHash": "FAE623D5E05697BB3648277ACEDFFA14",
+  "keywordFileContentHash": "833E3F256A3CD27CFC1243087732B9AA",
   "keywordClasses": [
     {
       "name": "keyword_FunctionLogin.AutomationLogin",
       "keywordMethods": [
         {
           "name": "loginWithUserDummy2",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "loginWithUserDummy3",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "loginWithUserDummy4",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
+        },
+        {
+          "name": "loginWithUserEmptyState",
+          "parameters": []
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

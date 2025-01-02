@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Scenario Positive Case - Home</name>
+   <name>Scenario Positive Case - My Learning Journey (Manipulate)</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,12 +10,12 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>073a3426-a97c-48c2-920c-c94ab80c893c</testSuiteGuid>
+   <testSuiteGuid>a789bd35-5a38-408b-88f4-67fd586473a5</testSuiteGuid>
    <testCaseLink>
-      <guid>4b08a08e-2792-4e28-9a20-8ba53b1e0c15</guid>
+      <guid>d577fbc3-71be-4fcf-b3f0-ab8829394217</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/MoLeaWiz/Home/Positive Case/TCMH - Positive Case Home</testCaseId>
+      <testCaseId>Test Cases/MoLeaWiz/My Learning Journey/Positive Case/TCMMLJ - Positive Case My Learning Journey (Manipulate)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

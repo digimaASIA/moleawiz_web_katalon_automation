@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Scenario Postive Case - Help</name>
+   <name>Scenario Positive Case - Forgot Password</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,12 +10,12 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>467dee95-b218-4109-9996-3e5c4eb6b8c9</testSuiteGuid>
+   <testSuiteGuid>9def0cda-e3d9-43fb-9af9-e831f867e111</testSuiteGuid>
    <testCaseLink>
-      <guid>a9b901d0-ef5a-4bfa-ae10-3c08c57f5d28</guid>
+      <guid>c971091c-7d71-4568-97e4-c3479c58c7d3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/MoLeaWiz/Help Center/Positive Case/TCMHC - Positive Case Help Center</testCaseId>
+      <testCaseId>Test Cases/MoLeaWiz/Forgot Password/Positive Case/TCFP01 - User dapat mengubah kata sandi di Forgot Password</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

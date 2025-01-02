@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Scenario Postive Case - Help</name>
+   <name>Scenario Positive Case - Team Monitoring (Empty State)</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,12 +10,12 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>467dee95-b218-4109-9996-3e5c4eb6b8c9</testSuiteGuid>
+   <testSuiteGuid>423c391a-d581-4e59-937e-9f65e7015b74</testSuiteGuid>
    <testCaseLink>
-      <guid>a9b901d0-ef5a-4bfa-ae10-3c08c57f5d28</guid>
+      <guid>f239b367-17d2-4df7-adc6-6e28bb302d37</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/MoLeaWiz/Help Center/Positive Case/TCMHC - Positive Case Help Center</testCaseId>
+      <testCaseId>Test Cases/MoLeaWiz/Team Monitoring/Positive Case/TCMTM - Positive Case Team Monitoring (Empty State)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

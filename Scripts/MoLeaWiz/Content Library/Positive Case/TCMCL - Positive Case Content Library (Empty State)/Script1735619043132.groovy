@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.base_url_staging)
 
-CustomKeywords.'keyword_FunctionLogin.AutomationLogin.loginWithUserDummy4'()
+CustomKeywords.'keyword_FunctionLogin.AutomationLogin.loginWithUserEmptyState'()
 
 WebUI.click(findTestObject('Object Content Library/btn_Content_Library_Menu'))
 

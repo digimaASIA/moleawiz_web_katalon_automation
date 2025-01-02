@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Scenario Positive Case - Content Library</name>
+   <name>Scenario Positive Case - Review (Empty State)</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,12 +10,12 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>cd607d3c-4def-437c-bc9c-9fdad2d32409</testSuiteGuid>
+   <testSuiteGuid>dc846b0e-b0c8-4566-a037-8ab7043dfd5b</testSuiteGuid>
    <testCaseLink>
-      <guid>d23ec162-9298-4d24-a4bf-c5e6d5fe44f7</guid>
+      <guid>9054899e-5635-4a31-b715-2aceab097d66</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/MoLeaWiz/Content Library/Positive Case/TCMCL - Positive Case Content Library</testCaseId>
+      <testCaseId>Test Cases/MoLeaWiz/Reviews/Positive Case/TCMR - Positive Case Review (Empty State)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

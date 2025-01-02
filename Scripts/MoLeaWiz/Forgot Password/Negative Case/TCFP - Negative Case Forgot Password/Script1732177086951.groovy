@@ -28,7 +28,7 @@ WebUI.verifyElementVisible(findTestObject('Object Forgot Password/verify_Unsucce
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Forgot Password/verify_Successfully_Open_Leaderboards - Dropdown Program'))
+WebUI.click(findTestObject('Object Forgot Password/btn_Back_To_Login_Forgot_Password'))
 
 WebUI.click(findTestObject('Object Forgot Password/btn_text_Forgot_Your_Password'), FailureHandling.STOP_ON_FAILURE)
 
@@ -41,7 +41,7 @@ WebUI.verifyElementVisible(findTestObject('Object Forgot Password/verify_Unsucce
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Forgot Password/verify_Successfully_Open_Leaderboards - Dropdown Program'))
+WebUI.back(FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Forgot Password/btn_text_Forgot_Your_Password'), FailureHandling.STOP_ON_FAILURE)
 
@@ -49,7 +49,7 @@ WebUI.click(findTestObject('Object Forgot Password/btn_Icon_Back_Forgot_Password
 
 WebUI.click(findTestObject('Object Forgot Password/btn_text_Forgot_Your_Password'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Forgot Password/input_Username_Forgot_Password'), GlobalVariable.usernameGeneral)
+WebUI.setText(findTestObject('Object Forgot Password/input_Username_Forgot_Password'), GlobalVariable.usernameEmptyState)
 
 WebUI.click(findTestObject('Object Forgot Password/btn_Request_Verification_Code_Forgot_Password'))
 
@@ -60,9 +60,9 @@ WebUI.verifyElementVisible(findTestObject('Object Forgot Password/verify_Unsucce
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Forgot Password/verify_Successfully_Open_Leaderboards - Dropdown Program'))
+WebUI.click(findTestObject('Object Forgot Password/btn_Back_To_Login_Forgot_Password'))
 
-WebUI.click(findTestObject('Object Forgot Password/verify_Successfully_Open_Leaderboards - Dropdown Program'))
+WebUI.click(findTestObject('Object Forgot Password/btn_Back_To_Login_Forgot_Password'))
 
 WebUI.click(findTestObject('Object Forgot Password/btn_text_Forgot_Your_Password'), FailureHandling.STOP_ON_FAILURE)
 
@@ -70,7 +70,7 @@ WebUI.click(findTestObject('Object Forgot Password/btn_Icon_Back_Forgot_Password
 
 WebUI.click(findTestObject('Object Forgot Password/btn_text_Forgot_Your_Password'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Forgot Password/input_Username_Forgot_Password'), GlobalVariable.usernameDummy2)
+WebUI.setText(findTestObject('Object Forgot Password/input_Username_Forgot_Password'), GlobalVariable.usernameEmptyState)
 
 WebUI.click(findTestObject('Object Forgot Password/btn_Request_Verification_Code_Forgot_Password'))
 

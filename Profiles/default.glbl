@@ -74,4 +74,14 @@
       <initValue>'12345'</initValue>
       <name>passwordDummy4</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'empty@digimasia.com'</initValue>
+      <name>usernameEmptyState</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'12345'</initValue>
+      <name>passwordEmptyState</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

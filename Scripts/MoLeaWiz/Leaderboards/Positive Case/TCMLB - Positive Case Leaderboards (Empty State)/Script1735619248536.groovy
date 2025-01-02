@@ -19,11 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.base_url_staging)
 
-CustomKeywords.'keyword_FunctionLogin.AutomationLogin.loginWithUserDummy2'()
+CustomKeywords.'keyword_FunctionLogin.AutomationLogin.loginWithUserEmptyState'()
 
 WebUI.click(findTestObject('Object Learderboards/btn_Leaderboards_Menu'))
 
 WebUI.verifyElementVisible(findTestObject('Object Learderboards/verify_Successfully_Open_Leaderboards - Text title'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2)
 
 WebUI.closeBrowser()
 

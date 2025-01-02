@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.base_url_staging)
 
-CustomKeywords.'keyword_FunctionLogin.AutomationLogin.loginWithUserDummy2'()
+CustomKeywords.'keyword_FunctionLogin.AutomationLogin.loginWithUserEmptyState'()
 
 WebUI.click(findTestObject('Object Team Monitoring/btn_Team_Monitoring_Menu'))
 
@@ -28,10 +28,6 @@ WebUI.verifyElementVisible(findTestObject('Object Team Monitoring/verify_Success
 WebUI.verifyElementVisible(findTestObject('Object Team Monitoring/verify_Successfully_Open_Team_Monitoring - Icon Member'))
 
 WebUI.verifyElementVisible(findTestObject('Object Team Monitoring/verify_Successfully_Open_Team_Monitoring - Button Show Team Profile'))
-
-WebUI.verifyElementVisible(findTestObject('Object Team Monitoring/verify_Successfully_Open_Team_Monitoring - Text Learning Status'))
-
-WebUI.verifyElementVisible(findTestObject('Object Team Monitoring/verify_Successfully_Open_Team_Monitoring - Button Show All Learning Status'))
 
 WebUI.closeBrowser()
 
